@@ -1,0 +1,401 @@
+item_id,type,title,description,deadline,time,person,priority,location,notes,source_message_id
+EVENT_001,event,Family dinner,"For today: Calendar update: family dinner, 2026-09-19 at 10:00, the library.",2026-09-19,10:00,,medium,the library,[],MSG_0001
+TASK_001,task,Review the privacy checklist,Can you review the privacy checklist before 2026-09-09?,2026-09-09,,,medium,,[],MSG_0002
+EVENT_002,event,Mentor catch-up,FYI: Reminder: mentor catch-up happens on 2026-09-16 at 11:00 in the city clinic.,2026-09-16,11:00,,medium,the city clinic,[],MSG_0003
+TASK_002,task,Reply to the client email,For today: Please reply to the client email by 2026-09-04.,2026-09-04,,,high,,[],MSG_0007
+TASK_003,task,Pay the electricity bill,Can you help? Don't forget to pay the electricity bill; deadline is 2026-09-09.,2026-09-09,,,high,,[],MSG_0010
+EVENT_003,event,Internship orientation,"Just checking-Please join the internship orientation on 2026-09-18, 13:00 at Conference Room 2.",2026-09-18,13:00,,medium,Conference Room 2,[],MSG_0011
+TASK_004,task,Renew the library book,Can you help? I need you to renew the library book by 2026-09-08.,2026-09-08,,,high,,[],MSG_0017
+TASK_005,task,Review the model results,Can you help? I need you to review the model results by 2026-09-03.,2026-09-03,,,high,,[],MSG_0019
+EVENT_004,event,Team stand-up,"Hi, Calendar update: team stand-up, 2026-09-04 at 15:00, the college auditorium.",2026-09-04,15:00,,high,the college auditorium,[],MSG_0023
+TASK_006,task,Confirm the interview slot,Please note: Please confirm the interview slot by 2026-09-05.,2026-09-05,,,high,,[],MSG_0027
+TASK_007,task,Email the signed document,For today: Don't forget to email the signed document; deadline is 2026-09-04.,2026-09-04,,,high,,[],MSG_0028
+TASK_008,task,Update the project tracker,Can you update the project tracker before 2026-09-04?,2026-09-04,,,high,,[],MSG_0031
+TASK_009,task,Upload the assignment,Important: Don't forget to upload the assignment; deadline is 2026-09-09.,2026-09-09,,,high,,[],MSG_0032
+EVENT_005,event,Internship orientation,"Please note: Please join the internship orientation on 2026-09-18, 9:00 at Conference Room 2.",2026-09-18,09:00,,medium,Conference Room 2,[],MSG_0034
+TASK_010,task,Complete the onboarding form,For today: Complete the onboarding form is due on 2026-09-10.,2026-09-10,,,medium,,[],MSG_0035
+EVENT_006,event,Study-group session,"Please join the study-group session on 2026-09-13, 12:00 at Google Meet.",2026-09-13,12:00,,medium,Google Meet,[],MSG_0036
+EVENT_007,event,Review (tentative),One more thing: The review could be Friday afternoon.,unresolved,,,low,,"[""Relative time phrase 'friday' cannot be resolved to a concrete date without external context.""]",MSG_0037
+TASK_011,task,Update the project tracker,Quick update: Can you update the project tracker before 2026-09-08?,2026-09-08,,,high,,[],MSG_0038
+TASK_012,task,Review the file before the meeting,"For today: If possible, review the file before the meeting.",,,,low,,[],MSG_0041
+EVENT_008,event,Client discussion,For today: The client discussion is scheduled for 2026-09-12 at 11:00 in Meeting Room A.,2026-09-12,11:00,,medium,Meeting Room A,[],MSG_0042
+EVENT_009,event,Family dinner,"Quick update: Calendar update: family dinner, 2026-09-04 at 11:00, the college auditorium.",2026-09-04,11:00,,high,the college auditorium,[],MSG_0043
+TASK_013,task,Complete the Python exercise,Just checking-Please complete the Python exercise by 2026-09-09.,2026-09-09,,,high,,[],MSG_0044
+TASK_014,task,Complete the onboarding form,Important: Complete the onboarding form is due on 2026-09-07.,2026-09-07,,,high,,[],MSG_0045
+TASK_015,task,Call the service centre,For today: Don't forget to call the service centre; deadline is 2026-09-09.,2026-09-09,,,high,,[],MSG_0046
+EVENT_010,event,Product demo,One more thing: The product demo is scheduled for 2026-09-07 at 10:00 in Zoom.,2026-09-07,10:00,,high,Zoom,[],MSG_0049
+EVENT_011,event,Doctor appointment,Important: Reminder: doctor appointment happens on 2026-09-16 at 15:00 in the city clinic.,2026-09-16,15:00,,high,the city clinic,[],MSG_0051
+EVENT_012,event,Review (tentative),Just checking-The review could be Friday afternoon.,unresolved,,,low,,"[""Relative time phrase 'friday' cannot be resolved to a concrete date without external context.""]",MSG_0054
+EVENT_013,event,Client discussion,The client discussion is scheduled for 2026-09-07 at 14:00 in Zoom.,2026-09-07,14:00,,high,Zoom,[],MSG_0055
+TASK_016,task,Call Maya,Please note: Please call Maya when you are free.,,,Maya,low,,[],MSG_0056
+TASK_017,task,Review the privacy checklist,Quick update: Can you review the privacy checklist before 2026-09-04?,2026-09-04,,,high,,[],MSG_0058
+TASK_018,task,Complete the onboarding form,Quick update: Complete the onboarding form is due on 2026-09-08.,2026-09-08,,,high,,[],MSG_0060
+EVENT_014,event,AI workshop,"Please join the AI workshop on 2026-09-08, 15:00 at Conference Room 2.",2026-09-08,15:00,,high,Conference Room 2,[],MSG_0062
+TASK_019,task,Renew the library book,For today: I need you to renew the library book by 2026-09-07.,2026-09-07,,,high,,[],MSG_0063
+TASK_020,task,Email the signed document,One more thing: Don't forget to email the signed document; deadline is 2026-09-07.,2026-09-07,,,high,,[],MSG_0065
+EVENT_015,event,Project review,Can you help? The project review is scheduled for 2026-09-02 at 9:00 in Meeting Room A.,2026-09-02,09:00,,medium,Meeting Room A,[],MSG_0066
+EVENT_016,event,AI workshop,"FYI: Please join the AI workshop on 2026-09-13, 16:00 at Google Meet.",2026-09-13,16:00,,medium,Google Meet,[],MSG_0067
+TASK_021,task,Renew the library book,Quick update: I need you to renew the library book by 2026-09-05.,2026-09-05,,,high,,[],MSG_0072
+EVENT_017,event,Product demo,FYI: The product demo is scheduled for 2026-09-17 at 12:00 in Zoom.,2026-09-17,12:00,,medium,Zoom,[],MSG_0077
+TASK_022,task,Renew the library book,Important: I need you to renew the library book by 2026-09-04.,2026-09-04,,,high,,[],MSG_0083
+TASK_023,task,Finish the test cases,One more thing: Can you finish the test cases before 2026-09-08?,2026-09-08,,,high,,[],MSG_0088
+TASK_024,task,Call the service centre,Just checking-Don't forget to call the service centre; deadline is 2026-09-04.,2026-09-04,,,high,,[],MSG_0089
+EVENT_018,event,Placement briefing,"Just checking-Calendar update: placement briefing, 2026-09-04 at 11:00, the college auditorium.",2026-09-04,11:00,,high,the college auditorium,[],MSG_0097
+EVENT_019,event,Review (tentative),Quick update: The review could be Friday afternoon.,unresolved,,,low,,"[""Relative time phrase 'friday' cannot be resolved to a concrete date without external context.""]",MSG_0098
+EVENT_020,event,Sprint planning,"Hi, Reminder: sprint planning happens on 2026-09-16 at 11:00 in the city clinic.",2026-09-16,11:00,,medium,the city clinic,[],MSG_0100
+TASK_025,task,Email the signed document,Don't forget to email the signed document; deadline is 2026-09-07.,2026-09-07,,,high,,[],MSG_0101
+TASK_026,task,Send the revised presentation,FYI: Can you send the revised presentation before 2026-09-08?,2026-09-08,,,high,,[],MSG_0102
+EVENT_021,event,Technical interview,Important: Are you available for the technical interview at 16:00 on 2026-09-05? Location: the main office.,2026-09-05,16:00,,high,the main office,[],MSG_0103
+TASK_027,task,Review the file before the meeting,"FYI: If possible, review the file before the meeting.",,,,low,,[],MSG_0110
+TASK_028,task,Review the model results,FYI: I need you to review the model results by 2026-09-10.,2026-09-10,,,high,,[],MSG_0111
+TASK_029,task,Send the revised presentation,Just checking-Can you send the revised presentation before 2026-09-04?,2026-09-04,,,high,,[],MSG_0112
+TASK_030,task,Prepare the demo video,Quick update: Prepare the demo video is due on 2026-09-09.,2026-09-09,,,high,,[],MSG_0113
+TASK_031,task,Complete the Python exercise,Please complete the Python exercise by 2026-09-08.,2026-09-08,,,high,,[],MSG_0114
+TASK_032,task,Call the service centre,Quick update: Don't forget to call the service centre; deadline is 2026-09-07.,2026-09-07,,,high,,[],MSG_0115
+TASK_033,task,Send the expense receipt,Can you help? Send the expense receipt is due on 2026-09-08.,2026-09-08,,,high,,[],MSG_0119
+TASK_034,task,Call Maya,"Hi, Please call Maya when you are free.",,,Maya,low,,[],MSG_0121
+EVENT_022,event,Mentor catch-up,"Hi, Reminder: mentor catch-up happens on 2026-09-11 at 14:00 in the cafeteria.",2026-09-11,14:00,,high,the cafeteria,[],MSG_0122
+EVENT_023,event,Placement briefing,"Quick update: Calendar update: placement briefing, 2026-09-19 at 14:00, the library.",2026-09-19,14:00,,medium,the library,[],MSG_0123
+EVENT_024,event,Mentor catch-up,Please note: Reminder: mentor catch-up happens on 2026-09-06 at 9:00 in the city clinic.,2026-09-06,09:00,,high,the city clinic,[],MSG_0124
+EVENT_025,event,Doctor appointment,FYI: Reminder: doctor appointment happens on 2026-09-11 at 14:00 in the cafeteria.,2026-09-11,14:00,,high,the cafeteria,[],MSG_0127
+EVENT_026,event,Team stand-up,"Important: Calendar update: team stand-up, 2026-09-14 at 13:00, the college auditorium.",2026-09-14,13:00,,high,the college auditorium,[],MSG_0129
+EVENT_027,event,Project review,One more thing: The project review is scheduled for 2026-09-17 at 16:00 in Zoom.,2026-09-17,16:00,,medium,Zoom,[],MSG_0131
+EVENT_028,event,Team meeting (tentative),Important: Let us meet sometime next week.,unresolved,,,high,,"[""Relative time phrase 'next week' cannot be resolved to a concrete date without external context.""]",MSG_0133
+EVENT_029,event,Mentor catch-up,Quick update: Reminder: mentor catch-up happens on 2026-09-21 at 16:00 in the cafeteria.,2026-09-21,16:00,,medium,the cafeteria,[],MSG_0135
+TASK_035,task,Prepare the demo video,Prepare the demo video is due on 2026-09-05.,2026-09-05,,,high,,[],MSG_0136
+EVENT_030,event,Product demo,For today: The product demo is scheduled for 2026-09-17 at 16:00 in Zoom.,2026-09-17,16:00,,medium,Zoom,[],MSG_0138
+TASK_036,task,Update the project tracker,Important: Can you update the project tracker before 2026-09-07?,2026-09-07,,,high,,[],MSG_0139
+TASK_037,task,Call the service centre,Please note: Don't forget to call the service centre; deadline is 2026-09-05.,2026-09-05,,,high,,[],MSG_0144
+TASK_038,task,Complete the Python exercise,FYI: Please complete the Python exercise by 2026-09-04.,2026-09-04,,,medium,,[],MSG_0145
+TASK_039,task,Prepare the demo video,FYI: Prepare the demo video is due on 2026-09-10.,2026-09-10,,,high,,[],MSG_0147
+TASK_040,task,Call the service centre,One more thing: Don't forget to call the service centre; deadline is 2026-09-03.,2026-09-03,,,high,,[],MSG_0150
+EVENT_031,event,Project review,FYI: The project review is scheduled for 2026-09-07 at 10:00 in Zoom.,2026-09-07,10:00,,high,Zoom,[],MSG_0151
+TASK_041,task,Finish the test cases,"Hi, Can you finish the test cases before 2026-09-07?",2026-09-07,,,high,,[],MSG_0153
+EVENT_032,event,Placement briefing,"One more thing: Calendar update: placement briefing, 2026-09-04 at 15:00, the college auditorium.",2026-09-04,15:00,,medium,the college auditorium,[],MSG_0154
+EVENT_033,event,Placement briefing,"For today: Calendar update: placement briefing, 2026-09-14 at 13:00, the college auditorium.",2026-09-14,13:00,,medium,the college auditorium,[],MSG_0156
+TASK_042,task,Verify the dataset labels,Just checking-I need you to verify the dataset labels by 2026-09-07.,2026-09-07,,,high,,[],MSG_0157
+TASK_043,task,Submit the weekly report,Important: Please submit the weekly report by 2026-09-05.,2026-09-05,,,high,,[],MSG_0160
+EVENT_034,event,Study-group session,"Important: Please join the study-group session on 2026-09-03, 14:00 at Google Meet.",2026-09-03,14:00,,high,Google Meet,[],MSG_0162
+TASK_044,task,Call the service centre,FYI: Don't forget to call the service centre; deadline is 2026-09-08.,2026-09-08,,,high,,[],MSG_0163
+EVENT_035,event,AI workshop,"Hi, Please join the AI workshop on 2026-09-08, 11:00 at Conference Room 2.",2026-09-08,11:00,,high,Conference Room 2,[],MSG_0168
+EVENT_036,event,Sprint planning,Important: Reminder: sprint planning happens on 2026-09-06 at 9:00 in the city clinic.,2026-09-06,09:00,,high,the city clinic,[],MSG_0169
+TASK_045,task,Share the meeting notes,FYI: Share the meeting notes is due on 2026-09-05.,2026-09-05,,,high,,[],MSG_0170
+TASK_046,task,Confirm the interview slot,For today: Please confirm the interview slot by 2026-09-09.,2026-09-09,,,high,,[],MSG_0171
+TASK_047,task,Review the model results,One more thing: I need you to review the model results by 2026-09-05.,2026-09-05,,,high,,[],MSG_0173
+TASK_048,task,Review the model results,Just checking-I need you to review the model results by 2026-09-06.,2026-09-06,,,high,,[],MSG_0175
+EVENT_037,event,Sprint planning,FYI: Reminder: sprint planning happens on 2026-09-21 at 16:00 in the cafeteria.,2026-09-21,16:00,,medium,the cafeteria,[],MSG_0177
+TASK_049,task,Renew the library book,Just checking-I need you to renew the library book by 2026-09-02.,2026-09-02,,,medium,,[],MSG_0178
+EVENT_038,event,Placement briefing,"Can you help? Calendar update: placement briefing, 2026-09-09 at 16:00, the library.",2026-09-09,16:00,,high,the library,[],MSG_0184
+TASK_050,task,Review the file before the meeting,"If possible, review the file before the meeting.",,,,low,,[],MSG_0190
+TASK_051,task,Call Maya,Please call Maya when you are free.,,,Maya,low,,[],MSG_0193
+TASK_052,task,Confirm the interview slot,One more thing: Please confirm the interview slot by 2026-09-03.,2026-09-03,,,medium,,[],MSG_0195
+TASK_053,task,Review the file before the meeting,"Hi, If possible, review the file before the meeting.",,,,low,,[],MSG_0198
+EVENT_039,event,Placement briefing,"Please note: Calendar update: placement briefing, 2026-09-04 at 15:00, the college auditorium.",2026-09-04,15:00,,medium,the college auditorium,[],MSG_0201
+TASK_054,task,Prepare the demo video,One more thing: Prepare the demo video is due on 2026-09-05.,2026-09-05,,,medium,,[],MSG_0203
+EVENT_040,event,Team meeting (tentative),FYI: Let us meet sometime next week.,unresolved,,,low,,"[""Relative time phrase 'next week' cannot be resolved to a concrete date without external context.""]",MSG_0207
+TASK_055,task,Submit the weekly report,Quick update: Please submit the weekly report by 2026-09-06.,2026-09-06,,,high,,[],MSG_0208
+EVENT_041,event,Team stand-up,"Please note: Calendar update: team stand-up, 2026-09-19 at 10:00, the library.",2026-09-19,10:00,,medium,the library,[],MSG_0209
+TASK_056,task,Finish the test cases,Just checking-Can you finish the test cases before 2026-09-09?,2026-09-09,,,high,,[],MSG_0210
+EVENT_042,event,Review (tentative),FYI: The review could be Friday afternoon.,unresolved,,,low,,"[""Relative time phrase 'friday' cannot be resolved to a concrete date without external context.""]",MSG_0213
+TASK_057,task,Review the privacy checklist,For today: Can you review the privacy checklist before 2026-09-06?,2026-09-06,,,high,,[],MSG_0215
+EVENT_043,event,Project review,Important: The project review is scheduled for 2026-09-12 at 11:00 in Meeting Room A.,2026-09-12,11:00,,high,Meeting Room A,[],MSG_0216
+EVENT_044,event,Review (tentative),Please note: The review could be Friday afternoon.,unresolved,,,low,,"[""Relative time phrase 'friday' cannot be resolved to a concrete date without external context.""]",MSG_0217
+EVENT_045,event,Sprint planning,Reminder: sprint planning happens on 2026-09-16 at 15:00 in the city clinic.,2026-09-16,15:00,,medium,the city clinic,[],MSG_0218
+TASK_058,task,Send the expense receipt,Quick update: Send the expense receipt is due on 2026-09-05.,2026-09-05,,,medium,,[],MSG_0219
+TASK_059,task,Confirm the interview slot,Important: Please confirm the interview slot by 2026-09-06.,2026-09-06,,,high,,[],MSG_0220
+TASK_060,task,Finish the test cases,FYI: Can you finish the test cases before 2026-09-04?,2026-09-04,,,medium,,[],MSG_0221
+EVENT_046,event,Internship orientation,"One more thing: Please join the internship orientation on 2026-09-18, 9:00 at Conference Room 2.",2026-09-18,09:00,,medium,Conference Room 2,[],MSG_0222
+EVENT_047,event,Study-group session,"Hi, Please join the study-group session on 2026-09-13, 16:00 at Google Meet.",2026-09-13,16:00,,high,Google Meet,[],MSG_0223
+TASK_061,task,Verify the dataset labels,FYI: I need you to verify the dataset labels by 2026-09-02.,2026-09-02,,,medium,,[],MSG_0226
+TASK_062,task,Send the revised presentation,Quick update: Can you send the revised presentation before 2026-09-07?,2026-09-07,,,high,,[],MSG_0231
+TASK_063,task,Renew the library book,One more thing: I need you to renew the library book by 2026-09-10.,2026-09-10,,,high,,[],MSG_0232
+EVENT_048,event,AI workshop,"One more thing: Please join the AI workshop on 2026-09-03, 14:00 at Google Meet.",2026-09-03,14:00,,medium,Google Meet,[],MSG_0244
+TASK_064,task,Complete the Python exercise,One more thing: Please complete the Python exercise by 2026-09-08.,2026-09-08,,,high,,[],MSG_0245
+EVENT_049,event,Mentor catch-up,Important: Reminder: mentor catch-up happens on 2026-09-21 at 12:00 in the cafeteria.,2026-09-21,12:00,,high,the cafeteria,[],MSG_0249
+TASK_065,task,Call the service centre,Don't forget to call the service centre; deadline is 2026-09-03.,2026-09-03,,,high,,[],MSG_0251
+TASK_066,task,Back up the project files,Quick update: I need you to back up the project files by 2026-09-06.,2026-09-06,,,medium,,[],MSG_0252
+EVENT_050,event,Internship orientation,"Hi, Please join the internship orientation on 2026-09-03, 14:00 at Google Meet.",2026-09-03,14:00,,medium,Google Meet,[],MSG_0255
+EVENT_051,event,Client discussion,One more thing: The client discussion is scheduled for 2026-09-02 at 13:00 in Meeting Room A.,2026-09-02,13:00,,medium,Meeting Room A,[],MSG_0258
+TASK_067,task,Pay the electricity bill,"Hi, Don't forget to pay the electricity bill; deadline is 2026-09-10.",2026-09-10,,,high,,[],MSG_0265
+EVENT_052,event,Sprint planning,Please note: Reminder: sprint planning happens on 2026-09-11 at 14:00 in the cafeteria.,2026-09-11,14:00,,high,the cafeteria,[],MSG_0268
+TASK_068,task,Upload the assignment,For today: Don't forget to upload the assignment; deadline is 2026-09-03.,2026-09-03,,,high,,[],MSG_0269
+EVENT_053,event,Design review,For today: Are you available for the design review at 14:00 on 2026-09-15? Location: the main office.,2026-09-15,14:00,,high,the main office,[],MSG_0271
+EVENT_054,event,Family dinner,"FYI: Calendar update: family dinner, 2026-09-19 at 14:00, the library.",2026-09-19,14:00,,medium,the library,[],MSG_0275
+EVENT_055,event,Team meeting (tentative),One more thing: Let us meet sometime next week.,unresolved,,,low,,"[""Relative time phrase 'next week' cannot be resolved to a concrete date without external context.""]",MSG_0278
+TASK_069,task,Share the meeting notes,Quick update: Share the meeting notes is due on 2026-09-04.,2026-09-04,,,medium,,[],MSG_0280
+EVENT_056,event,Technical interview,Please note: Are you available for the technical interview at 13:00 on 2026-09-10? Location: the training hall.,2026-09-10,13:00,,high,the training hall,[],MSG_0282
+TASK_070,task,Call the service centre,Important: Don't forget to call the service centre; deadline is 2026-09-06.,2026-09-06,,,high,,[],MSG_0283
+TASK_071,task,Reply to the client email,Just checking-Please reply to the client email by 2026-09-08.,2026-09-08,,,high,,[],MSG_0287
+TASK_072,task,Finish the test cases,Important: Can you finish the test cases before 2026-09-02?,2026-09-02,,,high,,[],MSG_0289
+EVENT_057,event,Design review,Quick update: Are you available for the design review at 15:00 on 2026-09-20? Location: the training hall.,2026-09-20,15:00,,medium,the training hall,[],MSG_0293
+EVENT_058,event,Mentor catch-up,Reminder: mentor catch-up happens on 2026-09-11 at 10:00 in the cafeteria.,2026-09-11,10:00,,high,the cafeteria,[],MSG_0294
+TASK_073,task,Update the project tracker,For today: Can you update the project tracker before 2026-09-10?,2026-09-10,,,high,,[],MSG_0300
+TASK_074,task,Reply to the client email,Can you help? Please reply to the client email by 2026-09-05.,2026-09-05,,,medium,,[],MSG_0301
+EVENT_059,event,Client discussion,Important: The client discussion is scheduled for 2026-09-17 at 16:00 in Zoom.,2026-09-17,16:00,,high,Zoom,[],MSG_0302
+TASK_075,task,Review the model results,Please note: I need you to review the model results by 2026-09-07.,2026-09-07,,,medium,,[],MSG_0306
+TASK_076,task,Send the revised presentation,"Hi, Can you send the revised presentation before 2026-09-02?",2026-09-02,,,medium,,[],MSG_0307
+TASK_077,task,Email the signed document,Can you help? Don't forget to email the signed document; deadline is 2026-09-05.,2026-09-05,,,high,,[],MSG_0309
+TASK_078,task,Send it,Could you send it soon?,,,,low,,[],MSG_0310
+EVENT_060,event,Study-group session,"For today: Please join the study-group session on 2026-09-18, 9:00 at Conference Room 2.",2026-09-18,09:00,,medium,Conference Room 2,[],MSG_0311
+TASK_079,task,Back up the project files,"Hi, I need you to back up the project files by 2026-09-10.",2026-09-10,,,high,,[],MSG_0312
+TASK_080,task,Confirm the interview slot,Please confirm the interview slot by 2026-09-03.,2026-09-03,,,medium,,[],MSG_0314
+EVENT_061,event,Technical interview,FYI: Are you available for the technical interview at 15:00 on 2026-09-20? Location: the training hall.,2026-09-20,15:00,,medium,the training hall,[],MSG_0316
+TASK_081,task,Send the revised presentation,Can you send the revised presentation before 2026-09-03?,2026-09-03,,,medium,,[],MSG_0317
+TASK_082,task,Send it,Can you help? Could you send it soon?,,,,low,,[],MSG_0323
+EVENT_062,event,College seminar,For today: Are you available for the college seminar at 9:00 on 2026-09-10? Location: the training hall.,2026-09-10,09:00,,high,the training hall,[],MSG_0327
+EVENT_063,event,AI workshop,"Please note: Please join the AI workshop on 2026-09-03, 14:00 at Google Meet.",2026-09-03,14:00,,medium,Google Meet,[],MSG_0330
+TASK_083,task,Complete the onboarding form,Can you help? Complete the onboarding form is due on 2026-09-02.,2026-09-02,,,medium,,[],MSG_0331
+TASK_084,task,Back up the project files,Please note: I need you to back up the project files by 2026-09-04.,2026-09-04,,,medium,,[],MSG_0334
+TASK_085,task,Confirm the interview slot,Quick update: Please confirm the interview slot by 2026-09-07.,2026-09-07,,,medium,,[],MSG_0335
+EVENT_064,event,Product demo,"Hi, The product demo is scheduled for 2026-09-12 at 15:00 in Meeting Room A.",2026-09-12,15:00,,high,Meeting Room A,[],MSG_0338
+TASK_086,task,Pay the electricity bill,Quick update: Don't forget to pay the electricity bill; deadline is 2026-09-06.,2026-09-06,,,high,,[],MSG_0339
+TASK_087,task,Back up the project files,FYI: I need you to back up the project files by 2026-09-07.,2026-09-07,,,medium,,[],MSG_0340
+EVENT_065,event,Product demo,Can you help? The product demo is scheduled for 2026-09-12 at 11:00 in Meeting Room A.,2026-09-12,11:00,,high,Meeting Room A,[],MSG_0342
+TASK_088,task,Upload the assignment,Just checking-Don't forget to upload the assignment; deadline is 2026-09-07.,2026-09-07,,,high,,[],MSG_0345
+EVENT_066,event,Team meeting (tentative),Let us meet sometime next week.,unresolved,,,low,,"[""Relative time phrase 'next week' cannot be resolved to a concrete date without external context.""]",MSG_0350
+EVENT_067,event,Team meeting (tentative),Can you help? Let us meet sometime next week.,unresolved,,,low,,"[""Relative time phrase 'next week' cannot be resolved to a concrete date without external context.""]",MSG_0354
+EVENT_068,event,Client discussion,FYI: The client discussion is scheduled for 2026-09-12 at 15:00 in Meeting Room A.,2026-09-12,15:00,,high,Meeting Room A,[],MSG_0356
+EVENT_069,event,Project review,Just checking-The project review is scheduled for 2026-09-17 at 12:00 in Zoom.,2026-09-17,12:00,,high,Zoom,[],MSG_0357
+TASK_089,task,Send the expense receipt,Send the expense receipt is due on 2026-09-10.,2026-09-10,,,high,,[],MSG_0358
+EVENT_070,event,Technical interview,"Hi, Are you available for the technical interview at 10:00 on 2026-09-15? Location: the main office.",2026-09-15,10:00,,high,the main office,[],MSG_0359
+TASK_090,task,Verify the dataset labels,For today: I need you to verify the dataset labels by 2026-09-03.,2026-09-03,,,medium,,[],MSG_0360
+TASK_091,task,Prepare the demo video,Important: Prepare the demo video is due on 2026-09-08.,2026-09-08,,,high,,[],MSG_0361
+EVENT_071,event,Design review,Can you help? Are you available for the design review at 9:00 on 2026-09-10? Location: the training hall.,2026-09-10,09:00,,high,the training hall,[],MSG_0363
+TASK_092,task,Reply to the client email,One more thing: Please reply to the client email by 2026-09-07.,2026-09-07,,,medium,,[],MSG_0365
+TASK_093,task,Reply to the client email,FYI: Please reply to the client email by 2026-09-03.,2026-09-03,,,medium,,[],MSG_0366
+TASK_094,task,Email the signed document,Please note: Don't forget to email the signed document; deadline is 2026-09-09.,2026-09-09,,,high,,[],MSG_0368
+TASK_095,task,Submit the weekly report,Please note: Please submit the weekly report by 2026-09-04.,2026-09-04,,,medium,,[],MSG_0369
+TASK_096,task,Review the file before the meeting,"One more thing: If possible, review the file before the meeting.",,,,low,,[],MSG_0377
+EVENT_072,event,Internship orientation,"Important: Please join the internship orientation on 2026-09-13, 12:00 at Google Meet.",2026-09-13,12:00,,high,Google Meet,[],MSG_0378
+TASK_097,task,Submit the weekly report,One more thing: Please submit the weekly report by 2026-09-02.,2026-09-02,,,medium,,[],MSG_0379
+EVENT_073,event,Project review,For today: The project review is scheduled for 2026-09-07 at 14:00 in Zoom.,2026-09-07,14:00,,medium,Zoom,[],MSG_0382
+EVENT_074,event,College seminar,"Hi, Are you available for the college seminar at 16:00 on 2026-09-05? Location: the main office.",2026-09-05,16:00,,medium,the main office,[],MSG_0384
+TASK_098,task,Send it,FYI: Could you send it soon?,,,,low,,[],MSG_0386
+TASK_099,task,Send it,Quick update: Could you send it soon?,,,,low,,[],MSG_0393
+TASK_100,task,Email the signed document,FYI: Don't forget to email the signed document; deadline is 2026-09-03.,2026-09-03,,,high,,[],MSG_0394
+TASK_101,task,Complete the Python exercise,"Hi, Please complete the Python exercise by 2026-09-07.",2026-09-07,,,medium,,[],MSG_0396
+TASK_102,task,Complete the onboarding form,FYI: Complete the onboarding form is due on 2026-09-09.,2026-09-09,,,medium,,[],MSG_0398
+TASK_103,task,Back up the project files,I need you to back up the project files by 2026-09-02.,2026-09-02,,,medium,,[],MSG_0401
+EVENT_075,event,Doctor appointment,Quick update: Reminder: doctor appointment happens on 2026-09-16 at 11:00 in the city clinic.,2026-09-16,11:00,,high,the city clinic,[],MSG_0405
+TASK_104,task,Send the revised presentation,Important: Can you send the revised presentation before 2026-09-06?,2026-09-06,,,high,,[],MSG_0407
+TASK_105,task,Call Maya,Can you help? Please call Maya when you are free.,,,Maya,low,,[],MSG_0410
+TASK_106,task,Update the project tracker,One more thing: Can you update the project tracker before 2026-09-04?,2026-09-04,,,medium,,[],MSG_0412
+EVENT_076,event,Technical interview,Quick update: Are you available for the technical interview at 12:00 on 2026-09-05? Location: the main office.,2026-09-05,12:00,,medium,the main office,[],MSG_0413
+EVENT_077,event,Design review,One more thing: Are you available for the design review at 16:00 on 2026-09-05? Location: the main office.,2026-09-05,16:00,,medium,the main office,[],MSG_0414
+TASK_107,task,Verify the dataset labels,Important: I need you to verify the dataset labels by 2026-09-09.,2026-09-09,,,high,,[],MSG_0417
+TASK_108,task,Reply to the client email,Please note: Please reply to the client email by 2026-09-09.,2026-09-09,,,medium,,[],MSG_0418
+TASK_109,task,Complete the onboarding form,One more thing: Complete the onboarding form is due on 2026-09-04.,2026-09-04,,,medium,,[],MSG_0420
+TASK_110,task,Complete the Python exercise,Quick update: Please complete the Python exercise by 2026-09-03.,2026-09-03,,,medium,,[],MSG_0422
+EVENT_078,event,Product demo,Quick update: The product demo is scheduled for 2026-09-02 at 9:00 in Meeting Room A.,2026-09-02,09:00,,medium,Meeting Room A,[],MSG_0423
+EVENT_079,event,Sprint planning,Just checking-Reminder: sprint planning happens on 2026-09-11 at 10:00 in the cafeteria.,2026-09-11,10:00,,medium,the cafeteria,[],MSG_0424
+TASK_111,task,Review the model results,Important: I need you to review the model results by 2026-09-08.,2026-09-08,,,high,,[],MSG_0425
+EVENT_080,event,Project review,Please note: The project review is scheduled for 2026-09-17 at 16:00 in Zoom.,2026-09-17,16:00,,high,Zoom,[],MSG_0427
+EVENT_081,event,Internship orientation,"FYI: Please join the internship orientation on 2026-09-08, 11:00 at Conference Room 2.",2026-09-08,11:00,,medium,Conference Room 2,[],MSG_0430
+EVENT_082,event,Family dinner,"Can you help? Calendar update: family dinner, 2026-09-14 at 13:00, the college auditorium.",2026-09-14,13:00,,high,the college auditorium,[],MSG_0435
+TASK_112,task,Call Maya,One more thing: Please call Maya when you are free.,,,Maya,low,,[],MSG_0438
+EVENT_083,event,Team meeting (tentative),Quick update: Let us meet sometime next week.,unresolved,,,low,,"[""Relative time phrase 'next week' cannot be resolved to a concrete date without external context.""]",MSG_0444
+EVENT_084,event,Technical interview,One more thing: Are you available for the technical interview at 13:00 on 2026-09-10? Location: the training hall.,2026-09-10,13:00,,medium,the training hall,[],MSG_0445
+EVENT_085,event,AI workshop,"Important: Please join the AI workshop on 2026-09-18, 9:00 at Conference Room 2.",2026-09-18,09:00,,high,Conference Room 2,[],MSG_0449
+EVENT_086,event,College seminar,Important: Are you available for the college seminar at 14:00 on 2026-09-15? Location: the main office.,2026-09-15,14:00,,high,the main office,[],MSG_0450
+TASK_113,task,Reply to the client email,Please reply to the client email by 2026-09-07.,2026-09-07,,,medium,,[],MSG_0451
+TASK_114,task,Verify the dataset labels,One more thing: I need you to verify the dataset labels by 2026-09-06.,2026-09-06,,,medium,,[],MSG_0455
+EVENT_087,event,Client discussion,Just checking-The client discussion is scheduled for 2026-09-02 at 9:00 in Meeting Room A.,2026-09-02,09:00,,medium,Meeting Room A,[],MSG_0456
+TASK_115,task,Review the file before the meeting,"Can you help? If possible, review the file before the meeting.",,,,low,,[],MSG_0457
+EVENT_088,event,Team stand-up,"Calendar update: team stand-up, 2026-09-04 at 11:00, the college auditorium.",2026-09-04,11:00,,medium,the college auditorium,[],MSG_0458
+EVENT_089,event,Review (tentative),Can you help? The review could be Friday afternoon.,unresolved,,,low,,"[""Relative time phrase 'friday' cannot be resolved to a concrete date without external context.""]",MSG_0462
+EVENT_090,event,Doctor appointment,"Hi, Reminder: doctor appointment happens on 2026-09-06 at 9:00 in the city clinic.",2026-09-06,09:00,,medium,the city clinic,[],MSG_0465
+TASK_116,task,Review the model results,I need you to review the model results by 2026-09-05.,2026-09-05,,,medium,,[],MSG_0467
+TASK_117,task,Finish the test cases,Can you help? Can you finish the test cases before 2026-09-06?,2026-09-06,,,medium,,[],MSG_0468
+TASK_118,task,Send the expense receipt,Please note: Send the expense receipt is due on 2026-09-03.,2026-09-03,,,medium,,[],MSG_0473
+EVENT_091,event,Family dinner,"Hi, Calendar update: family dinner, 2026-09-14 at 9:00, the college auditorium.",2026-09-14,09:00,,high,the college auditorium,[],MSG_0479
+TASK_119,task,Confirm the interview slot,FYI: Please confirm the interview slot by 2026-09-08.,2026-09-08,,,medium,,[],MSG_0480
+TASK_120,task,Review the privacy checklist,Please note: Can you review the privacy checklist before 2026-09-02?,2026-09-02,,,medium,,[],MSG_0481
+TASK_121,task,Verify the dataset labels,Quick update: I need you to verify the dataset labels by 2026-09-10.,2026-09-10,,,medium,,[],MSG_0483
+EVENT_092,event,Team stand-up,"Can you help? Calendar update: team stand-up, 2026-09-04 at 11:00, the college auditorium.",2026-09-04,11:00,,medium,the college auditorium,[],MSG_0484
+TASK_122,task,Send the expense receipt,"Hi, Send the expense receipt is due on 2026-09-09.",2026-09-09,,,medium,,[],MSG_0485
+TASK_123,task,Send it,One more thing: Could you send it soon?,,,,low,,[],MSG_0486
+TASK_124,task,Review the privacy checklist,Just checking-Can you review the privacy checklist before 2026-09-10?,2026-09-10,,,medium,,[],MSG_0487
+EVENT_093,event,Mentor catch-up,For today: Reminder: mentor catch-up happens on 2026-09-16 at 15:00 in the city clinic.,2026-09-16,15:00,,high,the city clinic,[],MSG_0488
+TASK_125,task,Send it,Please note: Could you send it soon?,,,,low,,[],MSG_0492
+EVENT_094,event,Review (tentative),Important: The review could be Friday afternoon.,unresolved,,,high,,"[""Relative time phrase 'friday' cannot be resolved to a concrete date without external context.""]",MSG_0493
+TASK_126,task,Call Maya,Quick update: Please call Maya when you are free.,,,Maya,low,,[],MSG_0495
+TASK_127,task,Upload the assignment,Please note: Don't forget to upload the assignment; deadline is 2026-09-08.,2026-09-08,,,high,,[],MSG_0498
+EVENT_095,event,Team meeting (tentative),"Hi, Let us meet sometime next week.",unresolved,,,low,,"[""Relative time phrase 'next week' cannot be resolved to a concrete date without external context.""]",MSG_0502
+TASK_128,task,Call the service centre,Can you help? Don't forget to call the service centre; deadline is 2026-09-10.,2026-09-10,,,high,,[],MSG_0503
+TASK_129,task,Send it,For today: Could you send it soon?,,,,low,,[],MSG_0505
+EVENT_096,event,Study-group session,"FYI: Please join the study-group session on 2026-09-18, 13:00 at Conference Room 2.",2026-09-18,13:00,,high,Conference Room 2,[],MSG_0508
+EVENT_097,event,Doctor appointment,For today: Reminder: doctor appointment happens on 2026-09-11 at 10:00 in the cafeteria.,2026-09-11,10:00,,medium,the cafeteria,[],MSG_0511
+TASK_130,task,Send the revised presentation,Please note: Can you send the revised presentation before 2026-09-05?,2026-09-05,,,medium,,[],MSG_0512
+TASK_131,task,Prepare the demo video,Can you help? Prepare the demo video is due on 2026-09-03.,2026-09-03,,,medium,,[],MSG_0513
+TASK_132,task,Renew the library book,FYI: I need you to renew the library book by 2026-09-06.,2026-09-06,,,medium,,[],MSG_0515
+TASK_133,task,Verify the dataset labels,Can you help? I need you to verify the dataset labels by 2026-09-04.,2026-09-04,,,medium,,[],MSG_0517
+EVENT_098,event,College seminar,Are you available for the college seminar at 12:00 on 2026-09-05? Location: the main office.,2026-09-05,12:00,,medium,the main office,[],MSG_0519
+TASK_134,task,Review the file before the meeting,"Just checking-If possible, review the file before the meeting.",,,,low,,[],MSG_0524
+EVENT_099,event,Team meeting (tentative),Just checking-Let us meet sometime next week.,unresolved,,,low,,"[""Relative time phrase 'next week' cannot be resolved to a concrete date without external context.""]",MSG_0526
+TASK_135,task,Confirm the interview slot,Can you help? Please confirm the interview slot by 2026-09-10.,2026-09-10,,,medium,,[],MSG_0527
+TASK_136,task,Submit the weekly report,For today: Please submit the weekly report by 2026-09-08.,2026-09-08,,,medium,,[],MSG_0530
+TASK_137,task,Send the expense receipt,One more thing: Send the expense receipt is due on 2026-09-10.,2026-09-10,,,medium,,[],MSG_0531
+TASK_138,task,Pay the electricity bill,Just checking-Don't forget to pay the electricity bill; deadline is 2026-09-03.,2026-09-03,,,high,,[],MSG_0536
+TASK_139,task,Review the model results,"Hi, I need you to review the model results by 2026-09-04.",2026-09-04,,,medium,,[],MSG_0537
+TASK_140,task,Complete the onboarding form,"Hi, Complete the onboarding form is due on 2026-09-03.",2026-09-03,,,medium,,[],MSG_0546
+TASK_141,task,Submit the weekly report,"Hi, Please submit the weekly report by 2026-09-10.",2026-09-10,,,medium,,[],MSG_0547
+EVENT_100,event,Study-group session,"Just checking-Please join the study-group session on 2026-09-08, 15:00 at Conference Room 2.",2026-09-08,15:00,,medium,Conference Room 2,[],MSG_0549
+TASK_142,task,Complete the onboarding form,Just checking-Complete the onboarding form is due on 2026-09-05.,2026-09-05,,,medium,,[],MSG_0551
+TASK_143,task,Submit the weekly report,Please submit the weekly report by 2026-09-02.,2026-09-02,,,medium,,[],MSG_0552
+TASK_144,task,Renew the library book,Please note: I need you to renew the library book by 2026-09-03.,2026-09-03,,,medium,,[],MSG_0553
+TASK_145,task,Upload the assignment,FYI: Don't forget to upload the assignment; deadline is 2026-09-02.,2026-09-02,,,high,,[],MSG_0554
+TASK_146,task,Share the meeting notes,"Hi, Share the meeting notes is due on 2026-09-08.",2026-09-08,,,medium,,[],MSG_0556
+TASK_147,task,Confirm the interview slot,"Hi, Please confirm the interview slot by 2026-09-02.",2026-09-02,,,medium,,[],MSG_0557
+TASK_148,task,Review the file before the meeting,"Please note: If possible, review the file before the meeting.",,,,low,,[],MSG_0559
+TASK_149,task,Prepare the demo video,"Hi, Prepare the demo video is due on 2026-09-04.",2026-09-04,,,medium,,[],MSG_0561
+EVENT_101,event,Design review,Are you available for the design review at 9:00 on 2026-09-10? Location: the training hall.,2026-09-10,09:00,,medium,the training hall,[],MSG_0565
+TASK_150,task,Share the meeting notes,Just checking-Share the meeting notes is due on 2026-09-10.,2026-09-10,,,medium,,[],MSG_0566
+TASK_151,task,Review the privacy checklist,FYI: Can you review the privacy checklist before 2026-09-05?,2026-09-05,,,medium,,[],MSG_0569
+TASK_152,task,Finish the test cases,Quick update: Can you finish the test cases before 2026-09-03?,2026-09-03,,,medium,,[],MSG_0574
+TASK_153,task,Complete the Python exercise,Please note: Please complete the Python exercise by 2026-09-10.,2026-09-10,,,medium,,[],MSG_0577
+TASK_154,task,Review the privacy checklist,One more thing: Can you review the privacy checklist before 2026-09-09?,2026-09-09,,,medium,,[],MSG_0578
+EVENT_102,event,Technical interview,Just checking-Are you available for the technical interview at 9:00 on 2026-09-10? Location: the training hall.,2026-09-10,09:00,,medium,the training hall,[],MSG_0579
+TASK_155,task,Review the file before the meeting,"Important: If possible, review the file before the meeting.",,,,high,,[],MSG_0580
+EVENT_103,event,Team stand-up,"One more thing: Calendar update: team stand-up, 2026-09-19 at 10:00, the library.",2026-09-19,10:00,,high,the library,[],MSG_0584
+TASK_156,task,Complete the onboarding form,Complete the onboarding form is due on 2026-09-04.,2026-09-04,,,medium,,[],MSG_0585
+EVENT_104,event,Client discussion,"Hi, The client discussion is scheduled for 2026-09-07 at 10:00 in Zoom.",2026-09-07,10:00,,medium,Zoom,[],MSG_0588
+EVENT_105,event,Placement briefing,"Calendar update: placement briefing, 2026-09-09 at 16:00, the library.",2026-09-09,16:00,,medium,the library,[],MSG_0590
+EVENT_106,event,Doctor appointment,One more thing: Reminder: doctor appointment happens on 2026-09-21 at 12:00 in the cafeteria.,2026-09-21,12:00,,high,the cafeteria,[],MSG_0592
+EVENT_107,event,College seminar,Can you help? Are you available for the college seminar at 12:00 on 2026-09-05? Location: the main office.,2026-09-05,12:00,,medium,the main office,[],MSG_0600
+EVENT_108,event,Doctor appointment,Please note: Reminder: doctor appointment happens on 2026-09-21 at 12:00 in the cafeteria.,2026-09-21,12:00,,high,the cafeteria,[],MSG_0601
+TASK_157,task,Finish the test cases,For today: Can you finish the test cases before 2026-09-05?,2026-09-05,,,medium,,[],MSG_0602
+EVENT_109,event,Family dinner,"Please note: Calendar update: family dinner, 2026-09-09 at 12:00, the library.",2026-09-09,12:00,,medium,the library,[],MSG_0603
+TASK_158,task,Email the signed document,Just checking-Don't forget to email the signed document; deadline is 2026-09-08.,2026-09-08,,,high,,[],MSG_0605
+EVENT_110,event,Product demo,Just checking-The product demo is scheduled for 2026-09-07 at 14:00 in Zoom.,2026-09-07,14:00,,medium,Zoom,[],MSG_0606
+TASK_159,task,Verify the dataset labels,I need you to verify the dataset labels by 2026-09-06.,2026-09-06,,,medium,,[],MSG_0607
+TASK_160,task,Verify the dataset labels,Please note: I need you to verify the dataset labels by 2026-09-08.,2026-09-08,,,medium,,[],MSG_0612
+TASK_161,task,Pay the electricity bill,Don't forget to pay the electricity bill; deadline is 2026-09-02.,2026-09-02,,,high,,[],MSG_0614
+TASK_162,task,Back up the project files,Just checking-I need you to back up the project files by 2026-09-03.,2026-09-03,,,medium,,[],MSG_0615
+EVENT_111,event,Design review,FYI: Are you available for the design review at 10:00 on 2026-09-15? Location: the main office.,2026-09-15,10:00,,medium,the main office,[],MSG_0616
+TASK_163,task,Confirm the interview slot,Just checking-Please confirm the interview slot by 2026-09-04.,2026-09-04,,,medium,,[],MSG_0617
+TASK_164,task,Finish the test cases,Please note: Can you finish the test cases before 2026-09-10?,2026-09-10,,,medium,,[],MSG_0618
+EVENT_112,event,Product demo,Please note: The product demo is scheduled for 2026-09-07 at 10:00 in Zoom.,2026-09-07,10:00,,medium,Zoom,[],MSG_0619
+TASK_165,task,Pay the electricity bill,For today: Don't forget to pay the electricity bill; deadline is 2026-09-08.,2026-09-08,,,high,,[],MSG_0620
+TASK_166,task,Review the privacy checklist,Can you help? Can you review the privacy checklist before 2026-09-07?,2026-09-07,,,medium,,[],MSG_0621
+TASK_167,task,Update the project tracker,FYI: Can you update the project tracker before 2026-09-09?,2026-09-09,,,medium,,[],MSG_0622
+EVENT_113,event,Study-group session,"Can you help? Please join the study-group session on 2026-09-13, 12:00 at Google Meet.",2026-09-13,12:00,,medium,Google Meet,[],MSG_0623
+TASK_168,task,Complete the onboarding form,Please note: Complete the onboarding form is due on 2026-09-06.,2026-09-06,,,medium,,[],MSG_0624
+EVENT_114,event,AI workshop,"Can you help? Please join the AI workshop on 2026-09-08, 15:00 at Conference Room 2.",2026-09-08,15:00,,medium,Conference Room 2,[],MSG_0628
+EVENT_115,event,Technical interview,Can you help? Are you available for the technical interview at 14:00 on 2026-09-15? Location: the main office.,2026-09-15,14:00,,medium,the main office,[],MSG_0630
+EVENT_116,event,Team stand-up,"FYI: Calendar update: team stand-up, 2026-09-09 at 12:00, the library.",2026-09-09,12:00,,medium,the library,[],MSG_0631
+TASK_169,task,Upload the assignment,One more thing: Don't forget to upload the assignment; deadline is 2026-09-06.,2026-09-06,,,high,,[],MSG_0633
+TASK_170,task,Call Maya,Important: Please call Maya when you are free.,,,Maya,high,,[],MSG_0634
+EVENT_117,event,Review (tentative),"Hi, The review could be Friday afternoon.",unresolved,,,low,,"[""Relative time phrase 'friday' cannot be resolved to a concrete date without external context.""]",MSG_0635
+EVENT_118,event,Doctor appointment,Reminder: doctor appointment happens on 2026-09-06 at 13:00 in the city clinic.,2026-09-06,13:00,,medium,the city clinic,[],MSG_0637
+TASK_171,task,Renew the library book,"Hi, I need you to renew the library book by 2026-09-09.",2026-09-09,,,medium,,[],MSG_0638
+TASK_172,task,Submit the weekly report,Can you help? Please submit the weekly report by 2026-09-09.,2026-09-09,,,medium,,[],MSG_0639
+TASK_173,task,Upload the assignment,Can you help? Don't forget to upload the assignment; deadline is 2026-09-04.,2026-09-04,,,high,,[],MSG_0640
+EVENT_119,event,Sprint planning,Can you help? Reminder: sprint planning happens on 2026-09-16 at 15:00 in the city clinic.,2026-09-16,15:00,,medium,the city clinic,[],MSG_0643
+EVENT_120,event,Sprint planning,Quick update: Reminder: sprint planning happens on 2026-09-06 at 13:00 in the city clinic.,2026-09-06,13:00,,medium,the city clinic,[],MSG_0645
+EVENT_121,event,Family dinner,"Calendar update: family dinner, 2026-09-14 at 13:00, the college auditorium.",2026-09-14,13:00,,medium,the college auditorium,[],MSG_0646
+TASK_174,task,Share the meeting notes,One more thing: Share the meeting notes is due on 2026-09-09.,2026-09-09,,,medium,,[],MSG_0652
+TASK_175,task,Review the privacy checklist,"Hi, Can you review the privacy checklist before 2026-09-08?",2026-09-08,,,medium,,[],MSG_0653
+TASK_176,task,Send it,Important: Could you send it soon?,,,,high,,[],MSG_0654
+TASK_177,task,Update the project tracker,Just checking-Can you update the project tracker before 2026-09-05?,2026-09-05,,,medium,,[],MSG_0656
+TASK_178,task,Back up the project files,Important: I need you to back up the project files by 2026-09-05.,2026-09-05,,,high,,[],MSG_0657
+TASK_179,task,Verify the dataset labels,"Hi, I need you to verify the dataset labels by 2026-09-05.",2026-09-05,,,medium,,[],MSG_0658
+TASK_180,task,Back up the project files,Can you help? I need you to back up the project files by 2026-09-09.,2026-09-09,,,medium,,[],MSG_0659
+EVENT_122,event,Internship orientation,"Please join the internship orientation on 2026-09-03, 10:00 at Google Meet.",2026-09-03,10:00,,medium,Google Meet,[],MSG_0660
+TASK_181,task,Send the revised presentation,One more thing: Can you send the revised presentation before 2026-09-03?,2026-09-03,,,medium,,[],MSG_0662
+EVENT_123,event,Sprint planning,One more thing: Reminder: sprint planning happens on 2026-09-11 at 14:00 in the cafeteria.,2026-09-11,14:00,,medium,the cafeteria,[],MSG_0664
+TASK_182,task,Pay the electricity bill,Important: Don't forget to pay the electricity bill; deadline is 2026-09-05.,2026-09-05,,,high,,[],MSG_0667
+EVENT_124,event,Sprint planning,For today: Reminder: sprint planning happens on 2026-09-21 at 12:00 in the cafeteria.,2026-09-21,12:00,,high,the cafeteria,[],MSG_0668
+TASK_183,task,Upload the assignment,Quick update: Don't forget to upload the assignment; deadline is 2026-09-10.,2026-09-10,,,high,,[],MSG_0670
+EVENT_125,event,Doctor appointment,Just checking-Reminder: doctor appointment happens on 2026-09-21 at 16:00 in the cafeteria.,2026-09-21,16:00,,high,the cafeteria,[],MSG_0673
+EVENT_126,event,Project review,Quick update: The project review is scheduled for 2026-09-12 at 15:00 in Meeting Room A.,2026-09-12,15:00,,medium,Meeting Room A,[],MSG_0674
+EVENT_127,event,Internship orientation,"For today: Please join the internship orientation on 2026-09-08, 15:00 at Conference Room 2.",2026-09-08,15:00,,medium,Conference Room 2,[],MSG_0683
+TASK_184,task,Upload the assignment,Don't forget to upload the assignment; deadline is 2026-09-06.,2026-09-06,,,high,,[],MSG_0688
+TASK_185,task,Prepare the demo video,For today: Prepare the demo video is due on 2026-09-02.,2026-09-02,,,medium,,[],MSG_0690
+EVENT_128,event,Project review,"Hi, The project review is scheduled for 2026-09-02 at 13:00 in Meeting Room A.",2026-09-02,13:00,,medium,Meeting Room A,[],MSG_0693
+TASK_186,task,Complete the Python exercise,Important: Please complete the Python exercise by 2026-09-02.,2026-09-02,,,high,,[],MSG_0694
+EVENT_129,event,Family dinner,"One more thing: Calendar update: family dinner, 2026-09-09 at 12:00, the library.",2026-09-09,12:00,,medium,the library,[],MSG_0697
+EVENT_130,event,Study-group session,"Quick update: Please join the study-group session on 2026-09-03, 10:00 at Google Meet.",2026-09-03,10:00,,medium,Google Meet,[],MSG_0706
+EVENT_131,event,Product demo,Important: The product demo is scheduled for 2026-09-02 at 13:00 in Meeting Room A.,2026-09-02,13:00,,high,Meeting Room A,[],MSG_0707
+TASK_187,task,Update the project tracker,Can you help? Can you update the project tracker before 2026-09-02?,2026-09-02,,,medium,,[],MSG_0708
+EVENT_132,event,Doctor appointment,Can you help? Reminder: doctor appointment happens on 2026-09-06 at 13:00 in the city clinic.,2026-09-06,13:00,,medium,the city clinic,[],MSG_0711
+TASK_188,task,Share the meeting notes,Can you help? Share the meeting notes is due on 2026-09-07.,2026-09-07,,,medium,,[],MSG_0716
+TASK_189,task,Call Maya,FYI: Please call Maya when you are free.,,,Maya,low,,[],MSG_0717
+EVENT_133,event,Mentor catch-up,Just checking-Reminder: mentor catch-up happens on 2026-09-06 at 13:00 in the city clinic.,2026-09-06,13:00,,medium,the city clinic,[],MSG_0719
+TASK_190,task,Share the meeting notes,Share the meeting notes is due on 2026-09-09.,2026-09-09,,,medium,,[],MSG_0720
+TASK_191,task,Send the expense receipt,Just checking-Send the expense receipt is due on 2026-09-02.,2026-09-02,,,medium,,[],MSG_0722
+TASK_192,task,Send the revised presentation,For today: Can you send the revised presentation before 2026-09-09?,2026-09-09,,,medium,,[],MSG_0725
+TASK_193,task,Submit the weekly report,Just checking-Please submit the weekly report by 2026-09-03.,2026-09-03,,,medium,,[],MSG_0730
+TASK_194,task,Update the project tracker,Please note: Can you update the project tracker before 2026-09-06?,2026-09-06,,,medium,,[],MSG_0736
+TASK_195,task,Renew the library book,I need you to renew the library book by 2026-09-10.,2026-09-10,,,medium,,[],MSG_0740
+TASK_196,task,Pay the electricity bill,One more thing: Don't forget to pay the electricity bill; deadline is 2026-09-02.,2026-09-02,,,high,,[],MSG_0743
+EVENT_134,event,Team stand-up,"For today: Calendar update: team stand-up, 2026-09-09 at 16:00, the library.",2026-09-09,16:00,,medium,the library,[],MSG_0744
+EVENT_135,event,AI workshop,"Just checking-Please join the AI workshop on 2026-09-03, 10:00 at Google Meet.",2026-09-03,10:00,,medium,Google Meet,[],MSG_0745
+EVENT_136,event,AI workshop,"Quick update: Please join the AI workshop on 2026-09-18, 13:00 at Conference Room 2.",2026-09-18,13:00,,medium,Conference Room 2,[],MSG_0747
+TASK_197,task,Pay the electricity bill,Please note: Don't forget to pay the electricity bill; deadline is 2026-09-04.,2026-09-04,,,high,,[],MSG_0754
+TASK_198,task,Call the service centre,"Hi, Don't forget to call the service centre; deadline is 2026-09-02.",2026-09-02,,,high,,[],MSG_0757
+EVENT_137,event,Product demo,The product demo is scheduled for 2026-09-12 at 11:00 in Meeting Room A.,2026-09-12,11:00,,medium,Meeting Room A,[],MSG_0759
+TASK_199,task,Upload the assignment,"Hi, Don't forget to upload the assignment; deadline is 2026-09-05.",2026-09-05,,,high,,[],MSG_0761
+EVENT_138,event,Team meeting (tentative),Please note: Let us meet sometime next week.,unresolved,,,low,,"[""Relative time phrase 'next week' cannot be resolved to a concrete date without external context.""]",MSG_0770
+TASK_200,task,Send it,Just checking-Could you send it soon?,,,,low,,[],MSG_0775
+TASK_201,task,Send the expense receipt,FYI: Send the expense receipt is due on 2026-09-06.,2026-09-06,,,medium,,[],MSG_0776
+TASK_202,task,Reply to the client email,"Hi, Please reply to the client email by 2026-09-06.",2026-09-06,,,medium,,[],MSG_0779
+TASK_203,task,Send the revised presentation,Can you help? Can you send the revised presentation before 2026-09-10?,2026-09-10,,,medium,,[],MSG_0780
+TASK_204,task,Review the model results,Quick update: I need you to review the model results by 2026-09-09.,2026-09-09,,,medium,,[],MSG_0783
+TASK_205,task,Reply to the client email,Quick update: Please reply to the client email by 2026-09-02.,2026-09-02,,,medium,,[],MSG_0784
+TASK_206,task,Share the meeting notes,Important: Share the meeting notes is due on 2026-09-03.,2026-09-03,,,high,,[],MSG_0787
+EVENT_139,event,Client discussion,Quick update: The client discussion is scheduled for 2026-09-17 at 12:00 in Zoom.,2026-09-17,12:00,,medium,Zoom,[],MSG_0788
+EVENT_140,event,Placement briefing,"Hi, Calendar update: placement briefing, 2026-09-09 at 12:00, the library.",2026-09-09,12:00,,medium,the library,[],MSG_0789
+EVENT_141,event,Project review,The project review is scheduled for 2026-09-02 at 9:00 in Meeting Room A.,2026-09-02,09:00,,medium,Meeting Room A,[],MSG_0792
+EVENT_142,event,Study-group session,"Please note: Please join the study-group session on 2026-09-08, 11:00 at Conference Room 2.",2026-09-08,11:00,,medium,Conference Room 2,[],MSG_0793
+TASK_207,task,Share the meeting notes,For today: Share the meeting notes is due on 2026-09-06.,2026-09-06,,,medium,,[],MSG_0795
+EVENT_143,event,Family dinner,"Important: Calendar update: family dinner, 2026-09-04 at 15:00, the college auditorium.",2026-09-04,15:00,,high,the college auditorium,[],MSG_0797
+EVENT_144,event,College seminar,One more thing: Are you available for the college seminar at 11:00 on 2026-09-20? Location: the training hall.,2026-09-20,11:00,,medium,the training hall,[],MSG_0798
+TASK_208,task,Email the signed document,Quick update: Don't forget to email the signed document; deadline is 2026-09-02.,2026-09-02,,,high,,[],MSG_0799
+EVENT_145,event,Design review,Just checking-Are you available for the design review at 12:00 on 2026-09-05? Location: the main office.,2026-09-05,12:00,,medium,the main office,[],MSG_0800
+EVENT_146,event,Team meeting (tentative),For today: Let us meet sometime next week.,unresolved,,,low,,"[""Relative time phrase 'next week' cannot be resolved to a concrete date without external context.""]",MSG_0801
+TASK_209,task,Pay the electricity bill,FYI: Don't forget to pay the electricity bill; deadline is 2026-09-07.,2026-09-07,,,high,,[],MSG_0809
+EVENT_147,event,Design review,"Hi, Are you available for the design review at 13:00 on 2026-09-10? Location: the training hall.",2026-09-10,13:00,,medium,the training hall,[],MSG_0810
+TASK_210,task,Call Maya,Just checking-Please call Maya when you are free.,,,Maya,low,,[],MSG_0811
+TASK_211,task,Complete the Python exercise,For today: Please complete the Python exercise by 2026-09-05.,2026-09-05,,,medium,,[],MSG_0814
+TASK_212,task,Send the expense receipt,Important: Send the expense receipt is due on 2026-09-04.,2026-09-04,,,high,,[],MSG_0815
+TASK_213,task,Review the file before the meeting,"Quick update: If possible, review the file before the meeting.",,,,low,,[],MSG_0816
+TASK_214,task,Share the meeting notes,Please note: Share the meeting notes is due on 2026-09-02.,2026-09-02,,,medium,,[],MSG_0819
+EVENT_148,event,Placement briefing,"FYI: Calendar update: placement briefing, 2026-09-14 at 9:00, the college auditorium.",2026-09-14,09:00,,medium,the college auditorium,[],MSG_0821
+EVENT_149,event,Team stand-up,"Quick update: Calendar update: team stand-up, 2026-09-14 at 9:00, the college auditorium.",2026-09-14,09:00,,medium,the college auditorium,[],MSG_0822
+EVENT_150,event,Placement briefing,"Important: Calendar update: placement briefing, 2026-09-19 at 10:00, the library.",2026-09-19,10:00,,high,the library,[],MSG_0823
+TASK_215,task,Submit the weekly report,FYI: Please submit the weekly report by 2026-09-07.,2026-09-07,,,medium,,[],MSG_0824
+TASK_216,task,Finish the test cases,Can you finish the test cases before 2026-09-08?,2026-09-08,,,medium,,[],MSG_0826
+TASK_217,task,Call Maya,For today: Please call Maya when you are free.,,,Maya,low,,[],MSG_0827
+TASK_218,task,Email the signed document,Important: Don't forget to email the signed document; deadline is 2026-09-10.,2026-09-10,,,high,,[],MSG_0829
+EVENT_151,event,Technical interview,For today: Are you available for the technical interview at 11:00 on 2026-09-20? Location: the training hall.,2026-09-20,11:00,,medium,the training hall,[],MSG_0831
+EVENT_152,event,Technical interview,Are you available for the technical interview at 14:00 on 2026-09-15? Location: the main office.,2026-09-15,14:00,,medium,the main office,[],MSG_0837
+EVENT_153,event,Review (tentative),The review could be Friday afternoon.,unresolved,,,low,,"[""Relative time phrase 'friday' cannot be resolved to a concrete date without external context.""]",MSG_0840
+EVENT_154,event,Internship orientation,"Quick update: Please join the internship orientation on 2026-09-13, 16:00 at Google Meet.",2026-09-13,16:00,,medium,Google Meet,[],MSG_0841
+EVENT_155,event,Family dinner,"Just checking-Calendar update: family dinner, 2026-09-09 at 16:00, the library.",2026-09-09,16:00,,medium,the library,[],MSG_0845
+EVENT_156,event,Internship orientation,"Can you help? Please join the internship orientation on 2026-09-03, 10:00 at Google Meet.",2026-09-03,10:00,,medium,Google Meet,[],MSG_0847
+EVENT_157,event,Design review,Please note: Are you available for the design review at 16:00 on 2026-09-05? Location: the main office.,2026-09-05,16:00,,medium,the main office,[],MSG_0849
+TASK_219,task,Prepare the demo video,Just checking-Prepare the demo video is due on 2026-09-06.,2026-09-06,,,medium,,[],MSG_0850
+TASK_220,task,Prepare the demo video,Please note: Prepare the demo video is due on 2026-09-07.,2026-09-07,,,medium,,[],MSG_0851
+TASK_221,task,Reply to the client email,Important: Please reply to the client email by 2026-09-10.,2026-09-10,,,high,,[],MSG_0853
+TASK_222,task,Send it,"Hi, Could you send it soon?",,,,low,,[],MSG_0859
+EVENT_158,event,College seminar,Please note: Are you available for the college seminar at 11:00 on 2026-09-20? Location: the training hall.,2026-09-20,11:00,,medium,the training hall,[],MSG_0860
+EVENT_159,event,Mentor catch-up,Can you help? Reminder: mentor catch-up happens on 2026-09-11 at 10:00 in the cafeteria.,2026-09-11,10:00,,medium,the cafeteria,[],MSG_0861
+TASK_223,task,Email the signed document,"Hi, Don't forget to email the signed document; deadline is 2026-09-06.",2026-09-06,,,high,,[],MSG_0862
+TASK_224,task,Back up the project files,One more thing: I need you to back up the project files by 2026-09-02.,2026-09-02,,,medium,,[],MSG_0864
+TASK_225,task,Back up the project files,For today: I need you to back up the project files by 2026-09-08.,2026-09-08,,,medium,,[],MSG_0865
+EVENT_160,event,Mentor catch-up,One more thing: Reminder: mentor catch-up happens on 2026-09-06 at 9:00 in the city clinic.,2026-09-06,09:00,,medium,the city clinic,[],MSG_0866
+EVENT_161,event,Client discussion,Can you help? The client discussion is scheduled for 2026-09-07 at 14:00 in Zoom.,2026-09-07,14:00,,medium,Zoom,[],MSG_0868
+TASK_226,task,Send the expense receipt,For today: Send the expense receipt is due on 2026-09-07.,2026-09-07,,,medium,,[],MSG_0870
+EVENT_162,event,Team stand-up,"Just checking-Calendar update: team stand-up, 2026-09-19 at 14:00, the library.",2026-09-19,14:00,,medium,the library,[],MSG_0871
+EVENT_163,event,Study-group session,"One more thing: Please join the study-group session on 2026-09-08, 11:00 at Conference Room 2.",2026-09-08,11:00,,medium,Conference Room 2,[],MSG_0873
+EVENT_164,event,College seminar,Just checking-Are you available for the college seminar at 15:00 on 2026-09-20? Location: the training hall.,2026-09-20,15:00,,medium,the training hall,[],MSG_0877
+EVENT_165,event,Client discussion,Please note: The client discussion is scheduled for 2026-09-02 at 13:00 in Meeting Room A.,2026-09-02,13:00,,medium,Meeting Room A,[],MSG_0878
+EVENT_166,event,College seminar,FYI: Are you available for the college seminar at 13:00 on 2026-09-10? Location: the training hall.,2026-09-10,13:00,,medium,the training hall,[],MSG_0882
+TASK_227,task,Review the model results,For today: I need you to review the model results by 2026-09-02.,2026-09-02,,,medium,,[],MSG_0883
+TASK_228,task,Update the project tracker,"Hi, Can you update the project tracker before 2026-09-03?",2026-09-03,,,medium,,[],MSG_0884
+EVENT_167,event,Review (tentative),For today: The review could be Friday afternoon.,unresolved,,,low,,"[""Relative time phrase 'friday' cannot be resolved to a concrete date without external context.""]",MSG_0886
+TASK_229,task,Review the privacy checklist,Important: Can you review the privacy checklist before 2026-09-03?,2026-09-03,,,high,,[],MSG_0893
+EVENT_168,event,Design review,Important: Are you available for the design review at 11:00 on 2026-09-20? Location: the training hall.,2026-09-20,11:00,,high,the training hall,[],MSG_0894
+EVENT_169,event,AI workshop,"For today: Please join the AI workshop on 2026-09-13, 12:00 at Google Meet.",2026-09-13,12:00,,medium,Google Meet,[],MSG_0895
+TASK_230,task,Complete the Python exercise,Can you help? Please complete the Python exercise by 2026-09-06.,2026-09-06,,,medium,,[],MSG_0898
+EVENT_170,event,College seminar,Quick update: Are you available for the college seminar at 10:00 on 2026-09-15? Location: the main office.,2026-09-15,10:00,,medium,the main office,[],MSG_0900

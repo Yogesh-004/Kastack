@@ -1,0 +1,34 @@
+{
+  "total_messages": 900,
+  "categories": {
+    "meeting_or_event": 170,
+    "action_required": 230,
+    "general_information": 180,
+    "sensitive_information": 100,
+    "personal_information": 110,
+    "promotional": 110
+  },
+  "uncertain_count": 70,
+  "tasks": 230,
+  "events": 170,
+  "unresolved_dates": 20,
+  "sensitive_messages": 100,
+  "sensitive_by_risk": {
+    "medium": 40,
+    "high": 60
+  },
+  "sensitive_by_type": {
+    "private_address": 10,
+    "card_number": 10,
+    "health_information": 10,
+    "recovery_code": 10,
+    "personal_identification_number": 10,
+    "authentication_token": 10,
+    "password": 10,
+    "private_phone_number": 10,
+    "one_time_password": 10,
+    "bank_account_number": 10
+  },
+  "mandatory_ids_found": 15,
+  "mandatory_missing": []
+}

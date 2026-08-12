@@ -1,0 +1,300 @@
+[
+  {
+    "message_id": "MSG_0001",
+    "timestamp": "2026-09-01 08:00:00",
+    "sender": "Meera",
+    "message_masked": "For today: Calendar update: family dinner, 2026-09-19 at 10:00, the library.",
+    "classification": {
+      "category": "meeting_or_event",
+      "confidence": 0.93,
+      "uncertain": false,
+      "reason": "Matched calendar entry + named event 'family dinner' + date+time+location structure (sender: Meera)."
+    },
+    "items": [
+      {
+        "type": "event",
+        "title": "Family dinner",
+        "description": "For today: Calendar update: family dinner, 2026-09-19 at 10:00, the library.",
+        "deadline": "2026-09-19",
+        "time": "10:00",
+        "person": null,
+        "priority": "medium",
+        "location": "the library",
+        "notes": [],
+        "source_message_id": "MSG_0001",
+        "item_id": "EVENT_001"
+      }
+    ],
+    "sensitive": []
+  },
+  {
+    "message_id": "MSG_0002",
+    "timestamp": "2026-09-01 08:37:00",
+    "sender": "Ishaan",
+    "message_masked": "Can you review the privacy checklist before 2026-09-09?",
+    "classification": {
+      "category": "action_required",
+      "confidence": 0.89,
+      "uncertain": false,
+      "reason": "Matched request verb 'review' + task noun 'privacy checklist' + request 'can you' + date bound 'before 2026-09-09' (sender: Ishaan)."
+    },
+    "items": [
+      {
+        "type": "task",
+        "title": "Review the privacy checklist",
+        "description": "Can you review the privacy checklist before 2026-09-09?",
+        "deadline": "2026-09-09",
+        "time": null,
+        "person": null,
+        "priority": "medium",
+        "location": null,
+        "notes": [],
+        "source_message_id": "MSG_0002",
+        "item_id": "TASK_001"
+      }
+    ],
+    "sensitive": []
+  },
+  {
+    "message_id": "MSG_0003",
+    "timestamp": "2026-09-01 09:14:00",
+    "sender": "Kabir",
+    "message_masked": "FYI: Reminder: mentor catch-up happens on 2026-09-16 at 11:00 in the city clinic.",
+    "classification": {
+      "category": "meeting_or_event",
+      "confidence": 0.94,
+      "uncertain": false,
+      "reason": "Matched reminder of an event + scheduled date phrase + named event 'mentor catch-up' + date+time+location structure (sender: Kabir)."
+    },
+    "items": [
+      {
+        "type": "event",
+        "title": "Mentor catch-up",
+        "description": "FYI: Reminder: mentor catch-up happens on 2026-09-16 at 11:00 in the city clinic.",
+        "deadline": "2026-09-16",
+        "time": "11:00",
+        "person": null,
+        "priority": "medium",
+        "location": "the city clinic",
+        "notes": [],
+        "source_message_id": "MSG_0003",
+        "item_id": "EVENT_002"
+      }
+    ],
+    "sensitive": []
+  },
+  {
+    "message_id": "MSG_0004",
+    "timestamp": "2026-09-01 09:51:00",
+    "sender": "Aarav",
+    "message_masked": "One more thing: The training material is on the portal.",
+    "classification": {
+      "category": "general_information",
+      "confidence": 0.8,
+      "uncertain": false,
+      "reason": "Matched portal statement + supply statement (sender: Aarav)."
+    },
+    "items": [],
+    "sensitive": []
+  },
+  {
+    "message_id": "MSG_0005",
+    "timestamp": "2026-09-01 10:28:00",
+    "sender": "Aarav",
+    "message_masked": "Hi, My home address is ******.",
+    "classification": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Aarav)."
+    },
+    "items": [],
+    "sensitive": [
+      {
+        "message_id": "MSG_0005",
+        "sensitivity_type": "private_address",
+        "risk": "medium",
+        "masked_text": "Hi, My home address is ******.",
+        "recommended_action": "safe_to_process_locally"
+      }
+    ]
+  },
+  {
+    "message_id": "MSG_0006",
+    "timestamp": "2026-09-01 11:05:00",
+    "sender": "Meera",
+    "message_masked": "Important: The laptop battery is fully charged.",
+    "classification": {
+      "category": "general_information",
+      "confidence": 0.73,
+      "uncertain": false,
+      "reason": "Matched status statement (sender: Meera)."
+    },
+    "items": [],
+    "sensitive": []
+  },
+  {
+    "message_id": "MSG_0007",
+    "timestamp": "2026-09-01 11:42:00",
+    "sender": "Ananya",
+    "message_masked": "For today: Please reply to the client email by 2026-09-04.",
+    "classification": {
+      "category": "action_required",
+      "confidence": 0.88,
+      "uncertain": false,
+      "reason": "Matched request verb 'reply' + task noun 'client email' + polite request 'please' + date bound 'by 2026-09-04' (sender: Ananya)."
+    },
+    "items": [
+      {
+        "type": "task",
+        "title": "Reply to the client email",
+        "description": "For today: Please reply to the client email by 2026-09-04.",
+        "deadline": "2026-09-04",
+        "time": null,
+        "person": null,
+        "priority": "high",
+        "location": null,
+        "notes": [],
+        "source_message_id": "MSG_0007",
+        "item_id": "TASK_002"
+      }
+    ],
+    "sensitive": []
+  },
+  {
+    "message_id": "MSG_0009",
+    "timestamp": "2026-09-01 12:56:00",
+    "sender": "Meera",
+    "message_masked": "For my profile, my emergency contact is my brother.",
+    "classification": {
+      "category": "personal_information",
+      "confidence": 0.9,
+      "uncertain": false,
+      "reason": "Matched profile statement + emergency-contact statement (sender: Meera)."
+    },
+    "items": [],
+    "sensitive": []
+  },
+  {
+    "message_id": "MSG_0012",
+    "timestamp": "2026-09-01 14:47:00",
+    "sender": "Neha",
+    "message_masked": "FYI: I will send the login details separately.",
+    "classification": {
+      "category": "general_information",
+      "confidence": 0.52,
+      "uncertain": true,
+      "reason": "No specific classification signal matched; the message reads as an informational statement."
+    },
+    "items": [],
+    "sensitive": []
+  },
+  {
+    "message_id": "MSG_0013",
+    "timestamp": "2026-09-01 15:24:00",
+    "sender": "Meera",
+    "message_masked": "One more thing: My card number is **********************.",
+    "classification": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Meera)."
+    },
+    "items": [],
+    "sensitive": [
+      {
+        "message_id": "MSG_0013",
+        "sensitivity_type": "card_number",
+        "risk": "high",
+        "masked_text": "One more thing: My card number is **********************.",
+        "recommended_action": "do_not_send_to_external_service"
+      }
+    ]
+  },
+  {
+    "message_id": "MSG_0014",
+    "timestamp": "2026-09-01 16:01:00",
+    "sender": "Promotions",
+    "message_masked": "Can you help? Special festival discount on clothing. Use code SAVE17.",
+    "classification": {
+      "category": "promotional",
+      "confidence": 0.93,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account + promo code 'SAVE..' + sale or offer wording + festival wording (sender: Promotions)."
+    },
+    "items": [],
+    "sensitive": []
+  },
+  {
+    "message_id": "MSG_0015",
+    "timestamp": "2026-09-01 16:38:00",
+    "sender": "Promotions",
+    "message_masked": "Please note: Flash sale on laptops starts at 6 PM. Use code SAVE23.",
+    "classification": {
+      "category": "promotional",
+      "confidence": 0.92,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account + promo code 'SAVE..' + sale or offer wording (sender: Promotions)."
+    },
+    "items": [],
+    "sensitive": []
+  },
+  {
+    "message_id": "MSG_0016",
+    "timestamp": "2026-09-01 17:15:00",
+    "sender": "Rohan",
+    "message_masked": "Just checking-Remember that i drink coffee without sugar.",
+    "classification": {
+      "category": "personal_information",
+      "confidence": 0.8,
+      "uncertain": false,
+      "reason": "Matched food preference (sender: Rohan)."
+    },
+    "items": [],
+    "sensitive": []
+  },
+  {
+    "message_id": "MSG_0024",
+    "timestamp": "2026-09-01 22:11:00",
+    "sender": "Ananya",
+    "message_masked": "Just checking-I might prefer evening meetings now.",
+    "classification": {
+      "category": "personal_information",
+      "confidence": 0.77,
+      "uncertain": false,
+      "reason": "Matched meeting-time preference (sender: Ananya)."
+    },
+    "items": [],
+    "sensitive": []
+  },
+  {
+    "message_id": "MSG_0037",
+    "timestamp": "2026-09-02 06:12:00",
+    "sender": "Meera",
+    "message_masked": "One more thing: The review could be Friday afternoon.",
+    "classification": {
+      "category": "meeting_or_event",
+      "confidence": 0.53,
+      "uncertain": true,
+      "reason": "Matched tentative review slot (sender: Meera). Low-confidence match."
+    },
+    "items": [
+      {
+        "type": "event",
+        "title": "Review (tentative)",
+        "description": "One more thing: The review could be Friday afternoon.",
+        "deadline": "unresolved",
+        "time": null,
+        "person": null,
+        "priority": "low",
+        "location": null,
+        "notes": [
+          "Relative time phrase 'friday' cannot be resolved to a concrete date without external context."
+        ],
+        "source_message_id": "MSG_0037",
+        "item_id": "EVENT_007"
+      }
+    ],
+    "sensitive": []
+  }
+]
