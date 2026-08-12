@@ -1,5 +1,13 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api",
+      "transforms": [
+        { "type": "request.path", "op": "set", "args": "/$1" }
+      ]
+    }
+  ],
   "functions": {
     "api/index.py": {
       "includeFiles": ["outputs/**", "web/**", "data/README.md"],
