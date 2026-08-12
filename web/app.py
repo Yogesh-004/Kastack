@@ -18,7 +18,16 @@ from pathlib import Path
 from flask import Flask, jsonify, render_template, request
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-OUT_DIR = BASE_DIR / "outputs"
+
+# Robust output lookup: works from a normal checkout and from a bundled
+# serverless runtime where the working directory may differ.
+_OUTPUT_CANDIDATES = [
+    BASE_DIR / "outputs",
+    Path.cwd() / "outputs",
+    Path.cwd().parent / "outputs",
+]
+OUT_DIR = next((p for p in _OUTPUT_CANDIDATES if (p / "summary.json").exists()),
+               BASE_DIR / "outputs")
 
 app = Flask(__name__)
 
