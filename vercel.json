@@ -10,7 +10,7 @@
   ],
   "functions": {
     "api/index.py": {
-      "includeFiles": ["outputs/**", "web/**", "data/README.md"],
+      "includeFiles": "{outputs/**,web/**,data/README.md}",
       "maxDuration": 10
     }
   }
