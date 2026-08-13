@@ -228,7 +228,7 @@ Deployment: `web: gunicorn --bind 0.0.0.0:$PORT web.app:app` (see
 
 ---
 
-## AI-tool usage declaration (required by the assignment)
+## AI-tool usage declaration 
 
 - **AI development tools used:** `opencode` (DeepSeek model) was used as
   a coding assistant to draft the rule tables, boilerplate, tests and this
