@@ -432,35 +432,3 @@ vs auto-complete), junk-topic refusal (`has/is/was` never become items),
 registry lifecycle, priority thresholds + `unclear`-keeps-priority,
 privacy routing for all three routes, index serialization round-trip and
 naive-vs-index top-1 agreement, and live-assistant end-to-end answers.
-
----
-
-## AI-tool usage declaration 
-
-- **AI development tools used:** `opencode` (DeepSeek model) was used as
-  a coding assistant to draft the rule tables, boilerplate, tests and this
-  documentation, and to review the code.
-- **Runtime:** the pipeline itself calls **no** AI service — no ChatGPT,
-  no embeddings, no external APIs. All classification, extraction and
-  masking is deterministic local Python (stdlib + Flask for the demo).
-- **Data handling:** the dataset and all raw values stay on the local
-  machine; generated outputs are masked before they are shared, deployed
-  or recorded in the demo video.
-- **Accountability:** every rule, scoring formula and confidence/reason
-  mechanism is documented in this README and the source code, and is
-  described in the demonstration video.
-
----
-
-## Tests
-
-```
-python -m unittest discover -s tests -v
-```
-
-32 tests cover: expected categories for 30 curated messages, reason
-contents, confidence bounds, sensitive-flag dominance, uncertainty
-handling, task/event fields, "no invented data" behaviour, all ten
-sensitive types, masking (raw values never appear in outputs), pipeline
-counts, chronological order, mandatory-ID coverage, deterministic
-re-runs, and secret-leak scans over all generated files.
