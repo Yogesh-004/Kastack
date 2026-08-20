@@ -51,6 +51,17 @@ _RULES: List[Dict[str, Any]] = [
             re.IGNORECASE,
         ),
     },
+    # L2 variant: "The sample bank account is 001278903456."
+    {
+        "sensitivity_type": "bank_account_number",
+        "risk": "high",
+        "recommended_action": "do_not_send_to_external_service",
+        "name": "bank account number",
+        "pattern": re.compile(
+            r"\bbank\s+account\s+is\s+([0-9]{6,}(?:-[0-9]+)?)",
+            re.IGNORECASE,
+        ),
+    },
     {
         "sensitivity_type": "card_number",
         "risk": "high",
@@ -70,6 +81,18 @@ _RULES: List[Dict[str, Any]] = [
             r"\baccess\s+token\s+is\s+([A-Za-z0-9_\-]+)", re.IGNORECASE
         ),
     },
+    # L2 variants: "Use access token tok_... for ..." and
+    # "Integration token: tok_..." (token values start with 'tok_').
+    {
+        "sensitivity_type": "authentication_token",
+        "risk": "high",
+        "recommended_action": "do_not_store",
+        "name": "access token",
+        "pattern": re.compile(
+            r"\b(?:access|integration)\s+token\s*(?::|\bis\b)?\s*"
+            r"(tok_[A-Za-z0-9_\-]+)", re.IGNORECASE
+        ),
+    },
     {
         "sensitivity_type": "recovery_code",
         "risk": "high",
@@ -77,6 +100,17 @@ _RULES: List[Dict[str, Any]] = [
         "name": "account recovery code",
         "pattern": re.compile(
             r"\brecovery\s+code\s+is\s+([A-Za-z0-9\-]+)", re.IGNORECASE
+        ),
+    },
+    # L2 variant: "Save recovery code REC-L2-88-KQ."
+    {
+        "sensitivity_type": "recovery_code",
+        "risk": "high",
+        "recommended_action": "do_not_store",
+        "name": "account recovery code",
+        "pattern": re.compile(
+            r"\brecovery\s+code\s+([A-Za-z0-9]{2,}(?:-[A-Za-z0-9]{2,})+)",
+            re.IGNORECASE,
         ),
     },
     {
@@ -97,6 +131,16 @@ _RULES: List[Dict[str, Any]] = [
             r"\bcontact\s+me\s+on\s+([0-9][0-9 ]{6,}(?:-[0-9]+)?)", re.IGNORECASE
         ),
     },
+    # L2 variant: "Call me on 91234 56789 after the meeting."
+    {
+        "sensitivity_type": "private_phone_number",
+        "risk": "medium",
+        "recommended_action": "safe_to_process_locally",
+        "name": "phone number",
+        "pattern": re.compile(
+            r"\bcall\s+me\s+on\s+([0-9][0-9 ]{6,}(?:-[0-9]+)?)", re.IGNORECASE
+        ),
+    },
     {
         "sensitivity_type": "private_address",
         "risk": "medium",
@@ -104,6 +148,20 @@ _RULES: List[Dict[str, Any]] = [
         "name": "home address",
         "pattern": re.compile(
             r"\bhome\s+address\s+is\s+(.+?)[.!?]?$", re.IGNORECASE
+        ),
+    },
+    # L2 variants: "Please deliver it to 17 River Park Street, Chennai-B."
+    # and "Deliver the demo device to 22 Green Park Road, Chennai."
+    {
+        "sensitivity_type": "private_address",
+        "risk": "medium",
+        "recommended_action": "safe_to_process_locally",
+        "name": "delivery address",
+        "pattern": re.compile(
+            r"\b(?:deliver|send|ship)\s+(?:it|the\s+[a-z][a-z ]{0,40}?)\s+"
+            r"to\s+(.+?(?:street|road|lane|avenue|nagar|colony)"
+            r"(?:[,\s-]+[A-Za-z0-9_-]+)*)[.!?]?$",
+            re.IGNORECASE,
         ),
     },
     {
@@ -115,6 +173,17 @@ _RULES: List[Dict[str, Any]] = [
             r"\btest\s+result\s+(?:says|is|:)\s*(.+?)[.!?]?$", re.IGNORECASE
         ),
     },
+    # L2 variant: "My private medical note mentions a thyroid condition."
+    {
+        "sensitivity_type": "health_information",
+        "risk": "medium",
+        "recommended_action": "ask_for_confirmation",
+        "name": "private medical note",
+        "pattern": re.compile(
+            r"\bprivate\s+medical\s+note\s+mentions\s+(.+?)[.!?]?$",
+            re.IGNORECASE,
+        ),
+    },
 ]
 
 
@@ -123,8 +192,14 @@ def detect_sensitive(text: str) -> List[Dict[str, str]]:
 
     Each detection contains the type, risk, recommended action and the
     captured secret value (never emitted outside this function).
+
+    Detections are de-duplicated by (secret value, type): several rules
+    may legitimately match the same value (e.g. 'token is tok_x' matches
+    both the strict and the compact token pattern); only the strongest
+    (first) match is kept.
     """
     found: List[Dict[str, str]] = []
+    seen: set = set()
     for rule in _RULES:
         m = rule["pattern"].search(text)
         if not m:
@@ -134,6 +209,9 @@ def detect_sensitive(text: str) -> List[Dict[str, str]]:
             continue
         if rule.get("stopwords") and secret.lower() in rule["stopwords"]:
             continue
+        if (secret, rule["sensitivity_type"]) in seen:
+            continue
+        seen.add((secret, rule["sensitivity_type"]))
         found.append(
             {
                 "sensitivity_type": rule["sensitivity_type"],
