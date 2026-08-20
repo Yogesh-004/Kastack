@@ -1,0 +1,144 @@
+[
+  {
+    "request_id": "DEMO_012",
+    "kind": "message",
+    "timestamp": "2026-10-04 17:12:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "Your fictional OTP is ******. Do not share it.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "DEMO_013",
+    "kind": "message",
+    "timestamp": "2026-10-04 17:53:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "Use temporary password ****** for the sample account.",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "DEMO_014",
+    "kind": "message",
+    "timestamp": "2026-10-04 18:34:00",
+    "sender": "Operations",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "Deliver the demo device to ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "DEMO_015",
+    "kind": "message",
+    "timestamp": "2026-10-04 19:15:00",
+    "sender": "Private Message",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "My private medical note mentions ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "DEMO_016",
+    "kind": "message",
+    "timestamp": "2026-10-04 19:56:00",
+    "sender": "Aarav",
+    "route": "ask_for_confirmation",
+    "reason": "The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "signals": [
+      "status_ambiguous"
+    ],
+    "masked_evidence": "Confirm the interview slot might already be finished, but I cannot confirm it.",
+    "sensitive_found": [],
+    "confidence": 0.7
+  },
+  {
+    "request_id": "DEMO_017",
+    "kind": "message",
+    "timestamp": "2026-10-04 20:37:00",
+    "sender": "Ishaan",
+    "route": "ask_for_confirmation",
+    "reason": "The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "signals": [
+      "status_ambiguous"
+    ],
+    "masked_evidence": "We may move the internship orientation; I will confirm the schedule later.",
+    "sensitive_found": [],
+    "confidence": 0.7
+  },
+  {
+    "request_id": "DEMO_023",
+    "kind": "message",
+    "timestamp": "2026-10-05 00:43:00",
+    "sender": "Project Lead",
+    "route": "ask_for_confirmation",
+    "reason": "The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "signals": [
+      "status_ambiguous"
+    ],
+    "masked_evidence": "The deadline may be Monday, or it may be Wednesday. Wait for the official update.",
+    "sensitive_found": [],
+    "confidence": 0.7
+  },
+  {
+    "request_id": "DEMO_024",
+    "kind": "message",
+    "timestamp": "2026-10-05 01:24:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "Integration token: ******. Use it only in the local test.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  }
+]

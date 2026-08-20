@@ -1,0 +1,46 @@
+{
+  "queries": [
+    "latest status of the confirm the interview slot",
+    "which critical or high-priority tasks are still pending",
+    "which meetings were rescheduled",
+    "which tasks have been completed",
+    "what deadlines have changed",
+    "conflicting messages about the same event",
+    "show all messages related to the weekly report submission",
+    "what is the latest status of the project report",
+    "messages related to the offline inference demo",
+    "tasks due today",
+    "review the privacy checklist",
+    "pay the electricity bill",
+    "information about the internship orientation",
+    "the project tracker update",
+    "renew the library book deadline",
+    "upload the assignment status",
+    "prepare the L2 presentation",
+    "the mentor catch-up schedule",
+    "bank account details",
+    "family dinner",
+    "repeated status requests for the onboarding form"
+  ],
+  "documents_indexed": 1156,
+  "vocabulary_terms": 738,
+  "mean_latency_ms": {
+    "naive": 9.0118,
+    "optimized": 0.0366
+  },
+  "speedup_x": 246.38,
+  "size_bytes": {
+    "index_json": 396072,
+    "raw_docs_json": 129842
+  },
+  "size_reduction_pct": -205.0,
+  "peak_memory_kb": {
+    "index_build": 2560.1,
+    "naive_one_query": 1376.5
+  },
+  "quality": {
+    "top1_agreement": "21/21",
+    "top5_overlap_ratio": 1.0
+  },
+  "notes": "Identical scoring formula in both paths; the optimized path only precomputes postings, IDF and norms."
+}

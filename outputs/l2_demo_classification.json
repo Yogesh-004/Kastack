@@ -1,0 +1,488 @@
+[
+  {
+    "message_id": "DEMO_001",
+    "timestamp": "2026-10-04 09:41:00",
+    "sender": "Aarav",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.81,
+      "uncertain": true,
+      "reason": "Matched request verb 'confirm' + task noun 'interview slot' + explicit 'deadline' (sender: Aarav). Low-confidence match."
+    },
+    "message_masked": "The deadline to confirm the interview slot is now tomorrow at 10 AM. This is urgent.",
+    "key": "confirm the interview slot",
+    "item_id": "TASK_010",
+    "priority": "critical",
+    "status_action": "urgent",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_002",
+    "timestamp": "2026-10-04 10:22:00",
+    "sender": "Kabir",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'email' + task noun 'signed document' (sender: Kabir). Low-confidence match."
+    },
+    "message_masked": "Confirmed: email the signed document has been completed.",
+    "key": "email the signed document",
+    "item_id": "TASK_011",
+    "priority": "low",
+    "status_action": "completed",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_003",
+    "timestamp": "2026-10-04 11:03:00",
+    "sender": "Maya",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.65,
+      "uncertain": true,
+      "reason": "Matched task noun 'project tracker' (sender: Maya). Low-confidence match."
+    },
+    "message_masked": "Cancel update the project tracker; it is no longer needed.",
+    "key": "update the project tracker",
+    "item_id": "TASK_012",
+    "priority": "low",
+    "status_action": "cancelled",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_004",
+    "timestamp": "2026-10-04 11:44:00",
+    "sender": "Kabir",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'upload' + task noun 'assignment' (sender: Kabir). Low-confidence match."
+    },
+    "message_masked": "Any update on upload the assignment?",
+    "key": "upload the assignment",
+    "item_id": "TASK_013",
+    "priority": "medium",
+    "status_action": "pending",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_005",
+    "timestamp": "2026-10-04 12:25:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.68,
+      "uncertain": true,
+      "reason": "Matched request verb 'review' (sender: Rohan). Low-confidence match."
+    },
+    "message_masked": "Has the material for our earlier model-results review been handled?",
+    "key": "review the model results",
+    "item_id": "TASK_008",
+    "priority": "high",
+    "status_action": "pending",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_006",
+    "timestamp": "2026-10-04 13:06:00",
+    "sender": "Maya",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.82,
+      "uncertain": false,
+      "reason": "Matched task noun 'project tracker' + due-date phrase 'due on' (sender: Maya)."
+    },
+    "message_masked": "One message says Friday, but the latest instruction says update the project tracker is due on 2026-10-06.",
+    "key": "update the project tracker",
+    "item_id": "TASK_012",
+    "priority": "medium",
+    "status_action": "conflict",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_007",
+    "timestamp": "2026-10-04 13:47:00",
+    "sender": "Ishaan",
+    "category": {
+      "category": "meeting_or_event",
+      "confidence": 0.78,
+      "uncertain": false,
+      "reason": "Matched named event 'internship orientation' + date+time structure (sender: Ishaan)."
+    },
+    "message_masked": "The internship orientation has moved to 2026-10-07 at 15:00.",
+    "key": "internship orientation",
+    "item_id": "TASK_040",
+    "priority": "medium",
+    "status_action": "rescheduled",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_008",
+    "timestamp": "2026-10-04 14:28:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "meeting_or_event",
+      "confidence": 0.73,
+      "uncertain": true,
+      "reason": "Matched named event 'team stand-up' (sender: Rohan). Low-confidence match."
+    },
+    "message_masked": "The team stand-up has been cancelled.",
+    "key": "team stand-up",
+    "item_id": "TASK_009",
+    "priority": "low",
+    "status_action": "cancelled",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_009",
+    "timestamp": "2026-10-04 15:09:00",
+    "sender": "Ishaan",
+    "category": {
+      "category": "meeting_or_event",
+      "confidence": 0.73,
+      "uncertain": true,
+      "reason": "Matched named event 'internship orientation' (sender: Ishaan). Low-confidence match."
+    },
+    "message_masked": "The date for internship orientation stays the same, but the time is now 17:30.",
+    "key": "internship orientation",
+    "item_id": "TASK_040",
+    "priority": "medium",
+    "status_action": "rescheduled",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_010",
+    "timestamp": "2026-10-04 15:50:00",
+    "sender": "Project Lead",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.77,
+      "uncertain": false,
+      "reason": "Matched date bound 'by 2026-10-09' (sender: Project Lead)."
+    },
+    "message_masked": "New task: test the optimized assistant in offline mode by 2026-10-09.",
+    "key": "test the optimized assistant in offline mode",
+    "item_id": "TASK_051",
+    "priority": "medium",
+    "status_action": "pending",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_011",
+    "timestamp": "2026-10-04 16:31:00",
+    "sender": "Mentor",
+    "category": {
+      "category": "meeting_or_event",
+      "confidence": 0.86,
+      "uncertain": false,
+      "reason": "Matched explicit schedule + date+time+location structure (sender: Mentor)."
+    },
+    "message_masked": "A new latency-review meeting is scheduled for 2026-10-08 at 11:00 on Google Meet.",
+    "key": "latency-review",
+    "item_id": "TASK_052",
+    "priority": "high",
+    "status_action": "scheduled",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_012",
+    "timestamp": "2026-10-04 17:12:00",
+    "sender": "Private Message",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.94,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Private Message)."
+    },
+    "message_masked": "Your fictional OTP is ******. Do not share it.",
+    "key": null,
+    "item_id": null,
+    "priority": null,
+    "status_action": "pending",
+    "sensitive_types": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_013",
+    "timestamp": "2026-10-04 17:53:00",
+    "sender": "Private Message",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Private Message)."
+    },
+    "message_masked": "Use temporary password ****** for the sample account.",
+    "key": null,
+    "item_id": null,
+    "priority": null,
+    "status_action": "pending",
+    "sensitive_types": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_014",
+    "timestamp": "2026-10-04 18:34:00",
+    "sender": "Operations",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Operations)."
+    },
+    "message_masked": "Deliver the demo device to ******.",
+    "key": null,
+    "item_id": null,
+    "priority": null,
+    "status_action": "pending",
+    "sensitive_types": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_015",
+    "timestamp": "2026-10-04 19:15:00",
+    "sender": "Private Message",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Private Message)."
+    },
+    "message_masked": "My private medical note mentions ******.",
+    "key": null,
+    "item_id": null,
+    "priority": null,
+    "status_action": "pending",
+    "sensitive_types": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_016",
+    "timestamp": "2026-10-04 19:56:00",
+    "sender": "Aarav",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'Confirm' + task noun 'interview slot' (sender: Aarav). Low-confidence match."
+    },
+    "message_masked": "Confirm the interview slot might already be finished, but I cannot confirm it.",
+    "key": "confirm the interview slot",
+    "item_id": "TASK_010",
+    "priority": "critical",
+    "status_action": "unclear",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_017",
+    "timestamp": "2026-10-04 20:37:00",
+    "sender": "Ishaan",
+    "category": {
+      "category": "meeting_or_event",
+      "confidence": 0.66,
+      "uncertain": true,
+      "reason": "Matched named event 'internship orientation' (sender: Ishaan). Low-confidence match."
+    },
+    "message_masked": "We may move the internship orientation; I will confirm the schedule later.",
+    "key": "internship orientation",
+    "item_id": "TASK_040",
+    "priority": "medium",
+    "status_action": "unclear",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_018",
+    "timestamp": "2026-10-04 21:18:00",
+    "sender": "General Updates",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.76,
+      "uncertain": false,
+      "reason": "Matched availability statement (sender: General Updates)."
+    },
+    "message_masked": "The optional community newsletter is available.",
+    "key": null,
+    "item_id": null,
+    "priority": null,
+    "status_action": "pending",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_019",
+    "timestamp": "2026-10-04 21:59:00",
+    "sender": "Promotions",
+    "category": {
+      "category": "promotional",
+      "confidence": 0.83,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account (sender: Promotions)."
+    },
+    "message_masked": "Save 30% on an optional online course this weekend.",
+    "key": null,
+    "item_id": null,
+    "priority": null,
+    "status_action": "pending",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_020",
+    "timestamp": "2026-10-04 22:40:00",
+    "sender": "Kabir",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.87,
+      "uncertain": false,
+      "reason": "Matched request verb 'upload' + task noun 'assignment' + explicit 'deadline' (sender: Kabir)."
+    },
+    "message_masked": "The deadline for upload the assignment has been extended to 2026-10-20.",
+    "key": "upload the assignment",
+    "item_id": "TASK_013",
+    "priority": "low",
+    "status_action": "deadline_extended",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_021",
+    "timestamp": "2026-10-04 23:21:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'complete' + task noun 'onboarding form' (sender: Rohan). Low-confidence match."
+    },
+    "message_masked": "This is another status request about complete the onboarding form, not a new task.",
+    "key": "complete the onboarding form",
+    "item_id": "TASK_014",
+    "priority": "critical",
+    "status_action": "pending",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_022",
+    "timestamp": "2026-10-05 00:02:00",
+    "sender": "Unknown Sender",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.52,
+      "uncertain": true,
+      "reason": "No specific classification signal matched; the message reads as an informational statement."
+    },
+    "message_masked": "Was the compliance form approved by the finance director?",
+    "key": null,
+    "item_id": null,
+    "priority": null,
+    "status_action": "pending",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_023",
+    "timestamp": "2026-10-05 00:43:00",
+    "sender": "Project Lead",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.75,
+      "uncertain": true,
+      "reason": "Matched explicit 'deadline' (sender: Project Lead). Low-confidence match."
+    },
+    "message_masked": "The deadline may be Monday, or it may be Wednesday. Wait for the official update.",
+    "key": null,
+    "item_id": null,
+    "priority": null,
+    "status_action": "unclear",
+    "sensitive_types": [],
+    "mandatory": false,
+    "batch": "demo"
+  },
+  {
+    "message_id": "DEMO_024",
+    "timestamp": "2026-10-05 01:24:00",
+    "sender": "Private Message",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Private Message)."
+    },
+    "message_masked": "Integration token: ******. Use it only in the local test.",
+    "key": null,
+    "item_id": null,
+    "priority": null,
+    "status_action": "pending",
+    "sensitive_types": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "mandatory": false,
+    "batch": "demo"
+  }
+]

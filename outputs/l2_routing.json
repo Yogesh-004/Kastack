@@ -1,0 +1,2488 @@
+[
+  {
+    "request_id": "MSG_0005",
+    "kind": "message",
+    "timestamp": "2026-09-01 10:28:00",
+    "sender": "Aarav",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "Hi, My home address is ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0013",
+    "kind": "message",
+    "timestamp": "2026-09-01 15:24:00",
+    "sender": "Meera",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_card_number"
+    ],
+    "masked_evidence": "One more thing: My card number is **********************.",
+    "sensitive_found": [
+      {
+        "type": "card_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0018",
+    "kind": "message",
+    "timestamp": "2026-09-01 18:29:00",
+    "sender": "Rohan",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "One more thing: My recent test result says ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0047",
+    "kind": "message",
+    "timestamp": "2026-09-02 12:22:00",
+    "sender": "Kabir",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_recovery_code"
+    ],
+    "masked_evidence": "Just checking—My account recovery code is ******.",
+    "sensitive_found": [
+      {
+        "type": "recovery_code",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0053",
+    "kind": "message",
+    "timestamp": "2026-09-02 16:04:00",
+    "sender": "Tara",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_personal_identification_number"
+    ],
+    "masked_evidence": "One more thing: My identification number is ******.",
+    "sensitive_found": [
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0074",
+    "kind": "message",
+    "timestamp": "2026-09-03 05:01:00",
+    "sender": "Vikram",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "Just checking—The temporary access token is ******.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0078",
+    "kind": "message",
+    "timestamp": "2026-09-03 07:29:00",
+    "sender": "Rohan",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "Can you help? My recent test result says ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0086",
+    "kind": "message",
+    "timestamp": "2026-09-03 12:25:00",
+    "sender": "Ishaan",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "Use password ****** to sign in to the test account.",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0095",
+    "kind": "message",
+    "timestamp": "2026-09-03 17:58:00",
+    "sender": "Ishaan",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "Please note: Use password ****** to sign in to the test account.",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0106",
+    "kind": "message",
+    "timestamp": "2026-09-04 00:45:00",
+    "sender": "Rohan",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "Quick update: My recent test result says ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0117",
+    "kind": "message",
+    "timestamp": "2026-09-04 07:32:00",
+    "sender": "Vikram",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "Please note: The temporary access token is ******.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0118",
+    "kind": "message",
+    "timestamp": "2026-09-04 08:09:00",
+    "sender": "Tara",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_personal_identification_number"
+    ],
+    "masked_evidence": "For today: My identification number is ******.",
+    "sensitive_found": [
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0120",
+    "kind": "message",
+    "timestamp": "2026-09-04 09:23:00",
+    "sender": "Kabir",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_recovery_code"
+    ],
+    "masked_evidence": "Please note: My account recovery code is ******.",
+    "sensitive_found": [
+      {
+        "type": "recovery_code",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0126",
+    "kind": "message",
+    "timestamp": "2026-09-04 13:05:00",
+    "sender": "Maya",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_phone_number"
+    ],
+    "masked_evidence": "Can you help? You can contact me on **************.",
+    "sensitive_found": [
+      {
+        "type": "private_phone_number",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0130",
+    "kind": "message",
+    "timestamp": "2026-09-04 15:33:00",
+    "sender": "Aarav",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "Can you help? My home address is ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0137",
+    "kind": "message",
+    "timestamp": "2026-09-04 19:52:00",
+    "sender": "Kabir",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_recovery_code"
+    ],
+    "masked_evidence": "My account recovery code is ******.",
+    "sensitive_found": [
+      {
+        "type": "recovery_code",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0140",
+    "kind": "message",
+    "timestamp": "2026-09-04 21:43:00",
+    "sender": "Ishaan",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "Can you help? Use password ****** to sign in to the test account.",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0155",
+    "kind": "message",
+    "timestamp": "2026-09-05 06:58:00",
+    "sender": "Kabir",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_recovery_code"
+    ],
+    "masked_evidence": "FYI: My account recovery code is ******.",
+    "sensitive_found": [
+      {
+        "type": "recovery_code",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0172",
+    "kind": "message",
+    "timestamp": "2026-09-05 17:27:00",
+    "sender": "Aarav",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "Important: My home address is ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0187",
+    "kind": "message",
+    "timestamp": "2026-09-06 02:42:00",
+    "sender": "Rohan",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "Just checking—My recent test result says ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0191",
+    "kind": "message",
+    "timestamp": "2026-09-06 05:10:00",
+    "sender": "Maya",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_phone_number"
+    ],
+    "masked_evidence": "Quick update: You can contact me on **************.",
+    "sensitive_found": [
+      {
+        "type": "private_phone_number",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0199",
+    "kind": "message",
+    "timestamp": "2026-09-06 10:06:00",
+    "sender": "Aarav",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "Quick update: My home address is ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0229",
+    "kind": "message",
+    "timestamp": "2026-09-07 04:36:00",
+    "sender": "Tara",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_personal_identification_number"
+    ],
+    "masked_evidence": "Can you help? My identification number is ******.",
+    "sensitive_found": [
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0233",
+    "kind": "message",
+    "timestamp": "2026-09-07 07:04:00",
+    "sender": "Kabir",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_recovery_code"
+    ],
+    "masked_evidence": "One more thing: My account recovery code is ******.",
+    "sensitive_found": [
+      {
+        "type": "recovery_code",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0243",
+    "kind": "message",
+    "timestamp": "2026-09-07 13:14:00",
+    "sender": "Ananya",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "Just checking—Your OTP is *********. It expires in 10 minutes.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0254",
+    "kind": "message",
+    "timestamp": "2026-09-07 20:01:00",
+    "sender": "Neha",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_bank_account_number"
+    ],
+    "masked_evidence": "For today: Please note my bank account number ***************.",
+    "sensitive_found": [
+      {
+        "type": "bank_account_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0257",
+    "kind": "message",
+    "timestamp": "2026-09-07 21:52:00",
+    "sender": "Neha",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_bank_account_number"
+    ],
+    "masked_evidence": "FYI: Please note my bank account number ***************.",
+    "sensitive_found": [
+      {
+        "type": "bank_account_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0264",
+    "kind": "message",
+    "timestamp": "2026-09-08 02:11:00",
+    "sender": "Tara",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_personal_identification_number"
+    ],
+    "masked_evidence": "Hi, My identification number is ******.",
+    "sensitive_found": [
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0267",
+    "kind": "message",
+    "timestamp": "2026-09-08 04:02:00",
+    "sender": "Neha",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_bank_account_number"
+    ],
+    "masked_evidence": "Please note: Please note my bank account number ***************.",
+    "sensitive_found": [
+      {
+        "type": "bank_account_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0273",
+    "kind": "message",
+    "timestamp": "2026-09-08 07:44:00",
+    "sender": "Ananya",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "Quick update: Your OTP is *********. It expires in 10 minutes.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0288",
+    "kind": "message",
+    "timestamp": "2026-09-08 16:59:00",
+    "sender": "Ananya",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "One more thing: Your OTP is *********. It expires in 10 minutes.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0315",
+    "kind": "message",
+    "timestamp": "2026-09-09 09:38:00",
+    "sender": "Kabir",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_recovery_code"
+    ],
+    "masked_evidence": "Important: My account recovery code is ******.",
+    "sensitive_found": [
+      {
+        "type": "recovery_code",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0337",
+    "kind": "message",
+    "timestamp": "2026-09-09 23:12:00",
+    "sender": "Maya",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_phone_number"
+    ],
+    "masked_evidence": "You can contact me on ***********.",
+    "sensitive_found": [
+      {
+        "type": "private_phone_number",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0344",
+    "kind": "message",
+    "timestamp": "2026-09-10 03:31:00",
+    "sender": "Ishaan",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "Hi, Use password ****** to sign in to the test account.",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0346",
+    "kind": "message",
+    "timestamp": "2026-09-10 04:45:00",
+    "sender": "Ishaan",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "Quick update: Use password ****** to sign in to the test account.",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0347",
+    "kind": "message",
+    "timestamp": "2026-09-10 05:22:00",
+    "sender": "Tara",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_personal_identification_number"
+    ],
+    "masked_evidence": "Just checking—My identification number is ******.",
+    "sensitive_found": [
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0349",
+    "kind": "message",
+    "timestamp": "2026-09-10 06:36:00",
+    "sender": "Tara",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_personal_identification_number"
+    ],
+    "masked_evidence": "My identification number is ******.",
+    "sensitive_found": [
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0351",
+    "kind": "message",
+    "timestamp": "2026-09-10 07:50:00",
+    "sender": "Vikram",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "Quick update: The temporary access token is ******.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0352",
+    "kind": "message",
+    "timestamp": "2026-09-10 08:27:00",
+    "sender": "Neha",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_bank_account_number"
+    ],
+    "masked_evidence": "Can you help? Please note my bank account number ***************.",
+    "sensitive_found": [
+      {
+        "type": "bank_account_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0367",
+    "kind": "message",
+    "timestamp": "2026-09-10 17:42:00",
+    "sender": "Meera",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_card_number"
+    ],
+    "masked_evidence": "Hi, My card number is **********************.",
+    "sensitive_found": [
+      {
+        "type": "card_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0376",
+    "kind": "message",
+    "timestamp": "2026-09-10 23:15:00",
+    "sender": "Ishaan",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "For today: Use password ****** to sign in to the test account.",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0385",
+    "kind": "message",
+    "timestamp": "2026-09-11 04:48:00",
+    "sender": "Aarav",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "My home address is ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0389",
+    "kind": "message",
+    "timestamp": "2026-09-11 07:16:00",
+    "sender": "Vikram",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "The temporary access token is ******.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0397",
+    "kind": "message",
+    "timestamp": "2026-09-11 12:12:00",
+    "sender": "Neha",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_bank_account_number"
+    ],
+    "masked_evidence": "Just checking—Please note my bank account number ***************.",
+    "sensitive_found": [
+      {
+        "type": "bank_account_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0403",
+    "kind": "message",
+    "timestamp": "2026-09-11 15:54:00",
+    "sender": "Kabir",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_recovery_code"
+    ],
+    "masked_evidence": "Quick update: My account recovery code is ******.",
+    "sensitive_found": [
+      {
+        "type": "recovery_code",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0411",
+    "kind": "message",
+    "timestamp": "2026-09-11 20:50:00",
+    "sender": "Maya",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_phone_number"
+    ],
+    "masked_evidence": "Please note: You can contact me on **************.",
+    "sensitive_found": [
+      {
+        "type": "private_phone_number",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0416",
+    "kind": "message",
+    "timestamp": "2026-09-11 23:55:00",
+    "sender": "Rohan",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "Please note: My recent test result says ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0419",
+    "kind": "message",
+    "timestamp": "2026-09-12 01:46:00",
+    "sender": "Meera",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_card_number"
+    ],
+    "masked_evidence": "Quick update: My card number is **********************.",
+    "sensitive_found": [
+      {
+        "type": "card_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0436",
+    "kind": "message",
+    "timestamp": "2026-09-12 12:15:00",
+    "sender": "Vikram",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "For today: The temporary access token is ******.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0471",
+    "kind": "message",
+    "timestamp": "2026-09-13 09:50:00",
+    "sender": "Ishaan",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "FYI: Use password ****** to sign in to the test account.",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0475",
+    "kind": "message",
+    "timestamp": "2026-09-13 12:18:00",
+    "sender": "Aarav",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "Just checking—My home address is ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0494",
+    "kind": "message",
+    "timestamp": "2026-09-14 00:01:00",
+    "sender": "Rohan",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "FYI: My recent test result says ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0496",
+    "kind": "message",
+    "timestamp": "2026-09-14 01:15:00",
+    "sender": "Tara",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_personal_identification_number"
+    ],
+    "masked_evidence": "Quick update: My identification number is ******.",
+    "sensitive_found": [
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0507",
+    "kind": "message",
+    "timestamp": "2026-09-14 08:02:00",
+    "sender": "Rohan",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "Important: My recent test result says ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0532",
+    "kind": "message",
+    "timestamp": "2026-09-14 23:27:00",
+    "sender": "Aarav",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "For today: My home address is ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0535",
+    "kind": "message",
+    "timestamp": "2026-09-15 01:18:00",
+    "sender": "Aarav",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "Please note: My home address is ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0539",
+    "kind": "message",
+    "timestamp": "2026-09-15 03:46:00",
+    "sender": "Aarav",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "FYI: My home address is ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0550",
+    "kind": "message",
+    "timestamp": "2026-09-15 10:33:00",
+    "sender": "Maya",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_phone_number"
+    ],
+    "masked_evidence": "One more thing: You can contact me on **************.",
+    "sensitive_found": [
+      {
+        "type": "private_phone_number",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0572",
+    "kind": "message",
+    "timestamp": "2026-09-16 00:07:00",
+    "sender": "Vikram",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "Can you help? The temporary access token is ******.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0576",
+    "kind": "message",
+    "timestamp": "2026-09-16 02:35:00",
+    "sender": "Tara",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_personal_identification_number"
+    ],
+    "masked_evidence": "Important: My identification number is ******.",
+    "sensitive_found": [
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0581",
+    "kind": "message",
+    "timestamp": "2026-09-16 05:40:00",
+    "sender": "Rohan",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "My recent test result says ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0591",
+    "kind": "message",
+    "timestamp": "2026-09-16 11:50:00",
+    "sender": "Vikram",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "Hi, The temporary access token is ******.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0595",
+    "kind": "message",
+    "timestamp": "2026-09-16 14:18:00",
+    "sender": "Ananya",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "Can you help? Your OTP is *********. It expires in 10 minutes.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0596",
+    "kind": "message",
+    "timestamp": "2026-09-16 14:55:00",
+    "sender": "Ananya",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "For today: Your OTP is *********. It expires in 10 minutes.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0604",
+    "kind": "message",
+    "timestamp": "2026-09-16 19:51:00",
+    "sender": "Ananya",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "FYI: Your OTP is *********. It expires in 10 minutes.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0610",
+    "kind": "message",
+    "timestamp": "2026-09-16 23:33:00",
+    "sender": "Meera",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_card_number"
+    ],
+    "masked_evidence": "Just checking—My card number is **********************.",
+    "sensitive_found": [
+      {
+        "type": "card_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0636",
+    "kind": "message",
+    "timestamp": "2026-09-17 15:35:00",
+    "sender": "Maya",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_phone_number"
+    ],
+    "masked_evidence": "Important: You can contact me on **************.",
+    "sensitive_found": [
+      {
+        "type": "private_phone_number",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0641",
+    "kind": "message",
+    "timestamp": "2026-09-17 18:40:00",
+    "sender": "Maya",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_phone_number"
+    ],
+    "masked_evidence": "Just checking—You can contact me on **************.",
+    "sensitive_found": [
+      {
+        "type": "private_phone_number",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0642",
+    "kind": "message",
+    "timestamp": "2026-09-17 19:17:00",
+    "sender": "Neha",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_bank_account_number"
+    ],
+    "masked_evidence": "Important: Please note my bank account number ***************.",
+    "sensitive_found": [
+      {
+        "type": "bank_account_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0649",
+    "kind": "message",
+    "timestamp": "2026-09-17 23:36:00",
+    "sender": "Meera",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_card_number"
+    ],
+    "masked_evidence": "Can you help? My card number is **********************.",
+    "sensitive_found": [
+      {
+        "type": "card_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0651",
+    "kind": "message",
+    "timestamp": "2026-09-18 00:50:00",
+    "sender": "Maya",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_phone_number"
+    ],
+    "masked_evidence": "For today: You can contact me on **************.",
+    "sensitive_found": [
+      {
+        "type": "private_phone_number",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0678",
+    "kind": "message",
+    "timestamp": "2026-09-18 17:29:00",
+    "sender": "Kabir",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_recovery_code"
+    ],
+    "masked_evidence": "For today: My account recovery code is ******.",
+    "sensitive_found": [
+      {
+        "type": "recovery_code",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0681",
+    "kind": "message",
+    "timestamp": "2026-09-18 19:20:00",
+    "sender": "Meera",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_card_number"
+    ],
+    "masked_evidence": "Important: My card number is **********************.",
+    "sensitive_found": [
+      {
+        "type": "card_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0684",
+    "kind": "message",
+    "timestamp": "2026-09-18 21:11:00",
+    "sender": "Meera",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_card_number"
+    ],
+    "masked_evidence": "For today: My card number is **********************.",
+    "sensitive_found": [
+      {
+        "type": "card_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0687",
+    "kind": "message",
+    "timestamp": "2026-09-18 23:02:00",
+    "sender": "Vikram",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "Important: The temporary access token is ******.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0695",
+    "kind": "message",
+    "timestamp": "2026-09-19 03:58:00",
+    "sender": "Maya",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_phone_number"
+    ],
+    "masked_evidence": "FYI: You can contact me on **************.",
+    "sensitive_found": [
+      {
+        "type": "private_phone_number",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0715",
+    "kind": "message",
+    "timestamp": "2026-09-19 16:18:00",
+    "sender": "Vikram",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "FYI: The temporary access token is ******.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0723",
+    "kind": "message",
+    "timestamp": "2026-09-19 21:14:00",
+    "sender": "Kabir",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_recovery_code"
+    ],
+    "masked_evidence": "Hi, My account recovery code is ******.",
+    "sensitive_found": [
+      {
+        "type": "recovery_code",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0726",
+    "kind": "message",
+    "timestamp": "2026-09-19 23:05:00",
+    "sender": "Tara",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_personal_identification_number"
+    ],
+    "masked_evidence": "FYI: My identification number is ******.",
+    "sensitive_found": [
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0727",
+    "kind": "message",
+    "timestamp": "2026-09-19 23:42:00",
+    "sender": "Ishaan",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "Just checking—Use password ****** to sign in to the test account.",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0739",
+    "kind": "message",
+    "timestamp": "2026-09-20 07:06:00",
+    "sender": "Rohan",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "Hi, My recent test result says ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0749",
+    "kind": "message",
+    "timestamp": "2026-09-20 13:16:00",
+    "sender": "Ishaan",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "Important: Use password ****** to sign in to the test account.",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0751",
+    "kind": "message",
+    "timestamp": "2026-09-20 14:30:00",
+    "sender": "Neha",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_bank_account_number"
+    ],
+    "masked_evidence": "Hi, Please note my bank account number ***************.",
+    "sensitive_found": [
+      {
+        "type": "bank_account_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0752",
+    "kind": "message",
+    "timestamp": "2026-09-20 15:07:00",
+    "sender": "Neha",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_bank_account_number"
+    ],
+    "masked_evidence": "Please note my bank account number ************.",
+    "sensitive_found": [
+      {
+        "type": "bank_account_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0753",
+    "kind": "message",
+    "timestamp": "2026-09-20 15:44:00",
+    "sender": "Kabir",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_recovery_code"
+    ],
+    "masked_evidence": "Can you help? My account recovery code is ******.",
+    "sensitive_found": [
+      {
+        "type": "recovery_code",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0763",
+    "kind": "message",
+    "timestamp": "2026-09-20 21:54:00",
+    "sender": "Tara",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_personal_identification_number"
+    ],
+    "masked_evidence": "Please note: My identification number is ******.",
+    "sensitive_found": [
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0772",
+    "kind": "message",
+    "timestamp": "2026-09-21 03:27:00",
+    "sender": "Rohan",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "For today: My recent test result says ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_0777",
+    "kind": "message",
+    "timestamp": "2026-09-21 06:32:00",
+    "sender": "Ishaan",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "One more thing: Use password ****** to sign in to the test account.",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0778",
+    "kind": "message",
+    "timestamp": "2026-09-21 07:09:00",
+    "sender": "Vikram",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "One more thing: The temporary access token is ******.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0791",
+    "kind": "message",
+    "timestamp": "2026-09-21 15:10:00",
+    "sender": "Ananya",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "Please note: Your OTP is *********. It expires in 10 minutes.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0802",
+    "kind": "message",
+    "timestamp": "2026-09-21 21:57:00",
+    "sender": "Aarav",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "One more thing: My home address is ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0803",
+    "kind": "message",
+    "timestamp": "2026-09-21 22:34:00",
+    "sender": "Meera",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_card_number"
+    ],
+    "masked_evidence": "Please note: My card number is **********************.",
+    "sensitive_found": [
+      {
+        "type": "card_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0804",
+    "kind": "message",
+    "timestamp": "2026-09-21 23:11:00",
+    "sender": "Maya",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_phone_number"
+    ],
+    "masked_evidence": "Hi, You can contact me on **************.",
+    "sensitive_found": [
+      {
+        "type": "private_phone_number",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_0812",
+    "kind": "message",
+    "timestamp": "2026-09-22 04:07:00",
+    "sender": "Meera",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_card_number"
+    ],
+    "masked_evidence": "My card number is *******************.",
+    "sensitive_found": [
+      {
+        "type": "card_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0813",
+    "kind": "message",
+    "timestamp": "2026-09-22 04:44:00",
+    "sender": "Meera",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_card_number"
+    ],
+    "masked_evidence": "FYI: My card number is **********************.",
+    "sensitive_found": [
+      {
+        "type": "card_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0834",
+    "kind": "message",
+    "timestamp": "2026-09-22 17:41:00",
+    "sender": "Ananya",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "Your OTP is ******. It expires in 10 minutes.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0848",
+    "kind": "message",
+    "timestamp": "2026-09-23 02:19:00",
+    "sender": "Neha",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_bank_account_number"
+    ],
+    "masked_evidence": "Quick update: Please note my bank account number ***************.",
+    "sensitive_found": [
+      {
+        "type": "bank_account_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0854",
+    "kind": "message",
+    "timestamp": "2026-09-23 06:01:00",
+    "sender": "Ananya",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "Hi, Your OTP is *********. It expires in 10 minutes.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0880",
+    "kind": "message",
+    "timestamp": "2026-09-23 22:03:00",
+    "sender": "Ananya",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "Important: Your OTP is *********. It expires in 10 minutes.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_0890",
+    "kind": "message",
+    "timestamp": "2026-09-24 04:13:00",
+    "sender": "Neha",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_bank_account_number"
+    ],
+    "masked_evidence": "One more thing: Please note my bank account number ***************.",
+    "sensitive_found": [
+      {
+        "type": "bank_account_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1036",
+    "kind": "message",
+    "timestamp": "2026-10-01 08:15:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "Your new OTP is ******. It expires shortly.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1037",
+    "kind": "message",
+    "timestamp": "2026-10-01 09:08:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "Use access token ****** for the integration.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1038",
+    "kind": "message",
+    "timestamp": "2026-10-01 10:01:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_card_number"
+    ],
+    "masked_evidence": "The test card number is *******************.",
+    "sensitive_found": [
+      {
+        "type": "card_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1039",
+    "kind": "message",
+    "timestamp": "2026-10-01 10:54:00",
+    "sender": "Private Message",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "Please deliver it to ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_1040",
+    "kind": "message",
+    "timestamp": "2026-10-01 11:47:00",
+    "sender": "Private Message",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_phone_number"
+    ],
+    "masked_evidence": "Call me on *********** after the meeting.",
+    "sensitive_found": [
+      {
+        "type": "private_phone_number",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_1041",
+    "kind": "message",
+    "timestamp": "2026-10-01 12:40:00",
+    "sender": "Private Message",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "My private medical note mentions ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_1042",
+    "kind": "message",
+    "timestamp": "2026-10-01 13:33:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "The temporary password is ******",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1044",
+    "kind": "message",
+    "timestamp": "2026-10-01 15:19:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_bank_account_number"
+    ],
+    "masked_evidence": "The sample bank account is ************.",
+    "sensitive_found": [
+      {
+        "type": "bank_account_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1045",
+    "kind": "message",
+    "timestamp": "2026-10-01 16:12:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_recovery_code"
+    ],
+    "masked_evidence": "Save recovery code ******.",
+    "sensitive_found": [
+      {
+        "type": "recovery_code",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1046",
+    "kind": "message",
+    "timestamp": "2026-10-01 17:05:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_one_time_password"
+    ],
+    "masked_evidence": "Follow-up: Your new OTP is ******-B. It expires shortly-B.",
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1047",
+    "kind": "message",
+    "timestamp": "2026-10-01 17:58:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_authentication_token"
+    ],
+    "masked_evidence": "Follow-up: Use access token ****** for the integration-B.",
+    "sensitive_found": [
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1048",
+    "kind": "message",
+    "timestamp": "2026-10-01 18:51:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_card_number"
+    ],
+    "masked_evidence": "Follow-up: The test card number is *******************-B.",
+    "sensitive_found": [
+      {
+        "type": "card_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1049",
+    "kind": "message",
+    "timestamp": "2026-10-01 19:44:00",
+    "sender": "Private Message",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_address"
+    ],
+    "masked_evidence": "Follow-up: Please deliver it to ******.",
+    "sensitive_found": [
+      {
+        "type": "private_address",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_1050",
+    "kind": "message",
+    "timestamp": "2026-10-01 20:37:00",
+    "sender": "Private Message",
+    "route": "process_locally",
+    "reason": "Contains low/medium-risk data that the policy marks as safe to process locally.",
+    "signals": [
+      "local_ok_private_phone_number"
+    ],
+    "masked_evidence": "Follow-up: Call me on *********** after the meeting-B.",
+    "sensitive_found": [
+      {
+        "type": "private_phone_number",
+        "risk": "medium",
+        "action": "safe_to_process_locally"
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "request_id": "MSG_1051",
+    "kind": "message",
+    "timestamp": "2026-10-01 21:30:00",
+    "sender": "Private Message",
+    "route": "ask_for_confirmation",
+    "reason": "Contains sensitive data whose policy requires explicit confirmation before processing.",
+    "signals": [
+      "needs_approval_health_information"
+    ],
+    "masked_evidence": "Follow-up: My private medical note mentions ******.",
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.85
+  },
+  {
+    "request_id": "MSG_1052",
+    "kind": "message",
+    "timestamp": "2026-10-01 22:23:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_password"
+    ],
+    "masked_evidence": "Follow-up: The temporary password is ******",
+    "sensitive_found": [
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1054",
+    "kind": "message",
+    "timestamp": "2026-10-02 00:09:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_bank_account_number"
+    ],
+    "masked_evidence": "Follow-up: The sample bank account is ************-B.",
+    "sensitive_found": [
+      {
+        "type": "bank_account_number",
+        "risk": "high",
+        "action": "do_not_send_to_external_service"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1055",
+    "kind": "message",
+    "timestamp": "2026-10-02 01:02:00",
+    "sender": "Private Message",
+    "route": "blocked",
+    "reason": "Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "signals": [
+      "high_risk_recovery_code"
+    ],
+    "masked_evidence": "Follow-up: Save recovery code ******-B.",
+    "sensitive_found": [
+      {
+        "type": "recovery_code",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.92
+  },
+  {
+    "request_id": "MSG_1056",
+    "kind": "message",
+    "timestamp": "2026-10-02 01:55:00",
+    "sender": "Neha",
+    "route": "ask_for_confirmation",
+    "reason": "The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "signals": [
+      "status_ambiguous"
+    ],
+    "masked_evidence": "The report might already be done, but I am not completely sure.",
+    "sensitive_found": [],
+    "confidence": 0.7
+  },
+  {
+    "request_id": "MSG_1057",
+    "kind": "message",
+    "timestamp": "2026-10-02 02:48:00",
+    "sender": "Rohan",
+    "route": "ask_for_confirmation",
+    "reason": "The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "signals": [
+      "status_ambiguous"
+    ],
+    "masked_evidence": "We may move the meeting, I will confirm later.",
+    "sensitive_found": [],
+    "confidence": 0.7
+  },
+  {
+    "request_id": "MSG_1059",
+    "kind": "message",
+    "timestamp": "2026-10-02 04:34:00",
+    "sender": "Ananya",
+    "route": "ask_for_confirmation",
+    "reason": "The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "signals": [
+      "status_ambiguous"
+    ],
+    "masked_evidence": "Maya said someone probably handled the task.",
+    "sensitive_found": [],
+    "confidence": 0.7
+  },
+  {
+    "request_id": "MSG_1061",
+    "kind": "message",
+    "timestamp": "2026-10-02 06:20:00",
+    "sender": "Aarav",
+    "route": "ask_for_confirmation",
+    "reason": "The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "signals": [
+      "status_ambiguous"
+    ],
+    "masked_evidence": "Follow-up: the report might already be done, but I am not completely sure.",
+    "sensitive_found": [],
+    "confidence": 0.7
+  },
+  {
+    "request_id": "MSG_1062",
+    "kind": "message",
+    "timestamp": "2026-10-02 07:13:00",
+    "sender": "Aarav",
+    "route": "ask_for_confirmation",
+    "reason": "The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "signals": [
+      "status_ambiguous"
+    ],
+    "masked_evidence": "Follow-up: we may move the meeting, I will confirm later.",
+    "sensitive_found": [],
+    "confidence": 0.7
+  },
+  {
+    "request_id": "MSG_1064",
+    "kind": "message",
+    "timestamp": "2026-10-02 08:59:00",
+    "sender": "Ananya",
+    "route": "ask_for_confirmation",
+    "reason": "The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "signals": [
+      "status_ambiguous"
+    ],
+    "masked_evidence": "Follow-up: maya said someone probably handled the task.",
+    "sensitive_found": [],
+    "confidence": 0.7
+  },
+  {
+    "request_id": "MSG_1066",
+    "kind": "message",
+    "timestamp": "2026-10-02 10:45:00",
+    "sender": "Neha",
+    "route": "ask_for_confirmation",
+    "reason": "The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "signals": [
+      "status_ambiguous"
+    ],
+    "masked_evidence": "Additional update: the report might already be done, but I am not completely sure.",
+    "sensitive_found": [],
+    "confidence": 0.7
+  },
+  {
+    "request_id": "MSG_1067",
+    "kind": "message",
+    "timestamp": "2026-10-02 11:38:00",
+    "sender": "Rohan",
+    "route": "ask_for_confirmation",
+    "reason": "The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "signals": [
+      "status_ambiguous"
+    ],
+    "masked_evidence": "Additional update: we may move the meeting, I will confirm later.",
+    "sensitive_found": [],
+    "confidence": 0.7
+  },
+  {
+    "request_id": "MSG_1069",
+    "kind": "message",
+    "timestamp": "2026-10-02 13:24:00",
+    "sender": "Ananya",
+    "route": "ask_for_confirmation",
+    "reason": "The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "signals": [
+      "status_ambiguous"
+    ],
+    "masked_evidence": "Additional update: maya said someone probably handled the task.",
+    "sensitive_found": [],
+    "confidence": 0.7
+  }
+]

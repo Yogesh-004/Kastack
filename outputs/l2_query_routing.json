@@ -1,0 +1,756 @@
+[
+  {
+    "request_id": "DQ01",
+    "kind": "query",
+    "query": "Which existing task became critical in the demo data?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "DEMO_005",
+      "DEMO_001",
+      "DEMO_011"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "3 item(s) were newly raised to critical or high priority.\n- Review the model results (TASK_008) became high via DEMO_005 (2026-10-04)\n- Confirm the interview slot (TASK_010) became critical via DEMO_001 (2026-10-04)\n- Latency-review (TASK_052) became high via DEMO_011 (2026-10-04)",
+    "supporting_message_ids": [
+      "DEMO_005",
+      "DEMO_001",
+      "DEMO_011"
+    ]
+  },
+  {
+    "request_id": "DQ02",
+    "kind": "query",
+    "query": "Which tasks or meetings were completed or cancelled?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "DEMO_008",
+      "DEMO_002",
+      "DEMO_003",
+      "DEMO_006"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "3 item(s) were completed or cancelled in the demo batch.\n- Team stand-up (TASK_009) — cancelled (last update 2026-10-04)\n- Email the signed document (TASK_011) — completed (last update 2026-10-04)\n- Update the project tracker (TASK_012) — cancelled (last update 2026-10-04)",
+    "supporting_message_ids": [
+      "DEMO_008",
+      "DEMO_002",
+      "DEMO_003",
+      "DEMO_006"
+    ]
+  },
+  {
+    "request_id": "DQ03",
+    "kind": "query",
+    "query": "Which meeting was rescheduled and what is its latest schedule?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "DEMO_007",
+      "DEMO_009"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "1 rescheduled item(s).\n- Internship orientation → latest schedule 2026-10-07 17:30 (rescheduled via DEMO_007, DEMO_009)",
+    "supporting_message_ids": [
+      "DEMO_007",
+      "DEMO_009"
+    ]
+  },
+  {
+    "request_id": "DQ04",
+    "kind": "query",
+    "query": "Which messages contain conflicting or uncertain deadlines?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "MSG_0974",
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "DEMO_006",
+      "DEMO_022",
+      "DEMO_023"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "3 item(s) carry conflicting instructions.\n- Review the model results: conflicting messages MSG_0974\n- Confirm the interview slot: conflicting messages MSG_0972, MSG_0976, MSG_0982\n- Update the project tracker: conflicting messages DEMO_006\n- (ambiguous notice) DEMO_022: Could not be tied to a known task/event; treated as an ambiguous or informational notice.\n- (ambiguous notice) DEMO_023: Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "supporting_message_ids": [
+      "MSG_0974",
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "DEMO_006",
+      "DEMO_022",
+      "DEMO_023"
+    ]
+  },
+  {
+    "request_id": "DQ05",
+    "kind": "query",
+    "query": "Which demo messages must be blocked from external processing?",
+    "route": "blocked",
+    "reason": "Answering would require processing high-risk secret values; the request is blocked.",
+    "signals": [
+      "evidence_high_risk"
+    ],
+    "masked_evidence": [
+      "DEMO_012",
+      "DEMO_013",
+      "DEMO_024"
+    ],
+    "sensitive_found": [
+      {
+        "type": "one_time_password",
+        "risk": "high",
+        "action": "do_not_store"
+      },
+      {
+        "type": "password",
+        "risk": "high",
+        "action": "do_not_store"
+      },
+      {
+        "type": "authentication_token",
+        "risk": "high",
+        "action": "do_not_store"
+      }
+    ],
+    "confidence": 0.88,
+    "final_answer": "Privacy route: this request was blocked from any external processing; the answer below uses masked evidence only. 3 request(s) blocked from external processing.\n- DEMO_012: Contains a high-risk secret value; it must not be sent to any external service or stored.\n- DEMO_013: Contains a high-risk secret value; it must not be sent to any external service or stored.\n- DEMO_024: Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "supporting_message_ids": [
+      "DEMO_012",
+      "DEMO_013",
+      "DEMO_024"
+    ]
+  },
+  {
+    "request_id": "DQ06",
+    "kind": "query",
+    "query": "Which message requires confirmation before processing?",
+    "route": "ask_for_confirmation",
+    "reason": "Answering touches data that requires explicit confirmation.",
+    "signals": [
+      "evidence_needs_approval"
+    ],
+    "masked_evidence": [
+      "DEMO_015",
+      "DEMO_016",
+      "DEMO_017",
+      "DEMO_023"
+    ],
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.82,
+    "final_answer": "4 request(s) require confirmation before processing.\n- DEMO_015: Contains sensitive data whose policy requires explicit confirmation before processing.\n- DEMO_016: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- DEMO_017: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- DEMO_023: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "supporting_message_ids": [
+      "DEMO_015",
+      "DEMO_016",
+      "DEMO_017",
+      "DEMO_023"
+    ]
+  },
+  {
+    "request_id": "DQ07",
+    "kind": "query",
+    "query": "What is the latest status of the task referenced by DEMO_016?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "MSG_1002",
+      "DEMO_001",
+      "DEMO_016"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "Confirm the interview slot (TASK_010) — status 'unclear'. Priority: critical. Latest deadline: unresolved. Latest status event: DEMO_016 (unclear).",
+    "supporting_message_ids": [
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "MSG_1002",
+      "DEMO_001",
+      "DEMO_016"
+    ]
+  },
+  {
+    "request_id": "DQ08",
+    "kind": "query",
+    "query": "Was the compliance form approved by the finance director?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "MSG_0035",
+      "MSG_0045",
+      "MSG_0060"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "No approved status is recorded: the closest item 'Complete the onboarding form' has status 'in_progress' and none of its messages states an approval.",
+    "supporting_message_ids": [
+      "MSG_0035",
+      "MSG_0045",
+      "MSG_0060"
+    ]
+  },
+  {
+    "request_id": "SQ01",
+    "kind": "query",
+    "query": "What tasks should I complete today?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "MSG_0003",
+      "MSG_0122",
+      "MSG_0124",
+      "MSG_0135",
+      "MSG_0249",
+      "MSG_0294",
+      "MSG_0488",
+      "MSG_0719",
+      "MSG_0861",
+      "MSG_0866",
+      "MSG_0952",
+      "MSG_0969"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "Tasks to focus on today:\n- Mentor catch-up (TASK_003) priority low (due)\n- Confirm the interview slot (TASK_010) priority critical (critical)",
+    "supporting_message_ids": [
+      "MSG_0003",
+      "MSG_0122",
+      "MSG_0124",
+      "MSG_0135",
+      "MSG_0249",
+      "MSG_0294",
+      "MSG_0488",
+      "MSG_0719",
+      "MSG_0861",
+      "MSG_0866",
+      "MSG_0952",
+      "MSG_0969"
+    ]
+  },
+  {
+    "request_id": "SQ02",
+    "kind": "query",
+    "query": "Which critical or high-priority tasks are still pending?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "MSG_0027",
+      "MSG_0171",
+      "MSG_0195",
+      "MSG_0220",
+      "MSG_0314",
+      "MSG_0335",
+      "MSG_0480",
+      "MSG_0527",
+      "MSG_0557",
+      "MSG_0617",
+      "MSG_0906",
+      "MSG_0926"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "9 pending item(s) are critical/high priority.\n- Confirm the interview slot (TASK_010) — status 'unclear', priority 'critical', deadline unresolved\n- Complete the onboarding form (TASK_014) — status 'in_progress', priority 'critical', deadline 2026-09-06\n- Share the notes (TASK_033) — status 'in_progress', priority 'critical', deadline 2026-09-02\n- Prepare the demo video (TASK_029) — status 'pending', priority 'critical', deadline 2026-09-07\n- Review the model results (TASK_008) — status 'in_progress', priority 'high', deadline 2026-10-04\n- Prepare the offline inference demo (TASK_041) — status 'pending', priority 'high', deadline 2026-09-30",
+    "supporting_message_ids": [
+      "MSG_0027",
+      "MSG_0171",
+      "MSG_0195",
+      "MSG_0220",
+      "MSG_0314",
+      "MSG_0335",
+      "MSG_0480",
+      "MSG_0527",
+      "MSG_0557",
+      "MSG_0617",
+      "MSG_0906",
+      "MSG_0926"
+    ]
+  },
+  {
+    "request_id": "SQ03",
+    "kind": "query",
+    "query": "Show all messages related to the project report.",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "MSG_0160",
+      "MSG_0208",
+      "MSG_0369",
+      "MSG_0379",
+      "MSG_0530",
+      "MSG_0547",
+      "MSG_0552",
+      "MSG_0639",
+      "MSG_0730",
+      "MSG_0824",
+      "MSG_0978"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "Group 'Submit the weekly report' (GROUP_032): 11 messages, status 'pending', latest deadline unknown.",
+    "supporting_message_ids": [
+      "MSG_0160",
+      "MSG_0208",
+      "MSG_0369",
+      "MSG_0379",
+      "MSG_0530",
+      "MSG_0547",
+      "MSG_0552",
+      "MSG_0639",
+      "MSG_0730",
+      "MSG_0824",
+      "MSG_0978"
+    ]
+  },
+  {
+    "request_id": "SQ04",
+    "kind": "query",
+    "query": "What meetings were rescheduled?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "MSG_0956",
+      "MSG_0951",
+      "MSG_0958",
+      "MSG_0960",
+      "MSG_0957",
+      "MSG_0961",
+      "MSG_0963",
+      "MSG_0962",
+      "MSG_0964",
+      "MSG_0959",
+      "MSG_0965",
+      "MSG_0967"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "13 rescheduled item(s).\n- Join the study-group on , at google meet → latest schedule 2026-10-04 15:00 (rescheduled via MSG_0956)\n- Family dinner → latest schedule 2026-10-06 10:00 (rescheduled via MSG_0951, MSG_0958)\n- Doctor appointment → latest schedule 2026-10-08 12:00 (rescheduled via MSG_0960)\n- The client discussion → latest schedule 2026-10-09 13:00 (rescheduled via MSG_0957, MSG_0961)\n- The project review → latest schedule 2026-09-29 15:00 (rescheduled via MSG_0963)\n- Join the ai workshop on , at google meet → latest schedule 2026-09-30 16:00 (rescheduled via MSG_0962, MSG_0964)\n- The product demo → latest schedule 2026-10-01 10:00 (rescheduled via MSG_0959, MSG_0965)\n- Sprint planning → latest schedule 2026-10-03 12:00 (rescheduled via MSG_0967)",
+    "supporting_message_ids": [
+      "MSG_0956",
+      "MSG_0951",
+      "MSG_0958",
+      "MSG_0960",
+      "MSG_0957",
+      "MSG_0961",
+      "MSG_0963",
+      "MSG_0962",
+      "MSG_0964",
+      "MSG_0959",
+      "MSG_0965",
+      "MSG_0967"
+    ]
+  },
+  {
+    "request_id": "SQ05",
+    "kind": "query",
+    "query": "Which tasks have been completed?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "MSG_0028"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "1 completed item(s).\n- Email the signed document (TASK_011)",
+    "supporting_message_ids": [
+      "MSG_0028"
+    ]
+  },
+  {
+    "request_id": "SQ06",
+    "kind": "query",
+    "query": "What is the latest status of the interview slot?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "MSG_1002",
+      "DEMO_001",
+      "DEMO_016"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "Confirm the interview slot (TASK_010) — status 'unclear'. Priority: critical. Latest deadline: unresolved. Latest status event: DEMO_016 (unclear).",
+    "supporting_message_ids": [
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "MSG_1002",
+      "DEMO_001",
+      "DEMO_016"
+    ]
+  },
+  {
+    "request_id": "SQ07",
+    "kind": "query",
+    "query": "Which messages require confirmation?",
+    "route": "ask_for_confirmation",
+    "reason": "Answering touches data that requires explicit confirmation.",
+    "signals": [
+      "evidence_needs_approval"
+    ],
+    "masked_evidence": [
+      "MSG_0018",
+      "MSG_0053",
+      "MSG_0078",
+      "MSG_0106",
+      "MSG_0118",
+      "MSG_0187",
+      "MSG_0229",
+      "MSG_0264",
+      "MSG_0347",
+      "MSG_0349",
+      "MSG_0416",
+      "MSG_0494",
+      "MSG_0496",
+      "MSG_0507",
+      "MSG_0576",
+      "MSG_0581",
+      "MSG_0726",
+      "MSG_0739",
+      "MSG_0763",
+      "MSG_0772",
+      "MSG_1041",
+      "MSG_1051",
+      "MSG_1056",
+      "MSG_1057",
+      "MSG_1059",
+      "MSG_1061",
+      "MSG_1062",
+      "MSG_1064",
+      "MSG_1066",
+      "MSG_1067",
+      "MSG_1069",
+      "DEMO_015",
+      "DEMO_016",
+      "DEMO_017",
+      "DEMO_023"
+    ],
+    "sensitive_found": [
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "personal_identification_number",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      },
+      {
+        "type": "health_information",
+        "risk": "medium",
+        "action": "ask_for_confirmation"
+      }
+    ],
+    "confidence": 0.82,
+    "final_answer": "35 request(s) require confirmation before processing.\n- MSG_0018: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0053: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0078: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0106: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0118: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0187: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0229: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0264: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0347: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0349: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0416: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0494: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0496: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0507: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0576: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0581: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0726: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0739: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0763: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0772: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_1041: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_1051: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_1056: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1057: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1059: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1061: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1062: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1064: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1066: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1067: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1069: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- DEMO_015: Contains sensitive data whose policy requires explicit confirmation before processing.\n- DEMO_016: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- DEMO_017: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- DEMO_023: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "supporting_message_ids": [
+      "MSG_0018",
+      "MSG_0053",
+      "MSG_0078",
+      "MSG_0106",
+      "MSG_0118",
+      "MSG_0187",
+      "MSG_0229",
+      "MSG_0264",
+      "MSG_0347",
+      "MSG_0349",
+      "MSG_0416",
+      "MSG_0494",
+      "MSG_0496",
+      "MSG_0507",
+      "MSG_0576",
+      "MSG_0581",
+      "MSG_0726",
+      "MSG_0739",
+      "MSG_0763",
+      "MSG_0772",
+      "MSG_1041",
+      "MSG_1051",
+      "MSG_1056",
+      "MSG_1057",
+      "MSG_1059",
+      "MSG_1061",
+      "MSG_1062",
+      "MSG_1064",
+      "MSG_1066",
+      "MSG_1067",
+      "MSG_1069",
+      "DEMO_015",
+      "DEMO_016",
+      "DEMO_017",
+      "DEMO_023"
+    ]
+  },
+  {
+    "request_id": "SQ08",
+    "kind": "query",
+    "query": "Why was the confirm the interview slot marked critical?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "DEMO_001"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "Item 'Confirm the interview slot' (TASK_010) was marked priority 'critical' by DEMO_001 because: Priority critical: deadline is near ('tomorrow', relative to the message time); message marks the item as urgent; item has received 3 follow-up messages; a later message may update it.",
+    "supporting_message_ids": [
+      "DEMO_001"
+    ]
+  },
+  {
+    "request_id": "SQ09",
+    "kind": "query",
+    "query": "What deadlines have changed?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "DEMO_007",
+      "DEMO_007",
+      "DEMO_011",
+      "DEMO_011"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "23 item(s) had their deadline changed.\n- Family dinner: None->2026-09-29 (MSG_0951); None->10:00 (MSG_0951); 2026-09-29->2026-10-06 (MSG_0958)\n- Mentor catch-up: None->11:00 (MSG_0952); 2026-09-30->2026-10-05 (MSG_0969); None->14:00 (MSG_0969)\n- Review the model results: None->2026-10-04 (MSG_1020); None->14:00 (MSG_1020)\n- Team stand-up: None->2026-10-02 (MSG_0954); None->13:00 (MSG_0954)\n- Complete the onboarding form: 2026-09-03->2026-09-05 (MSG_0551); 2026-09-05->2026-09-04 (MSG_0585); 2026-09-04->2026-09-06 (MSG_0624)\n- Join the study-group on , at google meet: None->2026-10-04 (MSG_0956); None->15:00 (MSG_0956)\n- The client discussion: None->16:00 (MSG_0957); 2026-10-05->2026-10-09 (MSG_0961); None->13:00 (MSG_0961)\n- The product demo: 2026-09-12->2026-10-07 (MSG_0959); 2026-10-07->2026-10-01 (MSG_0965); None->10:00 (MSG_0965)\n- Doctor appointment: None->2026-10-08 (MSG_0960); None->12:00 (MSG_0960)\n- The project review: None->09:00 (MSG_0792); 2026-09-02->2026-09-29 (MSG_0963); None->15:00 (MSG_0963)\n- Join the ai workshop on , at google meet: None->14:00 (MSG_0962); 2026-10-10->2026-09-30 (MSG_0964); None->16:00 (MSG_0964)\n- Placement briefing: None->11:00 (MSG_0966); 2026-10-02->2026-10-06 (MSG_0970); None->15:00 (MSG_0970)",
+    "supporting_message_ids": [
+      "DEMO_007",
+      "DEMO_007",
+      "DEMO_011",
+      "DEMO_011"
+    ]
+  },
+  {
+    "request_id": "SQ10",
+    "kind": "query",
+    "query": "Are there any conflicting messages about the same event?",
+    "route": "process_locally",
+    "reason": "The evidence contains no high-risk or approval-required data; safe to process locally.",
+    "signals": [
+      "evidence_safe"
+    ],
+    "masked_evidence": [
+      "MSG_0980",
+      "MSG_0990",
+      "MSG_0986",
+      "MSG_0974",
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "DEMO_006",
+      "MSG_0988",
+      "MSG_0984",
+      "MSG_0978",
+      "MSG_1058",
+      "MSG_1063",
+      "MSG_1068",
+      "MSG_0008",
+      "MSG_0026",
+      "MSG_0052",
+      "MSG_0061",
+      "MSG_0071"
+    ],
+    "sensitive_found": [],
+    "confidence": 0.72,
+    "final_answer": "10 item(s) carry conflicting instructions.\n- Review the privacy checklist: conflicting messages MSG_0980\n- Pay the electricity bill: conflicting messages MSG_0990\n- Renew the library book: conflicting messages MSG_0986\n- Review the model results: conflicting messages MSG_0974\n- Confirm the interview slot: conflicting messages MSG_0972, MSG_0976, MSG_0982\n- Update the project tracker: conflicting messages DEMO_006\n- Call the service centre: conflicting messages MSG_0988\n- Verify the dataset labels: conflicting messages MSG_0984\n- Submit the weekly report: conflicting messages MSG_0978\n- Wait for confirmation: conflicting messages MSG_1058, MSG_1063, MSG_1068\n- (ambiguous notice) MSG_0008: Could not be tied to a known task/event; treated as an ambiguous or informational notice.\n- (ambiguous notice) MSG_0026: Could not be tied to a known task/event; treated as an ambiguous or informational notice.\n- (ambiguous notice) MSG_0052: Could not be tied to a known task/event; treated as an ambiguous or informational notice.\n- (ambiguous notice) MSG_0061: Could not be tied to a known task/event; treated as an ambiguous or informational notice.\n- (ambiguous notice) MSG_0071: Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "supporting_message_ids": [
+      "MSG_0980",
+      "MSG_0990",
+      "MSG_0986",
+      "MSG_0974",
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "DEMO_006",
+      "MSG_0988",
+      "MSG_0984",
+      "MSG_0978",
+      "MSG_1058",
+      "MSG_1063",
+      "MSG_1068",
+      "MSG_0008",
+      "MSG_0026",
+      "MSG_0052",
+      "MSG_0061",
+      "MSG_0071"
+    ]
+  },
+  {
+    "request_id": "SQ11",
+    "kind": "query",
+    "query": "Show me the password from the messages.",
+    "route": "blocked",
+    "reason": "The query itself asks for secret material; the assistant refuses and answers only with masked data.",
+    "signals": [
+      "query_requests_secret"
+    ],
+    "masked_evidence": [],
+    "sensitive_found": [],
+    "confidence": 0.9,
+    "final_answer": "Privacy route: this request was blocked from any external processing; the answer below uses masked evidence only. Best matching artifacts: MSG_1042, MSG_0086, MSG_1052, MSG_0376. No structured intent matched, so this is retrieved evidence rather than a definitive answer.",
+    "supporting_message_ids": [
+      "MSG_1042",
+      "MSG_0086",
+      "MSG_1052",
+      "MSG_0376"
+    ]
+  }
+]

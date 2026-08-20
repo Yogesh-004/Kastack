@@ -1,0 +1,178 @@
+[
+  {
+    "message_id": "DEMO_001",
+    "item_id": "TASK_010",
+    "priority": "critical",
+    "reason": "Priority critical: deadline is near ('tomorrow', relative to the message time); message marks the item as urgent; item has received 3 follow-up messages; a later message may update it.",
+    "signals": [
+      "follow_up",
+      "deadline_tomorrow",
+      "urgent",
+      "repeated_followups"
+    ],
+    "confidence": 0.93
+  },
+  {
+    "message_id": "DEMO_002",
+    "item_id": "TASK_011",
+    "priority": "low",
+    "reason": "The message confirms the item as completed; no further action is required, so the priority is low.",
+    "signals": [
+      "status_completed",
+      "no_action_needed"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "message_id": "DEMO_003",
+    "item_id": "TASK_012",
+    "priority": "low",
+    "reason": "The message confirms the item as cancelled; no further action is required, so the priority is low.",
+    "signals": [
+      "status_cancelled",
+      "no_action_needed"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "message_id": "DEMO_004",
+    "item_id": "TASK_013",
+    "priority": "medium",
+    "reason": "Priority medium: message explicitly requests a response; item has received 5 follow-up messages; a later message may update it. Priority unchanged since the previous decision.",
+    "signals": [
+      "follow_up",
+      "response_required",
+      "repeated_followups",
+      "priority_persisted"
+    ],
+    "confidence": 0.75
+  },
+  {
+    "message_id": "DEMO_005",
+    "item_id": "TASK_008",
+    "priority": "high",
+    "reason": "Priority high: deadline is today; message explicitly requests a response; item has received 3 follow-up messages; a later message may update it.",
+    "signals": [
+      "follow_up",
+      "deadline_today",
+      "response_required",
+      "repeated_followups"
+    ],
+    "confidence": 0.93
+  },
+  {
+    "message_id": "DEMO_006",
+    "item_id": "TASK_012",
+    "priority": "medium",
+    "reason": "Priority medium: message contradicts an earlier deadline; item has received 14 follow-up messages; a later message may update it.",
+    "signals": [
+      "deadline_conflict",
+      "repeated_followups"
+    ],
+    "confidence": 0.75
+  },
+  {
+    "message_id": "DEMO_007",
+    "item_id": "TASK_040",
+    "priority": "medium",
+    "reason": "Priority medium: deadline in 3 day(s); a later message may update it.",
+    "signals": [
+      "deadline_within_7_days"
+    ],
+    "confidence": 0.77
+  },
+  {
+    "message_id": "DEMO_008",
+    "item_id": "TASK_009",
+    "priority": "low",
+    "reason": "The message confirms the item as cancelled; no further action is required, so the priority is low.",
+    "signals": [
+      "status_cancelled",
+      "no_action_needed"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "message_id": "DEMO_009",
+    "item_id": "TASK_040",
+    "priority": "medium",
+    "reason": "Priority medium: deadline in 3 day(s); a later message may update it. Priority unchanged since the previous decision.",
+    "signals": [
+      "deadline_within_7_days",
+      "priority_persisted"
+    ],
+    "confidence": 0.77
+  },
+  {
+    "message_id": "DEMO_010",
+    "item_id": "TASK_051",
+    "priority": "medium",
+    "reason": "Priority medium: authoritative sender (Project Lead); a later message may update it.",
+    "signals": [
+      "new_item",
+      "sender_authority"
+    ],
+    "confidence": 0.67
+  },
+  {
+    "message_id": "DEMO_011",
+    "item_id": "TASK_052",
+    "priority": "high",
+    "reason": "Priority high: deadline in 4 day(s); authoritative sender (Mentor); a later message may update it.",
+    "signals": [
+      "new_item",
+      "deadline_within_7_days",
+      "sender_authority"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "message_id": "DEMO_016",
+    "item_id": "TASK_010",
+    "priority": "critical",
+    "reason": "Priority critical: item has received 3 follow-up messages; status is uncertain; no urgency change was stated, so the existing priority is kept; a later message may update it. Priority unchanged since the previous decision.",
+    "signals": [
+      "repeated_followups",
+      "uncertainty_keeps_priority",
+      "priority_persisted"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "message_id": "DEMO_017",
+    "item_id": "TASK_040",
+    "priority": "medium",
+    "reason": "Priority medium: deadline in 3 day(s); status is uncertain; no urgency change was stated, so the existing priority is kept; a later message may update it. Priority unchanged since the previous decision.",
+    "signals": [
+      "deadline_within_7_days",
+      "uncertainty_keeps_priority",
+      "priority_persisted"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "message_id": "DEMO_020",
+    "item_id": "TASK_013",
+    "priority": "low",
+    "reason": "Priority low: deadline was extended; item has received 5 follow-up messages; a later message may update it.",
+    "signals": [
+      "follow_up",
+      "deadline_extended",
+      "repeated_followups"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "message_id": "DEMO_021",
+    "item_id": "TASK_014",
+    "priority": "critical",
+    "reason": "Priority critical: deadline 2026-09-06 has already passed 28 day(s) ago; item has received 6 follow-up messages; a later message may update it. Priority unchanged since the previous decision.",
+    "signals": [
+      "follow_up",
+      "overdue",
+      "repeated_followups",
+      "priority_persisted"
+    ],
+    "confidence": 0.85
+  }
+]

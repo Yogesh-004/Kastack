@@ -1,0 +1,5611 @@
+[
+  {
+    "item_id": "TASK_001",
+    "type": "task",
+    "key": "family dinner",
+    "title": "Family dinner",
+    "status": "rescheduled",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0275",
+        "timestamp": "2026-09-08 08:58:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0435",
+        "timestamp": "2026-09-12 11:38:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0479",
+        "timestamp": "2026-09-13 14:46:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0603",
+        "timestamp": "2026-09-16 19:14:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0646",
+        "timestamp": "2026-09-17 21:45:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0697",
+        "timestamp": "2026-09-19 05:12:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0797",
+        "timestamp": "2026-09-21 18:52:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0845",
+        "timestamp": "2026-09-23 00:28:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0951",
+        "timestamp": "2026-09-28 05:10:00",
+        "reason": "Event/meeting rescheduled by this message."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0958",
+        "timestamp": "2026-09-28 11:21:00",
+        "reason": "Event/meeting rescheduled by this message."
+      }
+    ],
+    "latest_deadline": "2026-10-06",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-09-29",
+        "message_id": "MSG_0951",
+        "timestamp": "2026-09-28 05:10:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "10:00",
+        "kind": "time",
+        "message_id": "MSG_0951",
+        "timestamp": "2026-09-28 05:10:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-29",
+        "to": "2026-10-06",
+        "message_id": "MSG_0958",
+        "timestamp": "2026-09-28 11:21:00",
+        "note": "Schedule date updated."
+      }
+    ],
+    "latest_time": "10:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0001",
+        "timestamp": "2026-09-01 08:00:00",
+        "priority": "high",
+        "signals": [
+          "new_item",
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0043",
+        "timestamp": "2026-09-02 09:54:00",
+        "priority": "low",
+        "signals": [
+          "follow_up"
+        ]
+      },
+      {
+        "message_id": "MSG_0603",
+        "timestamp": "2026-09-16 19:14:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0951",
+        "timestamp": "2026-09-28 05:10:00",
+        "priority": "high",
+        "signals": [
+          "follow_up",
+          "deadline_tomorrow",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0958",
+        "timestamp": "2026-09-28 11:21:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "deadline_within_14_days",
+          "repeated_followups"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0001",
+      "MSG_0043",
+      "MSG_0275",
+      "MSG_0435",
+      "MSG_0479",
+      "MSG_0603",
+      "MSG_0646",
+      "MSG_0697",
+      "MSG_0797",
+      "MSG_0845",
+      "MSG_0951",
+      "MSG_0958"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0001",
+    "followup_count": 9,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-01 08:00:00",
+    "last_update": "2026-09-28 11:21:00"
+  },
+  {
+    "item_id": "TASK_002",
+    "type": "task",
+    "key": "review the privacy checklist",
+    "title": "Review the privacy checklist",
+    "status": "in_progress",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0915",
+        "timestamp": "2026-09-26 21:22:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0921",
+        "timestamp": "2026-09-27 02:40:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      }
+    ],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0002",
+        "timestamp": "2026-09-01 08:37:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0215",
+        "timestamp": "2026-09-06 19:58:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0481",
+        "timestamp": "2026-09-13 16:00:00",
+        "priority": "low",
+        "signals": []
+      },
+      {
+        "message_id": "MSG_0921",
+        "timestamp": "2026-09-27 02:40:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "response_required",
+          "repeated_followups"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0002",
+      "MSG_0058",
+      "MSG_0215",
+      "MSG_0481",
+      "MSG_0487",
+      "MSG_0569",
+      "MSG_0578",
+      "MSG_0621",
+      "MSG_0653",
+      "MSG_0893",
+      "MSG_0901",
+      "MSG_0915",
+      "MSG_0921",
+      "MSG_0980"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0002",
+    "followup_count": 3,
+    "notes": [],
+    "conflicts": [
+      {
+        "message_id": "MSG_0980",
+        "timestamp": "2026-09-29 06:47:00",
+        "type": "conflicting_instruction",
+        "notes": "Please note that review the privacy checklist is due on 2026-09-30, although the earlier m."
+      }
+    ],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-01 08:37:00",
+    "last_update": "2026-09-29 06:47:00"
+  },
+  {
+    "item_id": "TASK_003",
+    "type": "task",
+    "key": "mentor catch-up",
+    "title": "Mentor catch-up",
+    "status": "rescheduled",
+    "status_history": [
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0952",
+        "timestamp": "2026-09-28 06:03:00",
+        "reason": "Event/meeting rescheduled by this message."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0969",
+        "timestamp": "2026-09-28 21:04:00",
+        "reason": "Event/meeting rescheduled by this message."
+      }
+    ],
+    "latest_deadline": "2026-10-05",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-09-30",
+        "message_id": "MSG_0952",
+        "timestamp": "2026-09-28 06:03:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "11:00",
+        "kind": "time",
+        "message_id": "MSG_0952",
+        "timestamp": "2026-09-28 06:03:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-30",
+        "to": "2026-10-05",
+        "message_id": "MSG_0969",
+        "timestamp": "2026-09-28 21:04:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "14:00",
+        "kind": "time",
+        "message_id": "MSG_0969",
+        "timestamp": "2026-09-28 21:04:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "14:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0003",
+        "timestamp": "2026-09-01 09:14:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0488",
+        "timestamp": "2026-09-13 20:19:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0719",
+        "timestamp": "2026-09-19 18:46:00",
+        "priority": "low",
+        "signals": []
+      },
+      {
+        "message_id": "MSG_0952",
+        "timestamp": "2026-09-28 06:03:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0969",
+        "timestamp": "2026-09-28 21:04:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0003",
+      "MSG_0122",
+      "MSG_0124",
+      "MSG_0135",
+      "MSG_0249",
+      "MSG_0294",
+      "MSG_0488",
+      "MSG_0719",
+      "MSG_0861",
+      "MSG_0866",
+      "MSG_0952",
+      "MSG_0969"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0003",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-01 09:14:00",
+    "last_update": "2026-09-28 21:04:00"
+  },
+  {
+    "item_id": "TASK_004",
+    "type": "task",
+    "key": "reply to the client email",
+    "title": "Reply to the client email",
+    "status": "in_progress",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0922",
+        "timestamp": "2026-09-27 03:33:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0994",
+        "timestamp": "2026-09-29 19:09:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0997",
+        "timestamp": "2026-09-29 21:48:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_1009",
+        "timestamp": "2026-09-30 08:24:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_1012",
+        "timestamp": "2026-09-30 11:03:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      }
+    ],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0007",
+        "timestamp": "2026-09-01 11:42:00",
+        "priority": "high",
+        "signals": [
+          "new_item",
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0287",
+        "timestamp": "2026-09-08 16:22:00",
+        "priority": "low",
+        "signals": []
+      },
+      {
+        "message_id": "MSG_0994",
+        "timestamp": "2026-09-29 19:09:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "response_required",
+          "repeated_followups"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0007",
+      "MSG_0287",
+      "MSG_0301",
+      "MSG_0365",
+      "MSG_0366",
+      "MSG_0418",
+      "MSG_0451",
+      "MSG_0779",
+      "MSG_0784",
+      "MSG_0853",
+      "MSG_0902",
+      "MSG_0922",
+      "MSG_0994",
+      "MSG_0997",
+      "MSG_1009",
+      "MSG_1012"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0007",
+    "followup_count": 6,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-01 11:42:00",
+    "last_update": "2026-09-30 11:03:00"
+  },
+  {
+    "item_id": "TASK_005",
+    "type": "task",
+    "key": "pay the electricity bill",
+    "title": "Pay the electricity bill",
+    "status": "in_progress",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0923",
+        "timestamp": "2026-09-27 04:26:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      }
+    ],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0010",
+        "timestamp": "2026-09-01 13:33:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0265",
+        "timestamp": "2026-09-08 02:48:00",
+        "priority": "low",
+        "signals": [
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0620",
+        "timestamp": "2026-09-17 05:43:00",
+        "priority": "high",
+        "signals": [
+          "deadline_today_relative",
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0667",
+        "timestamp": "2026-09-18 10:42:00",
+        "priority": "low",
+        "signals": [
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0990",
+        "timestamp": "2026-09-29 15:37:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_conflict",
+          "repeated_followups"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0010",
+      "MSG_0265",
+      "MSG_0339",
+      "MSG_0536",
+      "MSG_0614",
+      "MSG_0620",
+      "MSG_0667",
+      "MSG_0743",
+      "MSG_0754",
+      "MSG_0809",
+      "MSG_0903",
+      "MSG_0923",
+      "MSG_0990"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0010",
+    "followup_count": 2,
+    "notes": [],
+    "conflicts": [
+      {
+        "message_id": "MSG_0990",
+        "timestamp": "2026-09-29 15:37:00",
+        "type": "conflicting_instruction",
+        "notes": "Please note that pay the electricity bill is due on 2026-09-28, although the earlier messa."
+      }
+    ],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-01 13:33:00",
+    "last_update": "2026-09-29 15:37:00"
+  },
+  {
+    "item_id": "TASK_006",
+    "type": "task",
+    "key": "join the internship orientation on , at conference room 2",
+    "title": "Join the internship orientation on , at conference room 2",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0011",
+        "timestamp": "2026-09-01 14:10:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0311",
+        "timestamp": "2026-09-09 07:10:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0430",
+        "timestamp": "2026-09-12 08:33:00",
+        "priority": "low",
+        "signals": []
+      },
+      {
+        "message_id": "MSG_0683",
+        "timestamp": "2026-09-18 20:34:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0747",
+        "timestamp": "2026-09-20 12:02:00",
+        "priority": "low",
+        "signals": []
+      }
+    ],
+    "message_ids": [
+      "MSG_0011",
+      "MSG_0034",
+      "MSG_0062",
+      "MSG_0168",
+      "MSG_0222",
+      "MSG_0311",
+      "MSG_0430",
+      "MSG_0449",
+      "MSG_0508",
+      "MSG_0549",
+      "MSG_0628",
+      "MSG_0683",
+      "MSG_0747",
+      "MSG_0793",
+      "MSG_0873"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0011",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-01 14:10:00",
+    "last_update": "2026-09-23 17:44:00"
+  },
+  {
+    "item_id": "TASK_007",
+    "type": "task",
+    "key": "renew the library book",
+    "title": "Renew the library book",
+    "status": "in_progress",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0917",
+        "timestamp": "2026-09-26 23:08:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0919",
+        "timestamp": "2026-09-27 00:54:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0920",
+        "timestamp": "2026-09-27 01:47:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0924",
+        "timestamp": "2026-09-27 05:19:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      }
+    ],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0017",
+        "timestamp": "2026-09-01 17:52:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0063",
+        "timestamp": "2026-09-02 22:14:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0072",
+        "timestamp": "2026-09-03 03:47:00",
+        "priority": "low",
+        "signals": []
+      },
+      {
+        "message_id": "MSG_0919",
+        "timestamp": "2026-09-27 00:54:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "response_required",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0975",
+        "timestamp": "2026-09-29 02:22:00",
+        "note": "Urgency explicitly raised ('treat this as urgent')."
+      },
+      {
+        "message_id": "MSG_0975",
+        "timestamp": "2026-09-29 02:22:00",
+        "priority": "high",
+        "signals": [
+          "follow_up",
+          "urgent",
+          "deadline_pulled_in",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0986",
+        "timestamp": "2026-09-29 12:05:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_conflict",
+          "repeated_followups"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0017",
+      "MSG_0063",
+      "MSG_0072",
+      "MSG_0083",
+      "MSG_0178",
+      "MSG_0232",
+      "MSG_0515",
+      "MSG_0553",
+      "MSG_0638",
+      "MSG_0740",
+      "MSG_0904",
+      "MSG_0917",
+      "MSG_0919",
+      "MSG_0920",
+      "MSG_0924",
+      "MSG_0975",
+      "MSG_0986"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0017",
+    "followup_count": 5,
+    "notes": [],
+    "conflicts": [
+      {
+        "message_id": "MSG_0986",
+        "timestamp": "2026-09-29 12:05:00",
+        "type": "conflicting_instruction",
+        "notes": "Please note that renew the library book is due on 2026-09-30, although the earlier message."
+      }
+    ],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-01 17:52:00",
+    "last_update": "2026-09-29 12:05:00"
+  },
+  {
+    "item_id": "TASK_008",
+    "type": "task",
+    "key": "review the model results",
+    "title": "Review the model results",
+    "status": "in_progress",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0925",
+        "timestamp": "2026-09-27 06:12:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0998",
+        "timestamp": "2026-09-29 22:41:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_1013",
+        "timestamp": "2026-09-30 11:56:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_1020",
+        "timestamp": "2026-09-30 18:07:00",
+        "reason": "Schedule set/updated to 2026-10-04 at 14:00."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_1020",
+        "timestamp": "2026-09-30 18:07:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_1030",
+        "timestamp": "2026-10-01 02:57:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "DEMO_005",
+        "timestamp": "2026-10-04 12:25:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      }
+    ],
+    "latest_deadline": "2026-10-04",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-04",
+        "message_id": "MSG_1020",
+        "timestamp": "2026-09-30 18:07:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "14:00",
+        "kind": "time",
+        "message_id": "MSG_1020",
+        "timestamp": "2026-09-30 18:07:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "14:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "high",
+    "priority_history": [
+      {
+        "message_id": "MSG_0019",
+        "timestamp": "2026-09-01 19:06:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0883",
+        "timestamp": "2026-09-23 23:54:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0905",
+        "timestamp": "2026-09-26 12:32:00",
+        "priority": "low",
+        "signals": [
+          "follow_up",
+          "response_required"
+        ]
+      },
+      {
+        "message_id": "MSG_0973",
+        "timestamp": "2026-09-29 00:36:00",
+        "note": "Urgency explicitly raised ('treat this as urgent')."
+      },
+      {
+        "message_id": "MSG_0973",
+        "timestamp": "2026-09-29 00:36:00",
+        "priority": "high",
+        "signals": [
+          "follow_up",
+          "urgent",
+          "deadline_pulled_in",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0974",
+        "timestamp": "2026-09-29 01:29:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_conflict",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0998",
+        "timestamp": "2026-09-29 22:41:00",
+        "priority": "low",
+        "signals": [
+          "follow_up",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_1020",
+        "timestamp": "2026-09-30 18:07:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "deadline_within_7_days",
+          "sender_authority",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "DEMO_005",
+        "timestamp": "2026-10-04 12:25:00",
+        "priority": "high",
+        "signals": [
+          "follow_up",
+          "deadline_today",
+          "response_required",
+          "repeated_followups"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0019",
+      "MSG_0111",
+      "MSG_0173",
+      "MSG_0175",
+      "MSG_0306",
+      "MSG_0425",
+      "MSG_0467",
+      "MSG_0537",
+      "MSG_0783",
+      "MSG_0883",
+      "MSG_0905",
+      "MSG_0925",
+      "MSG_0973",
+      "MSG_0974",
+      "MSG_0998",
+      "MSG_1013",
+      "MSG_1020",
+      "MSG_1030",
+      "DEMO_005"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0019",
+    "followup_count": 3,
+    "notes": [],
+    "conflicts": [
+      {
+        "message_id": "MSG_0974",
+        "timestamp": "2026-09-29 01:29:00",
+        "type": "conflicting_instruction",
+        "notes": "Please note that review the model results is due on 2026-09-30, although the earlier messa."
+      }
+    ],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-01 19:06:00",
+    "last_update": "2026-10-04 12:25:00"
+  },
+  {
+    "item_id": "TASK_009",
+    "type": "task",
+    "key": "team stand-up",
+    "title": "Team stand-up",
+    "status": "cancelled",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0209",
+        "timestamp": "2026-09-06 16:16:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0458",
+        "timestamp": "2026-09-13 01:49:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0484",
+        "timestamp": "2026-09-13 17:51:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0584",
+        "timestamp": "2026-09-16 07:31:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0631",
+        "timestamp": "2026-09-17 12:30:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0744",
+        "timestamp": "2026-09-20 10:11:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0822",
+        "timestamp": "2026-09-22 10:17:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0871",
+        "timestamp": "2026-09-23 16:30:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0954",
+        "timestamp": "2026-09-28 07:49:00",
+        "reason": "Event/meeting rescheduled by this message."
+      },
+      {
+        "status": "cancelled",
+        "message_id": "DEMO_008",
+        "timestamp": "2026-10-04 14:28:00",
+        "reason": "Status confirmed by the message text."
+      }
+    ],
+    "latest_deadline": "2026-10-02",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-02",
+        "message_id": "MSG_0954",
+        "timestamp": "2026-09-28 07:49:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "13:00",
+        "kind": "time",
+        "message_id": "MSG_0954",
+        "timestamp": "2026-09-28 07:49:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "13:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0023",
+        "timestamp": "2026-09-01 21:34:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0584",
+        "timestamp": "2026-09-16 07:31:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0744",
+        "timestamp": "2026-09-20 10:11:00",
+        "priority": "high",
+        "signals": [
+          "follow_up",
+          "deadline_today_relative",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0822",
+        "timestamp": "2026-09-22 10:17:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "DEMO_008",
+        "timestamp": "2026-10-04 14:28:00",
+        "priority": "low",
+        "signals": [
+          "status_cancelled",
+          "no_action_needed"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0023",
+      "MSG_0129",
+      "MSG_0209",
+      "MSG_0458",
+      "MSG_0484",
+      "MSG_0584",
+      "MSG_0631",
+      "MSG_0744",
+      "MSG_0822",
+      "MSG_0871",
+      "MSG_0954",
+      "DEMO_008"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0023",
+    "followup_count": 9,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-01 21:34:00",
+    "last_update": "2026-10-04 14:28:00"
+  },
+  {
+    "item_id": "TASK_010",
+    "type": "task",
+    "key": "confirm the interview slot",
+    "title": "Confirm the interview slot",
+    "status": "unclear",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0926",
+        "timestamp": "2026-09-27 07:05:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_1002",
+        "timestamp": "2026-09-30 02:13:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "unclear",
+        "message_id": "DEMO_016",
+        "timestamp": "2026-10-04 19:56:00",
+        "reason": "The message is ambiguous: Confirm the interview slot might already be finished, but I cannot confirm it."
+      }
+    ],
+    "latest_deadline": "unresolved",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "unresolved",
+        "kind": "relative_deadline",
+        "message_id": "DEMO_001",
+        "timestamp": "2026-10-04 09:41:00",
+        "note": "Deadline moved to 'tomorrow', relative to the message time; no concrete date is invented."
+      }
+    ],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "critical",
+    "priority_history": [
+      {
+        "message_id": "MSG_0027",
+        "timestamp": "2026-09-02 00:02:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "response_required"
+        ]
+      },
+      {
+        "message_id": "MSG_0171",
+        "timestamp": "2026-09-05 16:50:00",
+        "priority": "high",
+        "signals": [
+          "deadline_today_relative",
+          "response_required"
+        ]
+      },
+      {
+        "message_id": "MSG_0195",
+        "timestamp": "2026-09-06 07:38:00",
+        "priority": "low",
+        "signals": [
+          "response_required"
+        ]
+      },
+      {
+        "message_id": "MSG_0220",
+        "timestamp": "2026-09-06 23:03:00",
+        "priority": "medium",
+        "signals": [
+          "important",
+          "response_required"
+        ]
+      },
+      {
+        "message_id": "MSG_0314",
+        "timestamp": "2026-09-09 09:01:00",
+        "priority": "low",
+        "signals": [
+          "response_required"
+        ]
+      },
+      {
+        "message_id": "MSG_0972",
+        "timestamp": "2026-09-28 23:43:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_conflict",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "DEMO_001",
+        "timestamp": "2026-10-04 09:41:00",
+        "note": "Urgency explicitly raised ('treat this as urgent')."
+      },
+      {
+        "message_id": "DEMO_001",
+        "timestamp": "2026-10-04 09:41:00",
+        "priority": "critical",
+        "signals": [
+          "follow_up",
+          "deadline_tomorrow",
+          "urgent",
+          "repeated_followups"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0027",
+      "MSG_0171",
+      "MSG_0195",
+      "MSG_0220",
+      "MSG_0314",
+      "MSG_0335",
+      "MSG_0480",
+      "MSG_0527",
+      "MSG_0557",
+      "MSG_0617",
+      "MSG_0906",
+      "MSG_0926",
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "MSG_1002",
+      "DEMO_001",
+      "DEMO_016"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0027",
+    "followup_count": 3,
+    "notes": [],
+    "conflicts": [
+      {
+        "message_id": "MSG_0972",
+        "timestamp": "2026-09-28 23:43:00",
+        "type": "conflicting_instruction",
+        "notes": "Please note that confirm the interview slot is due on 2026-09-28, although the earlier mes."
+      },
+      {
+        "message_id": "MSG_0976",
+        "timestamp": "2026-09-29 03:15:00",
+        "type": "conflicting_instruction",
+        "notes": "Please note that confirm the interview slot is due on 2026-10-02, although the earlier mes."
+      },
+      {
+        "message_id": "MSG_0982",
+        "timestamp": "2026-09-29 08:33:00",
+        "type": "conflicting_instruction",
+        "notes": "please note that confirm the interview slot is due on 2026-10-02, although the earlier mes."
+      }
+    ],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-02 00:02:00",
+    "last_update": "2026-10-04 19:56:00"
+  },
+  {
+    "item_id": "TASK_011",
+    "type": "task",
+    "key": "email the signed document",
+    "title": "Email the signed document",
+    "status": "completed",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0918",
+        "timestamp": "2026-09-27 00:01:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0927",
+        "timestamp": "2026-09-27 07:58:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_1000",
+        "timestamp": "2026-09-30 00:27:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_1015",
+        "timestamp": "2026-09-30 13:42:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "completed",
+        "message_id": "DEMO_002",
+        "timestamp": "2026-10-04 10:22:00",
+        "reason": "Status confirmed by the message text."
+      }
+    ],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0028",
+        "timestamp": "2026-09-02 00:39:00",
+        "priority": "high",
+        "signals": [
+          "new_item",
+          "deadline_today_relative",
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0065",
+        "timestamp": "2026-09-02 23:28:00",
+        "priority": "low",
+        "signals": [
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0927",
+        "timestamp": "2026-09-27 07:58:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "response_required",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_1000",
+        "timestamp": "2026-09-30 00:27:00",
+        "priority": "low",
+        "signals": [
+          "follow_up",
+          "repeated_followups"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0028",
+      "MSG_0065",
+      "MSG_0101",
+      "MSG_0309",
+      "MSG_0368",
+      "MSG_0394",
+      "MSG_0605",
+      "MSG_0799",
+      "MSG_0829",
+      "MSG_0862",
+      "MSG_0907",
+      "MSG_0918",
+      "MSG_0927",
+      "MSG_1000",
+      "MSG_1015",
+      "DEMO_002"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0028",
+    "followup_count": 3,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-02 00:39:00",
+    "last_update": "2026-10-04 10:22:00"
+  },
+  {
+    "item_id": "TASK_012",
+    "type": "task",
+    "key": "update the project tracker",
+    "title": "Update the project tracker",
+    "status": "cancelled",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0139",
+        "timestamp": "2026-09-04 21:06:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0300",
+        "timestamp": "2026-09-09 00:23:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0412",
+        "timestamp": "2026-09-11 21:27:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0622",
+        "timestamp": "2026-09-17 06:57:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0656",
+        "timestamp": "2026-09-18 03:55:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0708",
+        "timestamp": "2026-09-19 11:59:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0736",
+        "timestamp": "2026-09-20 05:15:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0884",
+        "timestamp": "2026-09-24 00:31:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0908",
+        "timestamp": "2026-09-26 15:11:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0911",
+        "timestamp": "2026-09-26 17:50:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0928",
+        "timestamp": "2026-09-27 08:51:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "cancelled",
+        "message_id": "MSG_0942",
+        "timestamp": "2026-09-27 21:13:00",
+        "reason": "Status confirmed by the message text."
+      },
+      {
+        "status": "cancelled",
+        "message_id": "DEMO_003",
+        "timestamp": "2026-10-04 11:03:00",
+        "reason": "Status confirmed by the message text."
+      }
+    ],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0031",
+        "timestamp": "2026-09-02 02:30:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0300",
+        "timestamp": "2026-09-09 00:23:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "deadline_today_relative",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0412",
+        "timestamp": "2026-09-11 21:27:00",
+        "priority": "low",
+        "signals": [
+          "follow_up",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0622",
+        "timestamp": "2026-09-17 06:57:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0942",
+        "timestamp": "2026-09-27 21:13:00",
+        "priority": "low",
+        "signals": [
+          "status_cancelled",
+          "no_action_needed"
+        ]
+      },
+      {
+        "message_id": "MSG_0996",
+        "timestamp": "2026-09-29 20:55:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "response_required",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "DEMO_003",
+        "timestamp": "2026-10-04 11:03:00",
+        "priority": "low",
+        "signals": [
+          "status_cancelled",
+          "no_action_needed"
+        ]
+      },
+      {
+        "message_id": "DEMO_006",
+        "timestamp": "2026-10-04 13:06:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_conflict",
+          "repeated_followups"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0031",
+      "MSG_0038",
+      "MSG_0139",
+      "MSG_0300",
+      "MSG_0412",
+      "MSG_0622",
+      "MSG_0656",
+      "MSG_0708",
+      "MSG_0736",
+      "MSG_0884",
+      "MSG_0908",
+      "MSG_0911",
+      "MSG_0928",
+      "MSG_0942",
+      "MSG_0996",
+      "MSG_1011",
+      "DEMO_003",
+      "DEMO_006"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0031",
+    "followup_count": 14,
+    "notes": [],
+    "conflicts": [
+      {
+        "message_id": "DEMO_006",
+        "timestamp": "2026-10-04 13:06:00",
+        "type": "conflicting_instruction",
+        "notes": "One message says Friday, but the latest instruction says update the project tracker is due."
+      }
+    ],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-02 02:30:00",
+    "last_update": "2026-10-04 13:06:00"
+  },
+  {
+    "item_id": "TASK_013",
+    "type": "task",
+    "key": "upload the assignment",
+    "title": "Upload the assignment",
+    "status": "in_progress",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0929",
+        "timestamp": "2026-09-27 09:44:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0991",
+        "timestamp": "2026-09-29 16:30:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_1006",
+        "timestamp": "2026-09-30 05:45:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "DEMO_004",
+        "timestamp": "2026-10-04 11:44:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      }
+    ],
+    "latest_deadline": "2026-10-20",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-20",
+        "message_id": "DEMO_020",
+        "timestamp": "2026-10-04 22:40:00",
+        "note": "Deadline updated (deadline_extended)."
+      }
+    ],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0032",
+        "timestamp": "2026-09-02 03:07:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0269",
+        "timestamp": "2026-09-08 05:16:00",
+        "priority": "high",
+        "signals": [
+          "deadline_today_relative",
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0345",
+        "timestamp": "2026-09-10 04:08:00",
+        "priority": "low",
+        "signals": [
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0991",
+        "timestamp": "2026-09-29 16:30:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "response_required",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "DEMO_020",
+        "timestamp": "2026-10-04 22:40:00",
+        "priority": "low",
+        "signals": [
+          "follow_up",
+          "deadline_extended",
+          "repeated_followups"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0032",
+      "MSG_0269",
+      "MSG_0345",
+      "MSG_0498",
+      "MSG_0554",
+      "MSG_0633",
+      "MSG_0640",
+      "MSG_0670",
+      "MSG_0688",
+      "MSG_0761",
+      "MSG_0909",
+      "MSG_0929",
+      "MSG_0991",
+      "MSG_1006",
+      "DEMO_004",
+      "DEMO_020"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0032",
+    "followup_count": 5,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-02 03:07:00",
+    "last_update": "2026-10-04 22:40:00"
+  },
+  {
+    "item_id": "TASK_014",
+    "type": "task",
+    "key": "complete the onboarding form",
+    "title": "Complete the onboarding form",
+    "status": "in_progress",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0913",
+        "timestamp": "2026-09-26 19:36:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0916",
+        "timestamp": "2026-09-26 22:15:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0930",
+        "timestamp": "2026-09-27 10:37:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_1004",
+        "timestamp": "2026-09-30 03:59:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "DEMO_021",
+        "timestamp": "2026-10-04 23:21:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      }
+    ],
+    "latest_deadline": "2026-09-06",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-09-10",
+        "message_id": "MSG_0035",
+        "timestamp": "2026-09-02 04:58:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-10",
+        "to": "2026-09-07",
+        "message_id": "MSG_0045",
+        "timestamp": "2026-09-02 11:08:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-07",
+        "to": "2026-09-08",
+        "message_id": "MSG_0060",
+        "timestamp": "2026-09-02 20:23:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-08",
+        "to": "2026-09-02",
+        "message_id": "MSG_0331",
+        "timestamp": "2026-09-09 19:30:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-02",
+        "to": "2026-09-09",
+        "message_id": "MSG_0398",
+        "timestamp": "2026-09-11 12:49:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-09",
+        "to": "2026-09-04",
+        "message_id": "MSG_0420",
+        "timestamp": "2026-09-12 02:23:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-04",
+        "to": "2026-09-03",
+        "message_id": "MSG_0546",
+        "timestamp": "2026-09-15 08:05:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-03",
+        "to": "2026-09-05",
+        "message_id": "MSG_0551",
+        "timestamp": "2026-09-15 11:10:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-05",
+        "to": "2026-09-04",
+        "message_id": "MSG_0585",
+        "timestamp": "2026-09-16 08:08:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-04",
+        "to": "2026-09-06",
+        "message_id": "MSG_0624",
+        "timestamp": "2026-09-17 08:11:00",
+        "note": "Deadline updated (deadline_set)."
+      }
+    ],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "critical",
+    "priority_history": [
+      {
+        "message_id": "MSG_0035",
+        "timestamp": "2026-09-02 04:58:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "deadline_within_14_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0060",
+        "timestamp": "2026-09-02 20:23:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0331",
+        "timestamp": "2026-09-09 19:30:00",
+        "priority": "critical",
+        "signals": [
+          "overdue"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0035",
+      "MSG_0045",
+      "MSG_0060",
+      "MSG_0331",
+      "MSG_0398",
+      "MSG_0420",
+      "MSG_0546",
+      "MSG_0551",
+      "MSG_0585",
+      "MSG_0624",
+      "MSG_0910",
+      "MSG_0913",
+      "MSG_0916",
+      "MSG_0930",
+      "MSG_1004",
+      "DEMO_021"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0035",
+    "followup_count": 6,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-02 04:58:00",
+    "last_update": "2026-10-04 23:21:00"
+  },
+  {
+    "item_id": "TASK_015",
+    "type": "task",
+    "key": "join the study-group on , at google meet",
+    "title": "Join the study-group on , at google meet",
+    "status": "rescheduled",
+    "status_history": [
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0956",
+        "timestamp": "2026-09-28 09:35:00",
+        "reason": "Event/meeting rescheduled by this message."
+      }
+    ],
+    "latest_deadline": "2026-10-04",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-04",
+        "message_id": "MSG_0956",
+        "timestamp": "2026-09-28 09:35:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "15:00",
+        "kind": "time",
+        "message_id": "MSG_0956",
+        "timestamp": "2026-09-28 09:35:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "15:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0036",
+        "timestamp": "2026-09-02 05:35:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0036",
+      "MSG_0162",
+      "MSG_0223",
+      "MSG_0623",
+      "MSG_0706",
+      "MSG_0956"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0036",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-02 05:35:00",
+    "last_update": "2026-09-28 09:35:00"
+  },
+  {
+    "item_id": "TASK_016",
+    "type": "task",
+    "key": "the client discussion",
+    "title": "The client discussion",
+    "status": "rescheduled",
+    "status_history": [
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0042",
+        "timestamp": "2026-09-02 09:17:00",
+        "reason": "Schedule set/updated to 2026-09-12 at 11:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0055",
+        "timestamp": "2026-09-02 17:18:00",
+        "reason": "Schedule set/updated to 2026-09-07 at 14:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0258",
+        "timestamp": "2026-09-07 22:29:00",
+        "reason": "Schedule set/updated to 2026-09-02 at 13:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0302",
+        "timestamp": "2026-09-09 01:37:00",
+        "reason": "Schedule set/updated to 2026-09-17 at 16:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0356",
+        "timestamp": "2026-09-10 10:55:00",
+        "reason": "Schedule set/updated to 2026-09-12 at 15:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0456",
+        "timestamp": "2026-09-13 00:35:00",
+        "reason": "Schedule set/updated to 2026-09-02 at 09:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0588",
+        "timestamp": "2026-09-16 09:59:00",
+        "reason": "Schedule set/updated to 2026-09-07 at 10:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0788",
+        "timestamp": "2026-09-21 13:19:00",
+        "reason": "Schedule set/updated to 2026-09-17 at 12:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0868",
+        "timestamp": "2026-09-23 14:39:00",
+        "reason": "Schedule set/updated to 2026-09-07 at 14:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0878",
+        "timestamp": "2026-09-23 20:49:00",
+        "reason": "Schedule set/updated to 2026-09-02 at 13:00."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0957",
+        "timestamp": "2026-09-28 10:28:00",
+        "reason": "Event/meeting rescheduled by this message."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0961",
+        "timestamp": "2026-09-28 14:00:00",
+        "reason": "Event/meeting rescheduled by this message."
+      }
+    ],
+    "latest_deadline": "2026-10-09",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-09-12",
+        "message_id": "MSG_0042",
+        "timestamp": "2026-09-02 09:17:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "11:00",
+        "kind": "time",
+        "message_id": "MSG_0042",
+        "timestamp": "2026-09-02 09:17:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-12",
+        "to": "2026-09-07",
+        "message_id": "MSG_0055",
+        "timestamp": "2026-09-02 17:18:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "14:00",
+        "kind": "time",
+        "message_id": "MSG_0055",
+        "timestamp": "2026-09-02 17:18:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-07",
+        "to": "2026-09-02",
+        "message_id": "MSG_0258",
+        "timestamp": "2026-09-07 22:29:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "13:00",
+        "kind": "time",
+        "message_id": "MSG_0258",
+        "timestamp": "2026-09-07 22:29:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-02",
+        "to": "2026-09-17",
+        "message_id": "MSG_0302",
+        "timestamp": "2026-09-09 01:37:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "16:00",
+        "kind": "time",
+        "message_id": "MSG_0302",
+        "timestamp": "2026-09-09 01:37:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-17",
+        "to": "2026-09-12",
+        "message_id": "MSG_0356",
+        "timestamp": "2026-09-10 10:55:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "15:00",
+        "kind": "time",
+        "message_id": "MSG_0356",
+        "timestamp": "2026-09-10 10:55:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-12",
+        "to": "2026-09-02",
+        "message_id": "MSG_0456",
+        "timestamp": "2026-09-13 00:35:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "09:00",
+        "kind": "time",
+        "message_id": "MSG_0456",
+        "timestamp": "2026-09-13 00:35:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-02",
+        "to": "2026-09-07",
+        "message_id": "MSG_0588",
+        "timestamp": "2026-09-16 09:59:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "10:00",
+        "kind": "time",
+        "message_id": "MSG_0588",
+        "timestamp": "2026-09-16 09:59:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-07",
+        "to": "2026-09-17",
+        "message_id": "MSG_0788",
+        "timestamp": "2026-09-21 13:19:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "12:00",
+        "kind": "time",
+        "message_id": "MSG_0788",
+        "timestamp": "2026-09-21 13:19:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-17",
+        "to": "2026-09-07",
+        "message_id": "MSG_0868",
+        "timestamp": "2026-09-23 14:39:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "14:00",
+        "kind": "time",
+        "message_id": "MSG_0868",
+        "timestamp": "2026-09-23 14:39:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-07",
+        "to": "2026-09-02",
+        "message_id": "MSG_0878",
+        "timestamp": "2026-09-23 20:49:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "13:00",
+        "kind": "time",
+        "message_id": "MSG_0878",
+        "timestamp": "2026-09-23 20:49:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-02",
+        "to": "2026-10-05",
+        "message_id": "MSG_0957",
+        "timestamp": "2026-09-28 10:28:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "16:00",
+        "kind": "time",
+        "message_id": "MSG_0957",
+        "timestamp": "2026-09-28 10:28:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-10-05",
+        "to": "2026-10-09",
+        "message_id": "MSG_0961",
+        "timestamp": "2026-09-28 14:00:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "13:00",
+        "kind": "time",
+        "message_id": "MSG_0961",
+        "timestamp": "2026-09-28 14:00:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "13:00",
+    "latest_location": "meeting room a",
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0042",
+        "timestamp": "2026-09-02 09:17:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "deadline_within_14_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0055",
+        "timestamp": "2026-09-02 17:18:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0258",
+        "timestamp": "2026-09-07 22:29:00",
+        "priority": "critical",
+        "signals": [
+          "overdue"
+        ]
+      },
+      {
+        "message_id": "MSG_0302",
+        "timestamp": "2026-09-09 01:37:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_within_14_days",
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0456",
+        "timestamp": "2026-09-13 00:35:00",
+        "priority": "critical",
+        "signals": [
+          "overdue"
+        ]
+      },
+      {
+        "message_id": "MSG_0957",
+        "timestamp": "2026-09-28 10:28:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0042",
+      "MSG_0055",
+      "MSG_0258",
+      "MSG_0302",
+      "MSG_0356",
+      "MSG_0456",
+      "MSG_0588",
+      "MSG_0788",
+      "MSG_0868",
+      "MSG_0878",
+      "MSG_0957",
+      "MSG_0961"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0042",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-02 09:17:00",
+    "last_update": "2026-09-28 14:00:00"
+  },
+  {
+    "item_id": "TASK_017",
+    "type": "task",
+    "key": "complete the python exercise",
+    "title": "Complete the python exercise",
+    "status": "cancelled",
+    "status_history": [
+      {
+        "status": "cancelled",
+        "message_id": "MSG_0938",
+        "timestamp": "2026-09-27 17:41:00",
+        "reason": "Status confirmed by the message text."
+      },
+      {
+        "status": "cancelled",
+        "message_id": "MSG_0944",
+        "timestamp": "2026-09-27 22:59:00",
+        "reason": "Status confirmed by the message text."
+      }
+    ],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "high",
+    "priority_history": [
+      {
+        "message_id": "MSG_0044",
+        "timestamp": "2026-09-02 10:31:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0814",
+        "timestamp": "2026-09-22 05:21:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0898",
+        "timestamp": "2026-09-24 09:09:00",
+        "priority": "low",
+        "signals": []
+      },
+      {
+        "message_id": "MSG_0987",
+        "timestamp": "2026-09-29 12:58:00",
+        "note": "Urgency explicitly raised ('treat this as urgent')."
+      },
+      {
+        "message_id": "MSG_0987",
+        "timestamp": "2026-09-29 12:58:00",
+        "priority": "high",
+        "signals": [
+          "follow_up",
+          "urgent",
+          "deadline_pulled_in"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0044",
+      "MSG_0114",
+      "MSG_0145",
+      "MSG_0245",
+      "MSG_0396",
+      "MSG_0422",
+      "MSG_0577",
+      "MSG_0694",
+      "MSG_0814",
+      "MSG_0898",
+      "MSG_0912",
+      "MSG_0938",
+      "MSG_0944",
+      "MSG_0987"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0044",
+    "followup_count": 1,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-02 10:31:00",
+    "last_update": "2026-09-29 12:58:00"
+  },
+  {
+    "item_id": "TASK_018",
+    "type": "task",
+    "key": "call the service centre",
+    "title": "Call the service centre",
+    "status": "cancelled",
+    "status_history": [
+      {
+        "status": "cancelled",
+        "message_id": "MSG_0932",
+        "timestamp": "2026-09-27 12:23:00",
+        "reason": "Status confirmed by the message text."
+      },
+      {
+        "status": "cancelled",
+        "message_id": "MSG_0946",
+        "timestamp": "2026-09-28 00:45:00",
+        "reason": "Status confirmed by the message text."
+      },
+      {
+        "status": "cancelled",
+        "message_id": "MSG_0950",
+        "timestamp": "2026-09-28 04:17:00",
+        "reason": "Status confirmed by the message text."
+      }
+    ],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0046",
+        "timestamp": "2026-09-02 11:45:00",
+        "priority": "high",
+        "signals": [
+          "new_item",
+          "deadline_today_relative",
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0089",
+        "timestamp": "2026-09-03 14:16:00",
+        "priority": "low",
+        "signals": [
+          "important"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0046",
+      "MSG_0089",
+      "MSG_0115",
+      "MSG_0144",
+      "MSG_0150",
+      "MSG_0163",
+      "MSG_0251",
+      "MSG_0283",
+      "MSG_0503",
+      "MSG_0757",
+      "MSG_0914",
+      "MSG_0932",
+      "MSG_0946",
+      "MSG_0950",
+      "MSG_0988",
+      "MSG_0993",
+      "MSG_1008"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0046",
+    "followup_count": 1,
+    "notes": [],
+    "conflicts": [
+      {
+        "message_id": "MSG_0988",
+        "timestamp": "2026-09-29 13:51:00",
+        "type": "conflicting_instruction",
+        "notes": "Please note that call the service centre is due on 2026-10-02, although the earlier messag."
+      }
+    ],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-02 11:45:00",
+    "last_update": "2026-09-30 07:31:00"
+  },
+  {
+    "item_id": "TASK_019",
+    "type": "task",
+    "key": "the product demo",
+    "title": "The product demo",
+    "status": "rescheduled",
+    "status_history": [
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0049",
+        "timestamp": "2026-09-02 13:36:00",
+        "reason": "Schedule set/updated to 2026-09-07 at 10:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0077",
+        "timestamp": "2026-09-03 06:52:00",
+        "reason": "Schedule set/updated to 2026-09-17 at 12:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0138",
+        "timestamp": "2026-09-04 20:29:00",
+        "reason": "Schedule set/updated to 2026-09-17 at 16:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0338",
+        "timestamp": "2026-09-09 23:49:00",
+        "reason": "Schedule set/updated to 2026-09-12 at 15:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0342",
+        "timestamp": "2026-09-10 02:17:00",
+        "reason": "Schedule set/updated to 2026-09-12 at 11:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0423",
+        "timestamp": "2026-09-12 04:14:00",
+        "reason": "Schedule set/updated to 2026-09-02 at 09:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0606",
+        "timestamp": "2026-09-16 21:05:00",
+        "reason": "Schedule set/updated to 2026-09-07 at 14:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0619",
+        "timestamp": "2026-09-17 05:06:00",
+        "reason": "Schedule set/updated to 2026-09-07 at 10:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0707",
+        "timestamp": "2026-09-19 11:22:00",
+        "reason": "Schedule set/updated to 2026-09-02 at 13:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0759",
+        "timestamp": "2026-09-20 19:26:00",
+        "reason": "Schedule set/updated to 2026-09-12 at 11:00."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0959",
+        "timestamp": "2026-09-28 12:14:00",
+        "reason": "Event/meeting rescheduled by this message."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0965",
+        "timestamp": "2026-09-28 17:32:00",
+        "reason": "Event/meeting rescheduled by this message."
+      }
+    ],
+    "latest_deadline": "2026-10-01",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-09-07",
+        "message_id": "MSG_0049",
+        "timestamp": "2026-09-02 13:36:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "10:00",
+        "kind": "time",
+        "message_id": "MSG_0049",
+        "timestamp": "2026-09-02 13:36:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-07",
+        "to": "2026-09-17",
+        "message_id": "MSG_0077",
+        "timestamp": "2026-09-03 06:52:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "12:00",
+        "kind": "time",
+        "message_id": "MSG_0077",
+        "timestamp": "2026-09-03 06:52:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": null,
+        "to": "16:00",
+        "kind": "time",
+        "message_id": "MSG_0138",
+        "timestamp": "2026-09-04 20:29:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-17",
+        "to": "2026-09-12",
+        "message_id": "MSG_0338",
+        "timestamp": "2026-09-09 23:49:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "15:00",
+        "kind": "time",
+        "message_id": "MSG_0338",
+        "timestamp": "2026-09-09 23:49:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": null,
+        "to": "11:00",
+        "kind": "time",
+        "message_id": "MSG_0342",
+        "timestamp": "2026-09-10 02:17:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-12",
+        "to": "2026-09-02",
+        "message_id": "MSG_0423",
+        "timestamp": "2026-09-12 04:14:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "09:00",
+        "kind": "time",
+        "message_id": "MSG_0423",
+        "timestamp": "2026-09-12 04:14:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-02",
+        "to": "2026-09-07",
+        "message_id": "MSG_0606",
+        "timestamp": "2026-09-16 21:05:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "14:00",
+        "kind": "time",
+        "message_id": "MSG_0606",
+        "timestamp": "2026-09-16 21:05:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": null,
+        "to": "10:00",
+        "kind": "time",
+        "message_id": "MSG_0619",
+        "timestamp": "2026-09-17 05:06:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-07",
+        "to": "2026-09-02",
+        "message_id": "MSG_0707",
+        "timestamp": "2026-09-19 11:22:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "13:00",
+        "kind": "time",
+        "message_id": "MSG_0707",
+        "timestamp": "2026-09-19 11:22:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-02",
+        "to": "2026-09-12",
+        "message_id": "MSG_0759",
+        "timestamp": "2026-09-20 19:26:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "11:00",
+        "kind": "time",
+        "message_id": "MSG_0759",
+        "timestamp": "2026-09-20 19:26:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-12",
+        "to": "2026-10-07",
+        "message_id": "MSG_0959",
+        "timestamp": "2026-09-28 12:14:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": "2026-10-07",
+        "to": "2026-10-01",
+        "message_id": "MSG_0965",
+        "timestamp": "2026-09-28 17:32:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "10:00",
+        "kind": "time",
+        "message_id": "MSG_0965",
+        "timestamp": "2026-09-28 17:32:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "10:00",
+    "latest_location": "meeting room a",
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0049",
+        "timestamp": "2026-09-02 13:36:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0077",
+        "timestamp": "2026-09-03 06:52:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_14_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0338",
+        "timestamp": "2026-09-09 23:49:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0423",
+        "timestamp": "2026-09-12 04:14:00",
+        "priority": "critical",
+        "signals": [
+          "overdue"
+        ]
+      },
+      {
+        "message_id": "MSG_0959",
+        "timestamp": "2026-09-28 12:14:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_14_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0965",
+        "timestamp": "2026-09-28 17:32:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0049",
+      "MSG_0077",
+      "MSG_0138",
+      "MSG_0338",
+      "MSG_0342",
+      "MSG_0423",
+      "MSG_0606",
+      "MSG_0619",
+      "MSG_0707",
+      "MSG_0759",
+      "MSG_0959",
+      "MSG_0965"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0049",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-02 13:36:00",
+    "last_update": "2026-09-28 17:32:00"
+  },
+  {
+    "item_id": "TASK_020",
+    "type": "task",
+    "key": "doctor appointment",
+    "title": "Doctor appointment",
+    "status": "rescheduled",
+    "status_history": [
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0960",
+        "timestamp": "2026-09-28 13:07:00",
+        "reason": "Event/meeting rescheduled by this message."
+      }
+    ],
+    "latest_deadline": "2026-10-08",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-08",
+        "message_id": "MSG_0960",
+        "timestamp": "2026-09-28 13:07:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "12:00",
+        "kind": "time",
+        "message_id": "MSG_0960",
+        "timestamp": "2026-09-28 13:07:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "12:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0051",
+        "timestamp": "2026-09-02 14:50:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0127",
+        "timestamp": "2026-09-04 13:42:00",
+        "priority": "low",
+        "signals": []
+      },
+      {
+        "message_id": "MSG_0511",
+        "timestamp": "2026-09-14 10:30:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0592",
+        "timestamp": "2026-09-16 12:27:00",
+        "priority": "low",
+        "signals": []
+      }
+    ],
+    "message_ids": [
+      "MSG_0051",
+      "MSG_0127",
+      "MSG_0405",
+      "MSG_0465",
+      "MSG_0511",
+      "MSG_0592",
+      "MSG_0601",
+      "MSG_0637",
+      "MSG_0673",
+      "MSG_0711",
+      "MSG_0960"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0051",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-02 14:50:00",
+    "last_update": "2026-09-28 13:07:00"
+  },
+  {
+    "item_id": "TASK_021",
+    "type": "task",
+    "key": "call maya when you are free",
+    "title": "Call maya when you are free",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0056",
+        "timestamp": "2026-09-02 17:55:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0827",
+        "timestamp": "2026-09-22 13:22:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0056",
+      "MSG_0121",
+      "MSG_0193",
+      "MSG_0410",
+      "MSG_0438",
+      "MSG_0495",
+      "MSG_0634",
+      "MSG_0717",
+      "MSG_0811",
+      "MSG_0827"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0056",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-02 17:55:00",
+    "last_update": "2026-09-22 13:22:00"
+  },
+  {
+    "item_id": "TASK_022",
+    "type": "task",
+    "key": "the project review",
+    "title": "The project review",
+    "status": "rescheduled",
+    "status_history": [
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0066",
+        "timestamp": "2026-09-03 00:05:00",
+        "reason": "Schedule set/updated to 2026-09-02 at 09:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0131",
+        "timestamp": "2026-09-04 16:10:00",
+        "reason": "Schedule set/updated to 2026-09-17 at 16:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0151",
+        "timestamp": "2026-09-05 04:30:00",
+        "reason": "Schedule set/updated to 2026-09-07 at 10:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0216",
+        "timestamp": "2026-09-06 20:35:00",
+        "reason": "Schedule set/updated to 2026-09-12 at 11:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0357",
+        "timestamp": "2026-09-10 11:32:00",
+        "reason": "Schedule set/updated to 2026-09-17 at 12:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0382",
+        "timestamp": "2026-09-11 02:57:00",
+        "reason": "Schedule set/updated to 2026-09-07 at 14:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0427",
+        "timestamp": "2026-09-12 06:42:00",
+        "reason": "Schedule set/updated to 2026-09-17 at 16:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0674",
+        "timestamp": "2026-09-18 15:01:00",
+        "reason": "Schedule set/updated to 2026-09-12 at 15:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0693",
+        "timestamp": "2026-09-19 02:44:00",
+        "reason": "Schedule set/updated to 2026-09-02 at 13:00."
+      },
+      {
+        "status": "scheduled",
+        "message_id": "MSG_0792",
+        "timestamp": "2026-09-21 15:47:00",
+        "reason": "Schedule set/updated to 2026-09-02 at 09:00."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0963",
+        "timestamp": "2026-09-28 15:46:00",
+        "reason": "Event/meeting rescheduled by this message."
+      }
+    ],
+    "latest_deadline": "2026-09-29",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-09-02",
+        "message_id": "MSG_0066",
+        "timestamp": "2026-09-03 00:05:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "09:00",
+        "kind": "time",
+        "message_id": "MSG_0066",
+        "timestamp": "2026-09-03 00:05:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-02",
+        "to": "2026-09-17",
+        "message_id": "MSG_0131",
+        "timestamp": "2026-09-04 16:10:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "16:00",
+        "kind": "time",
+        "message_id": "MSG_0131",
+        "timestamp": "2026-09-04 16:10:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-17",
+        "to": "2026-09-07",
+        "message_id": "MSG_0151",
+        "timestamp": "2026-09-05 04:30:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "10:00",
+        "kind": "time",
+        "message_id": "MSG_0151",
+        "timestamp": "2026-09-05 04:30:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-07",
+        "to": "2026-09-12",
+        "message_id": "MSG_0216",
+        "timestamp": "2026-09-06 20:35:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "11:00",
+        "kind": "time",
+        "message_id": "MSG_0216",
+        "timestamp": "2026-09-06 20:35:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-12",
+        "to": "2026-09-17",
+        "message_id": "MSG_0357",
+        "timestamp": "2026-09-10 11:32:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "12:00",
+        "kind": "time",
+        "message_id": "MSG_0357",
+        "timestamp": "2026-09-10 11:32:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-17",
+        "to": "2026-09-07",
+        "message_id": "MSG_0382",
+        "timestamp": "2026-09-11 02:57:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "14:00",
+        "kind": "time",
+        "message_id": "MSG_0382",
+        "timestamp": "2026-09-11 02:57:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-07",
+        "to": "2026-09-17",
+        "message_id": "MSG_0427",
+        "timestamp": "2026-09-12 06:42:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "16:00",
+        "kind": "time",
+        "message_id": "MSG_0427",
+        "timestamp": "2026-09-12 06:42:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-17",
+        "to": "2026-09-12",
+        "message_id": "MSG_0674",
+        "timestamp": "2026-09-18 15:01:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "15:00",
+        "kind": "time",
+        "message_id": "MSG_0674",
+        "timestamp": "2026-09-18 15:01:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-12",
+        "to": "2026-09-02",
+        "message_id": "MSG_0693",
+        "timestamp": "2026-09-19 02:44:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "13:00",
+        "kind": "time",
+        "message_id": "MSG_0693",
+        "timestamp": "2026-09-19 02:44:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": null,
+        "to": "09:00",
+        "kind": "time",
+        "message_id": "MSG_0792",
+        "timestamp": "2026-09-21 15:47:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-09-02",
+        "to": "2026-09-29",
+        "message_id": "MSG_0963",
+        "timestamp": "2026-09-28 15:46:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "15:00",
+        "kind": "time",
+        "message_id": "MSG_0963",
+        "timestamp": "2026-09-28 15:46:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "15:00",
+    "latest_location": "meeting room a",
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0066",
+        "timestamp": "2026-09-03 00:05:00",
+        "priority": "critical",
+        "signals": [
+          "new_item",
+          "overdue"
+        ]
+      },
+      {
+        "message_id": "MSG_0131",
+        "timestamp": "2026-09-04 16:10:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_14_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0151",
+        "timestamp": "2026-09-05 04:30:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0357",
+        "timestamp": "2026-09-10 11:32:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0382",
+        "timestamp": "2026-09-11 02:57:00",
+        "priority": "critical",
+        "signals": [
+          "overdue"
+        ]
+      },
+      {
+        "message_id": "MSG_0427",
+        "timestamp": "2026-09-12 06:42:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0674",
+        "timestamp": "2026-09-18 15:01:00",
+        "priority": "critical",
+        "signals": [
+          "overdue"
+        ]
+      },
+      {
+        "message_id": "MSG_0963",
+        "timestamp": "2026-09-28 15:46:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_tomorrow"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0066",
+      "MSG_0131",
+      "MSG_0151",
+      "MSG_0216",
+      "MSG_0357",
+      "MSG_0382",
+      "MSG_0427",
+      "MSG_0674",
+      "MSG_0693",
+      "MSG_0792",
+      "MSG_0963"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0066",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-03 00:05:00",
+    "last_update": "2026-09-28 15:46:00"
+  },
+  {
+    "item_id": "TASK_023",
+    "type": "task",
+    "key": "join the ai workshop on , at google meet",
+    "title": "Join the ai workshop on , at google meet",
+    "status": "rescheduled",
+    "status_history": [
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0962",
+        "timestamp": "2026-09-28 14:53:00",
+        "reason": "Event/meeting rescheduled by this message."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0964",
+        "timestamp": "2026-09-28 16:39:00",
+        "reason": "Event/meeting rescheduled by this message."
+      }
+    ],
+    "latest_deadline": "2026-09-30",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-10",
+        "message_id": "MSG_0962",
+        "timestamp": "2026-09-28 14:53:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "14:00",
+        "kind": "time",
+        "message_id": "MSG_0962",
+        "timestamp": "2026-09-28 14:53:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-10-10",
+        "to": "2026-09-30",
+        "message_id": "MSG_0964",
+        "timestamp": "2026-09-28 16:39:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "16:00",
+        "kind": "time",
+        "message_id": "MSG_0964",
+        "timestamp": "2026-09-28 16:39:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "16:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0067",
+        "timestamp": "2026-09-03 00:42:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0895",
+        "timestamp": "2026-09-24 07:18:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0962",
+        "timestamp": "2026-09-28 14:53:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_14_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0964",
+        "timestamp": "2026-09-28 16:39:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0067",
+      "MSG_0244",
+      "MSG_0330",
+      "MSG_0745",
+      "MSG_0895",
+      "MSG_0962",
+      "MSG_0964"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0067",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-03 00:42:00",
+    "last_update": "2026-09-28 16:39:00"
+  },
+  {
+    "item_id": "TASK_024",
+    "type": "task",
+    "key": "finish the test cases",
+    "title": "Finish the test cases",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0088",
+        "timestamp": "2026-09-03 13:39:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0602",
+        "timestamp": "2026-09-16 18:37:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0618",
+        "timestamp": "2026-09-17 04:29:00",
+        "priority": "low",
+        "signals": []
+      },
+      {
+        "message_id": "MSG_0979",
+        "timestamp": "2026-09-29 05:54:00",
+        "note": "Urgency explicitly raised ('treat this as urgent')."
+      },
+      {
+        "message_id": "MSG_0979",
+        "timestamp": "2026-09-29 05:54:00",
+        "priority": "high",
+        "signals": [
+          "urgent",
+          "deadline_pulled_in"
+        ]
+      },
+      {
+        "message_id": "MSG_0983",
+        "timestamp": "2026-09-29 09:26:00",
+        "note": "Urgency explicitly raised ('treat this as urgent')."
+      },
+      {
+        "message_id": "MSG_0995",
+        "timestamp": "2026-09-29 20:02:00",
+        "priority": "low",
+        "signals": []
+      }
+    ],
+    "message_ids": [
+      "MSG_0088",
+      "MSG_0153",
+      "MSG_0210",
+      "MSG_0221",
+      "MSG_0289",
+      "MSG_0468",
+      "MSG_0574",
+      "MSG_0602",
+      "MSG_0618",
+      "MSG_0826",
+      "MSG_0979",
+      "MSG_0983",
+      "MSG_0995",
+      "MSG_1010"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0088",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-03 13:39:00",
+    "last_update": "2026-09-30 09:17:00"
+  },
+  {
+    "item_id": "TASK_025",
+    "type": "task",
+    "key": "placement briefing",
+    "title": "Placement briefing",
+    "status": "rescheduled",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0154",
+        "timestamp": "2026-09-05 06:21:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0156",
+        "timestamp": "2026-09-05 07:35:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0184",
+        "timestamp": "2026-09-06 00:51:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0201",
+        "timestamp": "2026-09-06 11:20:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0590",
+        "timestamp": "2026-09-16 11:13:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0789",
+        "timestamp": "2026-09-21 13:56:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0821",
+        "timestamp": "2026-09-22 09:40:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "in_progress",
+        "message_id": "MSG_0823",
+        "timestamp": "2026-09-22 10:54:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0966",
+        "timestamp": "2026-09-28 18:25:00",
+        "reason": "Event/meeting rescheduled by this message."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0970",
+        "timestamp": "2026-09-28 21:57:00",
+        "reason": "Event/meeting rescheduled by this message."
+      }
+    ],
+    "latest_deadline": "2026-10-06",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-02",
+        "message_id": "MSG_0966",
+        "timestamp": "2026-09-28 18:25:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "11:00",
+        "kind": "time",
+        "message_id": "MSG_0966",
+        "timestamp": "2026-09-28 18:25:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-10-02",
+        "to": "2026-10-06",
+        "message_id": "MSG_0970",
+        "timestamp": "2026-09-28 21:57:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "15:00",
+        "kind": "time",
+        "message_id": "MSG_0970",
+        "timestamp": "2026-09-28 21:57:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "15:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0097",
+        "timestamp": "2026-09-03 19:12:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0156",
+        "timestamp": "2026-09-05 07:35:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "deadline_today_relative",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0184",
+        "timestamp": "2026-09-06 00:51:00",
+        "priority": "low",
+        "signals": [
+          "follow_up",
+          "repeated_followups"
+        ]
+      },
+      {
+        "message_id": "MSG_0201",
+        "timestamp": "2026-09-06 11:20:00",
+        "priority": "medium",
+        "signals": [
+          "follow_up",
+          "repeated_followups"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0097",
+      "MSG_0123",
+      "MSG_0154",
+      "MSG_0156",
+      "MSG_0184",
+      "MSG_0201",
+      "MSG_0590",
+      "MSG_0789",
+      "MSG_0821",
+      "MSG_0823",
+      "MSG_0966",
+      "MSG_0970"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0097",
+    "followup_count": 9,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-03 19:12:00",
+    "last_update": "2026-09-28 21:57:00"
+  },
+  {
+    "item_id": "TASK_026",
+    "type": "task",
+    "key": "sprint planning",
+    "title": "Sprint planning",
+    "status": "rescheduled",
+    "status_history": [
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0967",
+        "timestamp": "2026-09-28 19:18:00",
+        "reason": "Event/meeting rescheduled by this message."
+      }
+    ],
+    "latest_deadline": "2026-10-03",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-03",
+        "message_id": "MSG_0967",
+        "timestamp": "2026-09-28 19:18:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "12:00",
+        "kind": "time",
+        "message_id": "MSG_0967",
+        "timestamp": "2026-09-28 19:18:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "12:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0100",
+        "timestamp": "2026-09-03 21:03:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0668",
+        "timestamp": "2026-09-18 11:19:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0967",
+        "timestamp": "2026-09-28 19:18:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0100",
+      "MSG_0169",
+      "MSG_0177",
+      "MSG_0218",
+      "MSG_0268",
+      "MSG_0424",
+      "MSG_0643",
+      "MSG_0645",
+      "MSG_0664",
+      "MSG_0668",
+      "MSG_0967"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0100",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-03 21:03:00",
+    "last_update": "2026-09-28 19:18:00"
+  },
+  {
+    "item_id": "TASK_027",
+    "type": "task",
+    "key": "send the revised presentation",
+    "title": "Send the revised presentation",
+    "status": "cancelled",
+    "status_history": [
+      {
+        "status": "cancelled",
+        "message_id": "MSG_0934",
+        "timestamp": "2026-09-27 14:09:00",
+        "reason": "Status confirmed by the message text."
+      },
+      {
+        "status": "cancelled",
+        "message_id": "MSG_0936",
+        "timestamp": "2026-09-27 15:55:00",
+        "reason": "Status confirmed by the message text."
+      }
+    ],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0102",
+        "timestamp": "2026-09-03 22:17:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0725",
+        "timestamp": "2026-09-19 22:28:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0780",
+        "timestamp": "2026-09-21 08:23:00",
+        "priority": "low",
+        "signals": []
+      },
+      {
+        "message_id": "MSG_0985",
+        "timestamp": "2026-09-29 11:12:00",
+        "note": "Urgency explicitly raised ('treat this as urgent')."
+      },
+      {
+        "message_id": "MSG_0985",
+        "timestamp": "2026-09-29 11:12:00",
+        "priority": "high",
+        "signals": [
+          "urgent",
+          "deadline_pulled_in"
+        ]
+      },
+      {
+        "message_id": "MSG_0999",
+        "timestamp": "2026-09-29 23:34:00",
+        "priority": "low",
+        "signals": [
+          "follow_up",
+          "response_required"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0102",
+      "MSG_0112",
+      "MSG_0231",
+      "MSG_0307",
+      "MSG_0317",
+      "MSG_0407",
+      "MSG_0512",
+      "MSG_0662",
+      "MSG_0725",
+      "MSG_0780",
+      "MSG_0934",
+      "MSG_0936",
+      "MSG_0985",
+      "MSG_0999",
+      "MSG_1003",
+      "MSG_1014"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0102",
+    "followup_count": 2,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-03 22:17:00",
+    "last_update": "2026-09-30 12:49:00"
+  },
+  {
+    "item_id": "TASK_028",
+    "type": "task",
+    "key": "the technical interview",
+    "title": "The technical interview",
+    "status": "rescheduled",
+    "status_history": [
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0968",
+        "timestamp": "2026-09-28 20:11:00",
+        "reason": "Event/meeting rescheduled by this message."
+      }
+    ],
+    "latest_deadline": "2026-10-04",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-04",
+        "message_id": "MSG_0968",
+        "timestamp": "2026-09-28 20:11:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "13:00",
+        "kind": "time",
+        "message_id": "MSG_0968",
+        "timestamp": "2026-09-28 20:11:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "13:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0103",
+        "timestamp": "2026-09-03 22:54:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0282",
+        "timestamp": "2026-09-08 13:17:00",
+        "priority": "low",
+        "signals": []
+      },
+      {
+        "message_id": "MSG_0831",
+        "timestamp": "2026-09-22 15:50:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0837",
+        "timestamp": "2026-09-22 19:32:00",
+        "priority": "low",
+        "signals": []
+      }
+    ],
+    "message_ids": [
+      "MSG_0103",
+      "MSG_0282",
+      "MSG_0316",
+      "MSG_0359",
+      "MSG_0413",
+      "MSG_0445",
+      "MSG_0579",
+      "MSG_0630",
+      "MSG_0831",
+      "MSG_0837",
+      "MSG_0968"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0103",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-03 22:54:00",
+    "last_update": "2026-09-28 20:11:00"
+  },
+  {
+    "item_id": "TASK_029",
+    "type": "task",
+    "key": "prepare the demo video",
+    "title": "Prepare the demo video",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": "2026-09-07",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-09-09",
+        "message_id": "MSG_0113",
+        "timestamp": "2026-09-04 05:04:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-09",
+        "to": "2026-09-05",
+        "message_id": "MSG_0136",
+        "timestamp": "2026-09-04 19:15:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-05",
+        "to": "2026-09-10",
+        "message_id": "MSG_0147",
+        "timestamp": "2026-09-05 02:02:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-10",
+        "to": "2026-09-05",
+        "message_id": "MSG_0203",
+        "timestamp": "2026-09-06 12:34:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-05",
+        "to": "2026-09-08",
+        "message_id": "MSG_0361",
+        "timestamp": "2026-09-10 14:00:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-08",
+        "to": "2026-09-03",
+        "message_id": "MSG_0513",
+        "timestamp": "2026-09-14 11:44:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-03",
+        "to": "2026-09-04",
+        "message_id": "MSG_0561",
+        "timestamp": "2026-09-15 17:20:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-04",
+        "to": "2026-09-02",
+        "message_id": "MSG_0690",
+        "timestamp": "2026-09-19 00:53:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-02",
+        "to": "2026-09-06",
+        "message_id": "MSG_0850",
+        "timestamp": "2026-09-23 03:33:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-06",
+        "to": "2026-09-07",
+        "message_id": "MSG_0851",
+        "timestamp": "2026-09-23 04:10:00",
+        "note": "Deadline updated (deadline_set)."
+      }
+    ],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "critical",
+    "priority_history": [
+      {
+        "message_id": "MSG_0113",
+        "timestamp": "2026-09-04 05:04:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0147",
+        "timestamp": "2026-09-05 02:02:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0203",
+        "timestamp": "2026-09-06 12:34:00",
+        "priority": "critical",
+        "signals": [
+          "overdue"
+        ]
+      },
+      {
+        "message_id": "MSG_0977",
+        "timestamp": "2026-09-29 04:08:00",
+        "note": "Urgency explicitly raised ('treat this as urgent')."
+      }
+    ],
+    "message_ids": [
+      "MSG_0113",
+      "MSG_0136",
+      "MSG_0147",
+      "MSG_0203",
+      "MSG_0361",
+      "MSG_0513",
+      "MSG_0561",
+      "MSG_0690",
+      "MSG_0850",
+      "MSG_0851",
+      "MSG_0977"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0113",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-04 05:04:00",
+    "last_update": "2026-09-29 04:08:00"
+  },
+  {
+    "item_id": "TASK_030",
+    "type": "task",
+    "key": "send the expense receipt",
+    "title": "Send the expense receipt",
+    "status": "cancelled",
+    "status_history": [
+      {
+        "status": "cancelled",
+        "message_id": "MSG_0940",
+        "timestamp": "2026-09-27 19:27:00",
+        "reason": "Status confirmed by the message text."
+      }
+    ],
+    "latest_deadline": "2026-09-07",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-09-08",
+        "message_id": "MSG_0119",
+        "timestamp": "2026-09-04 08:46:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-08",
+        "to": "2026-09-05",
+        "message_id": "MSG_0219",
+        "timestamp": "2026-09-06 22:26:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-05",
+        "to": "2026-09-10",
+        "message_id": "MSG_0358",
+        "timestamp": "2026-09-10 12:09:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-10",
+        "to": "2026-09-03",
+        "message_id": "MSG_0473",
+        "timestamp": "2026-09-13 11:04:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-03",
+        "to": "2026-09-09",
+        "message_id": "MSG_0485",
+        "timestamp": "2026-09-13 18:28:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-09",
+        "to": "2026-09-10",
+        "message_id": "MSG_0531",
+        "timestamp": "2026-09-14 22:50:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-10",
+        "to": "2026-09-02",
+        "message_id": "MSG_0722",
+        "timestamp": "2026-09-19 20:37:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-02",
+        "to": "2026-09-06",
+        "message_id": "MSG_0776",
+        "timestamp": "2026-09-21 05:55:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-06",
+        "to": "2026-09-04",
+        "message_id": "MSG_0815",
+        "timestamp": "2026-09-22 05:58:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-04",
+        "to": "2026-09-07",
+        "message_id": "MSG_0870",
+        "timestamp": "2026-09-23 15:53:00",
+        "note": "Deadline updated (deadline_set)."
+      }
+    ],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "high",
+    "priority_history": [
+      {
+        "message_id": "MSG_0119",
+        "timestamp": "2026-09-04 08:46:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0219",
+        "timestamp": "2026-09-06 22:26:00",
+        "priority": "critical",
+        "signals": [
+          "overdue"
+        ]
+      },
+      {
+        "message_id": "MSG_0358",
+        "timestamp": "2026-09-10 12:09:00",
+        "priority": "high",
+        "signals": [
+          "deadline_today"
+        ]
+      },
+      {
+        "message_id": "MSG_0473",
+        "timestamp": "2026-09-13 11:04:00",
+        "priority": "critical",
+        "signals": [
+          "overdue"
+        ]
+      },
+      {
+        "message_id": "MSG_0940",
+        "timestamp": "2026-09-27 19:27:00",
+        "priority": "low",
+        "signals": [
+          "status_cancelled",
+          "no_action_needed"
+        ]
+      },
+      {
+        "message_id": "MSG_0981",
+        "timestamp": "2026-09-29 07:40:00",
+        "note": "Urgency explicitly raised ('treat this as urgent')."
+      },
+      {
+        "message_id": "MSG_0981",
+        "timestamp": "2026-09-29 07:40:00",
+        "priority": "high",
+        "signals": [
+          "urgent",
+          "deadline_pulled_in"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0119",
+      "MSG_0219",
+      "MSG_0358",
+      "MSG_0473",
+      "MSG_0485",
+      "MSG_0531",
+      "MSG_0722",
+      "MSG_0776",
+      "MSG_0815",
+      "MSG_0870",
+      "MSG_0940",
+      "MSG_0981"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0119",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-04 08:46:00",
+    "last_update": "2026-09-29 07:40:00"
+  },
+  {
+    "item_id": "TASK_031",
+    "type": "task",
+    "key": "verify the dataset labels",
+    "title": "Verify the dataset labels",
+    "status": "cancelled",
+    "status_history": [
+      {
+        "status": "cancelled",
+        "message_id": "MSG_0948",
+        "timestamp": "2026-09-28 02:31:00",
+        "reason": "Status confirmed by the message text."
+      }
+    ],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0157",
+        "timestamp": "2026-09-05 08:12:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0360",
+        "timestamp": "2026-09-10 13:23:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0417",
+        "timestamp": "2026-09-12 00:32:00",
+        "priority": "low",
+        "signals": [
+          "important"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0157",
+      "MSG_0226",
+      "MSG_0360",
+      "MSG_0417",
+      "MSG_0455",
+      "MSG_0483",
+      "MSG_0517",
+      "MSG_0607",
+      "MSG_0612",
+      "MSG_0658",
+      "MSG_0948",
+      "MSG_0984"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0157",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [
+      {
+        "message_id": "MSG_0984",
+        "timestamp": "2026-09-29 10:19:00",
+        "type": "conflicting_instruction",
+        "notes": "Please note that verify the dataset labels is due on 2026-09-28, although the earlier mess."
+      }
+    ],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-05 08:12:00",
+    "last_update": "2026-09-29 10:19:00"
+  },
+  {
+    "item_id": "TASK_032",
+    "type": "task",
+    "key": "submit the weekly report",
+    "title": "Submit the weekly report",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0160",
+        "timestamp": "2026-09-05 10:03:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "important"
+        ]
+      },
+      {
+        "message_id": "MSG_0208",
+        "timestamp": "2026-09-06 15:39:00",
+        "priority": "low",
+        "signals": []
+      },
+      {
+        "message_id": "MSG_0530",
+        "timestamp": "2026-09-14 22:13:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0547",
+        "timestamp": "2026-09-15 08:42:00",
+        "priority": "low",
+        "signals": []
+      }
+    ],
+    "message_ids": [
+      "MSG_0160",
+      "MSG_0208",
+      "MSG_0369",
+      "MSG_0379",
+      "MSG_0530",
+      "MSG_0547",
+      "MSG_0552",
+      "MSG_0639",
+      "MSG_0730",
+      "MSG_0824",
+      "MSG_0978"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0160",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [
+      {
+        "message_id": "MSG_0978",
+        "timestamp": "2026-09-29 05:01:00",
+        "type": "conflicting_instruction",
+        "notes": "Please note that submit the weekly report is due on 2026-09-28, although the earlier messa."
+      }
+    ],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-05 10:03:00",
+    "last_update": "2026-09-29 05:01:00"
+  },
+  {
+    "item_id": "TASK_033",
+    "type": "task",
+    "key": "share the notes",
+    "title": "Share the notes",
+    "status": "in_progress",
+    "status_history": [
+      {
+        "status": "in_progress",
+        "message_id": "MSG_1007",
+        "timestamp": "2026-09-30 06:38:00",
+        "reason": "Repeated follow-ups indicate the item is being worked on."
+      }
+    ],
+    "latest_deadline": "2026-09-02",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-09-05",
+        "message_id": "MSG_0170",
+        "timestamp": "2026-09-05 16:13:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-05",
+        "to": "2026-09-04",
+        "message_id": "MSG_0280",
+        "timestamp": "2026-09-08 12:03:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-04",
+        "to": "2026-09-08",
+        "message_id": "MSG_0556",
+        "timestamp": "2026-09-15 14:15:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-08",
+        "to": "2026-09-10",
+        "message_id": "MSG_0566",
+        "timestamp": "2026-09-15 20:25:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-10",
+        "to": "2026-09-09",
+        "message_id": "MSG_0652",
+        "timestamp": "2026-09-18 01:27:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-09",
+        "to": "2026-09-07",
+        "message_id": "MSG_0716",
+        "timestamp": "2026-09-19 16:55:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-07",
+        "to": "2026-09-09",
+        "message_id": "MSG_0720",
+        "timestamp": "2026-09-19 19:23:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-09",
+        "to": "2026-09-03",
+        "message_id": "MSG_0787",
+        "timestamp": "2026-09-21 12:42:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-03",
+        "to": "2026-09-06",
+        "message_id": "MSG_0795",
+        "timestamp": "2026-09-21 17:38:00",
+        "note": "Deadline updated (deadline_set)."
+      },
+      {
+        "from": "2026-09-06",
+        "to": "2026-09-02",
+        "message_id": "MSG_0819",
+        "timestamp": "2026-09-22 08:26:00",
+        "note": "Deadline updated (deadline_set)."
+      }
+    ],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "critical",
+    "priority_history": [
+      {
+        "message_id": "MSG_0170",
+        "timestamp": "2026-09-05 16:13:00",
+        "priority": "high",
+        "signals": [
+          "new_item",
+          "deadline_today"
+        ]
+      },
+      {
+        "message_id": "MSG_0280",
+        "timestamp": "2026-09-08 12:03:00",
+        "priority": "critical",
+        "signals": [
+          "overdue"
+        ]
+      },
+      {
+        "message_id": "MSG_0971",
+        "timestamp": "2026-09-28 22:50:00",
+        "note": "Urgency explicitly raised ('treat this as urgent')."
+      }
+    ],
+    "message_ids": [
+      "MSG_0170",
+      "MSG_0280",
+      "MSG_0556",
+      "MSG_0566",
+      "MSG_0652",
+      "MSG_0716",
+      "MSG_0720",
+      "MSG_0787",
+      "MSG_0795",
+      "MSG_0819",
+      "MSG_0971",
+      "MSG_0992",
+      "MSG_1007"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0170",
+    "followup_count": 2,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-05 16:13:00",
+    "last_update": "2026-09-30 06:38:00"
+  },
+  {
+    "item_id": "TASK_034",
+    "type": "task",
+    "key": "back up the project files",
+    "title": "Back up the project files",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0252",
+        "timestamp": "2026-09-07 18:47:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0865",
+        "timestamp": "2026-09-23 12:48:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0989",
+        "timestamp": "2026-09-29 14:44:00",
+        "note": "Urgency explicitly raised ('treat this as urgent')."
+      },
+      {
+        "message_id": "MSG_0989",
+        "timestamp": "2026-09-29 14:44:00",
+        "priority": "high",
+        "signals": [
+          "urgent",
+          "deadline_pulled_in"
+        ]
+      },
+      {
+        "message_id": "MSG_1001",
+        "timestamp": "2026-09-30 01:20:00",
+        "priority": "low",
+        "signals": [
+          "follow_up",
+          "response_required"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0252",
+      "MSG_0312",
+      "MSG_0334",
+      "MSG_0340",
+      "MSG_0401",
+      "MSG_0615",
+      "MSG_0657",
+      "MSG_0659",
+      "MSG_0864",
+      "MSG_0865",
+      "MSG_0989",
+      "MSG_1001",
+      "MSG_1005"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0252",
+    "followup_count": 1,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-07 18:47:00",
+    "last_update": "2026-09-30 04:52:00"
+  },
+  {
+    "item_id": "TASK_035",
+    "type": "task",
+    "key": "note my bank account number ***************",
+    "title": "Note my bank account number ***************",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0254",
+        "timestamp": "2026-09-07 20:01:00",
+        "priority": "high",
+        "signals": [
+          "new_item",
+          "deadline_today_relative",
+          "high_risk_sensitive_value"
+        ]
+      },
+      {
+        "message_id": "MSG_0257",
+        "timestamp": "2026-09-07 21:52:00",
+        "priority": "medium",
+        "signals": [
+          "high_risk_sensitive_value"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0254",
+      "MSG_0257",
+      "MSG_0267",
+      "MSG_0352",
+      "MSG_0397",
+      "MSG_0642",
+      "MSG_0751",
+      "MSG_0752",
+      "MSG_0848",
+      "MSG_0890"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0254",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-07 20:01:00",
+    "last_update": "2026-09-24 04:13:00"
+  },
+  {
+    "item_id": "TASK_036",
+    "type": "task",
+    "key": "join the internship orientation on , at google meet",
+    "title": "Join the internship orientation on , at google meet",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0255",
+        "timestamp": "2026-09-07 20:38:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0255",
+      "MSG_0378",
+      "MSG_0660",
+      "MSG_0841",
+      "MSG_0847"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0255",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-07 20:38:00",
+    "last_update": "2026-09-23 01:42:00"
+  },
+  {
+    "item_id": "TASK_037",
+    "type": "task",
+    "key": "the design review",
+    "title": "The design review",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0271",
+        "timestamp": "2026-09-08 06:30:00",
+        "priority": "high",
+        "signals": [
+          "new_item",
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0293",
+        "timestamp": "2026-09-08 20:04:00",
+        "priority": "low",
+        "signals": []
+      }
+    ],
+    "message_ids": [
+      "MSG_0271",
+      "MSG_0293",
+      "MSG_0363",
+      "MSG_0414",
+      "MSG_0565",
+      "MSG_0616",
+      "MSG_0800",
+      "MSG_0810",
+      "MSG_0849",
+      "MSG_0894"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0271",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-08 06:30:00",
+    "last_update": "2026-09-24 06:41:00"
+  },
+  {
+    "item_id": "TASK_038",
+    "type": "task",
+    "key": "send it soon",
+    "title": "Send it soon",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0310",
+        "timestamp": "2026-09-09 06:33:00",
+        "priority": "low",
+        "signals": [
+          "new_item"
+        ]
+      },
+      {
+        "message_id": "MSG_0505",
+        "timestamp": "2026-09-14 06:48:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0654",
+        "timestamp": "2026-09-18 02:41:00",
+        "priority": "low",
+        "signals": [
+          "important"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0310",
+      "MSG_0323",
+      "MSG_0386",
+      "MSG_0393",
+      "MSG_0486",
+      "MSG_0492",
+      "MSG_0505",
+      "MSG_0654",
+      "MSG_0775",
+      "MSG_0859"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0310",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-09 06:33:00",
+    "last_update": "2026-09-23 09:06:00"
+  },
+  {
+    "item_id": "TASK_039",
+    "type": "task",
+    "key": "the college seminar",
+    "title": "The college seminar",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "low",
+    "priority_history": [
+      {
+        "message_id": "MSG_0327",
+        "timestamp": "2026-09-09 17:02:00",
+        "priority": "high",
+        "signals": [
+          "new_item",
+          "deadline_today_relative"
+        ]
+      },
+      {
+        "message_id": "MSG_0384",
+        "timestamp": "2026-09-11 04:11:00",
+        "priority": "low",
+        "signals": []
+      }
+    ],
+    "message_ids": [
+      "MSG_0327",
+      "MSG_0384",
+      "MSG_0450",
+      "MSG_0519",
+      "MSG_0600",
+      "MSG_0798",
+      "MSG_0860",
+      "MSG_0877",
+      "MSG_0882",
+      "MSG_0900"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0327",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-09 17:02:00",
+    "last_update": "2026-09-24 10:23:00"
+  },
+  {
+    "item_id": "TASK_040",
+    "type": "task",
+    "key": "internship orientation",
+    "title": "Internship orientation",
+    "status": "unclear",
+    "status_history": [
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0953",
+        "timestamp": "2026-09-28 06:56:00",
+        "reason": "Event/meeting rescheduled by this message."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "MSG_0955",
+        "timestamp": "2026-09-28 08:42:00",
+        "reason": "Event/meeting rescheduled by this message."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "DEMO_007",
+        "timestamp": "2026-10-04 13:47:00",
+        "reason": "Event/meeting rescheduled by this message."
+      },
+      {
+        "status": "rescheduled",
+        "message_id": "DEMO_009",
+        "timestamp": "2026-10-04 15:09:00",
+        "reason": "Event/meeting rescheduled by this message."
+      },
+      {
+        "status": "unclear",
+        "message_id": "DEMO_017",
+        "timestamp": "2026-10-04 20:37:00",
+        "reason": "The message is ambiguous: We may move the internship orientation; I will confirm the schedule later."
+      }
+    ],
+    "latest_deadline": "2026-10-07",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-01",
+        "message_id": "MSG_0953",
+        "timestamp": "2026-09-28 06:56:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "12:00",
+        "kind": "time",
+        "message_id": "MSG_0953",
+        "timestamp": "2026-09-28 06:56:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-10-01",
+        "to": "2026-10-03",
+        "message_id": "MSG_0955",
+        "timestamp": "2026-09-28 08:42:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "14:00",
+        "kind": "time",
+        "message_id": "MSG_0955",
+        "timestamp": "2026-09-28 08:42:00",
+        "note": "Schedule time set/updated."
+      },
+      {
+        "from": "2026-10-03",
+        "to": "2026-10-07",
+        "message_id": "DEMO_007",
+        "timestamp": "2026-10-04 13:47:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "15:00",
+        "kind": "time",
+        "message_id": "DEMO_007",
+        "timestamp": "2026-10-04 13:47:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "17:30",
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_0953",
+        "timestamp": "2026-09-28 06:56:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "MSG_0955",
+        "timestamp": "2026-09-28 08:42:00",
+        "priority": "low",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      },
+      {
+        "message_id": "DEMO_007",
+        "timestamp": "2026-10-04 13:47:00",
+        "priority": "medium",
+        "signals": [
+          "deadline_within_7_days"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_0953",
+      "MSG_0955",
+      "DEMO_007",
+      "DEMO_009",
+      "DEMO_017"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_0953",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-28 06:56:00",
+    "last_update": "2026-10-04 20:37:00"
+  },
+  {
+    "item_id": "TASK_041",
+    "type": "task",
+    "key": "prepare the offline inference demo",
+    "title": "Prepare the offline inference demo",
+    "status": "pending",
+    "status_history": [
+      {
+        "status": "scheduled",
+        "message_id": "MSG_1016",
+        "timestamp": "2026-09-30 14:35:00",
+        "reason": "Schedule set/updated to 2026-09-30 at 10:00."
+      }
+    ],
+    "latest_deadline": "2026-09-30",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-09-30",
+        "message_id": "MSG_1016",
+        "timestamp": "2026-09-30 14:35:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "10:00",
+        "kind": "time",
+        "message_id": "MSG_1016",
+        "timestamp": "2026-09-30 14:35:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "10:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "high",
+    "priority_history": [
+      {
+        "message_id": "MSG_1016",
+        "timestamp": "2026-09-30 14:35:00",
+        "priority": "critical",
+        "signals": [
+          "new_item",
+          "deadline_today",
+          "sender_authority"
+        ]
+      },
+      {
+        "message_id": "MSG_1026",
+        "timestamp": "2026-09-30 23:25:00",
+        "priority": "high",
+        "signals": [
+          "deadline_today",
+          "sender_authority"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_1016",
+      "MSG_1026"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_1016",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-30 14:35:00",
+    "last_update": "2026-09-30 23:25:00"
+  },
+  {
+    "item_id": "TASK_042",
+    "type": "task",
+    "key": "compare two embedding models",
+    "title": "Compare two embedding models",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_1017",
+        "timestamp": "2026-09-30 15:28:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "sender_authority"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_1017",
+      "MSG_1027"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_1017",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-30 15:28:00",
+    "last_update": "2026-10-01 00:18:00"
+  },
+  {
+    "item_id": "TASK_043",
+    "type": "task",
+    "key": "document privacy-routing decisions",
+    "title": "Document privacy-routing decisions",
+    "status": "pending",
+    "status_history": [
+      {
+        "status": "scheduled",
+        "message_id": "MSG_1028",
+        "timestamp": "2026-10-01 01:11:00",
+        "reason": "Schedule set/updated to 2026-10-02 at 10:00."
+      }
+    ],
+    "latest_deadline": "2026-10-02",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-02",
+        "message_id": "MSG_1028",
+        "timestamp": "2026-10-01 01:11:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "10:00",
+        "kind": "time",
+        "message_id": "MSG_1028",
+        "timestamp": "2026-10-01 01:11:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "10:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "high",
+    "priority_history": [
+      {
+        "message_id": "MSG_1018",
+        "timestamp": "2026-09-30 16:21:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "sender_authority"
+        ]
+      },
+      {
+        "message_id": "MSG_1028",
+        "timestamp": "2026-10-01 01:11:00",
+        "priority": "high",
+        "signals": [
+          "deadline_tomorrow",
+          "sender_authority"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_1018",
+      "MSG_1028"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_1018",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-30 16:21:00",
+    "last_update": "2026-10-01 01:11:00"
+  },
+  {
+    "item_id": "TASK_044",
+    "type": "task",
+    "key": "create a latency chart",
+    "title": "Create a latency chart",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_1019",
+        "timestamp": "2026-09-30 17:14:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "sender_authority"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_1019",
+      "MSG_1029"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_1019",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-30 17:14:00",
+    "last_update": "2026-10-01 02:04:00"
+  },
+  {
+    "item_id": "TASK_045",
+    "type": "task",
+    "key": "test the assistant without internet",
+    "title": "Test the assistant without internet",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_1021",
+        "timestamp": "2026-09-30 19:00:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "sender_authority"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_1021",
+      "MSG_1031"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_1021",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-30 19:00:00",
+    "last_update": "2026-10-01 03:50:00"
+  },
+  {
+    "item_id": "TASK_046",
+    "type": "task",
+    "key": "update the architecture diagram",
+    "title": "Update the architecture diagram",
+    "status": "pending",
+    "status_history": [
+      {
+        "status": "scheduled",
+        "message_id": "MSG_1032",
+        "timestamp": "2026-10-01 04:43:00",
+        "reason": "Schedule set/updated to 2026-10-06 at 14:00."
+      }
+    ],
+    "latest_deadline": "2026-10-06",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-06",
+        "message_id": "MSG_1032",
+        "timestamp": "2026-10-01 04:43:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "14:00",
+        "kind": "time",
+        "message_id": "MSG_1032",
+        "timestamp": "2026-10-01 04:43:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "14:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_1022",
+        "timestamp": "2026-09-30 19:53:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "sender_authority"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_1022",
+      "MSG_1032"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_1022",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-30 19:53:00",
+    "last_update": "2026-10-01 04:43:00"
+  },
+  {
+    "item_id": "TASK_047",
+    "type": "task",
+    "key": "measure memory usage",
+    "title": "Measure memory usage",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_1023",
+        "timestamp": "2026-09-30 20:46:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "sender_authority"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_1023",
+      "MSG_1033"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_1023",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-30 20:46:00",
+    "last_update": "2026-10-01 05:36:00"
+  },
+  {
+    "item_id": "TASK_048",
+    "type": "task",
+    "key": "prepare the l2 presentation",
+    "title": "Prepare the l2 presentation",
+    "status": "pending",
+    "status_history": [
+      {
+        "status": "scheduled",
+        "message_id": "MSG_1024",
+        "timestamp": "2026-09-30 21:39:00",
+        "reason": "Schedule set/updated to 2026-10-08 at 12:00."
+      }
+    ],
+    "latest_deadline": "2026-10-08",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-08",
+        "message_id": "MSG_1024",
+        "timestamp": "2026-09-30 21:39:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "12:00",
+        "kind": "time",
+        "message_id": "MSG_1024",
+        "timestamp": "2026-09-30 21:39:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "12:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_1024",
+        "timestamp": "2026-09-30 21:39:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "deadline_within_14_days",
+          "sender_authority"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_1024",
+      "MSG_1034"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_1024",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-30 21:39:00",
+    "last_update": "2026-10-01 06:29:00"
+  },
+  {
+    "item_id": "TASK_049",
+    "type": "task",
+    "key": "validate the mandatory queries",
+    "title": "Validate the mandatory queries",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "MSG_1025",
+        "timestamp": "2026-09-30 22:32:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "sender_authority"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_1025",
+      "MSG_1035"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_1025",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-09-30 22:32:00",
+    "last_update": "2026-10-01 07:22:00"
+  },
+  {
+    "item_id": "TASK_050",
+    "type": "task",
+    "key": "wait for confirmation",
+    "title": "Wait for confirmation",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "high",
+    "priority_history": [
+      {
+        "message_id": "MSG_1058",
+        "timestamp": "2026-10-02 03:41:00",
+        "priority": "high",
+        "signals": [
+          "deadline_tomorrow",
+          "deadline_conflict"
+        ]
+      }
+    ],
+    "message_ids": [
+      "MSG_1058",
+      "MSG_1063",
+      "MSG_1068"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "MSG_1058",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [
+      {
+        "message_id": "MSG_1058",
+        "timestamp": "2026-10-02 03:41:00",
+        "type": "conflicting_instruction",
+        "notes": "The deadline could be tomorrow or Monday; please wait for confirmation."
+      },
+      {
+        "message_id": "MSG_1063",
+        "timestamp": "2026-10-02 08:06:00",
+        "type": "conflicting_instruction",
+        "notes": "the deadline could be tomorrow or Monday; please wait for confirmation."
+      },
+      {
+        "message_id": "MSG_1068",
+        "timestamp": "2026-10-02 12:31:00",
+        "type": "conflicting_instruction",
+        "notes": "the deadline could be tomorrow or Monday; please wait for confirmation."
+      }
+    ],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-10-02 03:41:00",
+    "last_update": "2026-10-02 12:31:00"
+  },
+  {
+    "item_id": "TASK_051",
+    "type": "task",
+    "key": "test the optimized assistant in offline mode",
+    "title": "Test the optimized assistant in offline mode",
+    "status": "pending",
+    "status_history": [],
+    "latest_deadline": null,
+    "deadline_history": [],
+    "latest_time": null,
+    "latest_location": null,
+    "person": null,
+    "priority": "medium",
+    "priority_history": [
+      {
+        "message_id": "DEMO_010",
+        "timestamp": "2026-10-04 15:50:00",
+        "priority": "medium",
+        "signals": [
+          "new_item",
+          "sender_authority"
+        ]
+      }
+    ],
+    "message_ids": [
+      "DEMO_010"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "DEMO_010",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-10-04 15:50:00",
+    "last_update": "2026-10-04 15:50:00"
+  },
+  {
+    "item_id": "TASK_052",
+    "type": "task",
+    "key": "latency-review",
+    "title": "Latency-review",
+    "status": "pending",
+    "status_history": [
+      {
+        "status": "scheduled",
+        "message_id": "DEMO_011",
+        "timestamp": "2026-10-04 16:31:00",
+        "reason": "Schedule set/updated to 2026-10-08 at 11:00."
+      }
+    ],
+    "latest_deadline": "2026-10-08",
+    "deadline_history": [
+      {
+        "from": null,
+        "to": "2026-10-08",
+        "message_id": "DEMO_011",
+        "timestamp": "2026-10-04 16:31:00",
+        "note": "Schedule date updated."
+      },
+      {
+        "from": null,
+        "to": "11:00",
+        "kind": "time",
+        "message_id": "DEMO_011",
+        "timestamp": "2026-10-04 16:31:00",
+        "note": "Schedule time set/updated."
+      }
+    ],
+    "latest_time": "11:00",
+    "latest_location": null,
+    "person": null,
+    "priority": "high",
+    "priority_history": [
+      {
+        "message_id": "DEMO_011",
+        "timestamp": "2026-10-04 16:31:00",
+        "priority": "high",
+        "signals": [
+          "new_item",
+          "deadline_within_7_days",
+          "sender_authority"
+        ]
+      }
+    ],
+    "message_ids": [
+      "DEMO_011"
+    ],
+    "related_item_ids": [],
+    "source_message_id": "DEMO_011",
+    "followup_count": 0,
+    "notes": [],
+    "conflicts": [],
+    "sensitive_flag": false,
+    "resolution_confidence": 0.9,
+    "created_at": "2026-10-04 16:31:00",
+    "last_update": "2026-10-04 16:31:00"
+  }
+]

@@ -1,0 +1,1304 @@
+[
+  {
+    "message_id": "MSG_0008",
+    "timestamp": "2026-09-01 12:19:00",
+    "sender": "Neha",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.74,
+      "uncertain": false,
+      "reason": "Matched relocation notice (sender: Neha)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Can you help? The building entrance has moved temporarily."
+  },
+  {
+    "message_id": "MSG_0026",
+    "timestamp": "2026-09-01 23:25:00",
+    "sender": "Kabir",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.76,
+      "uncertain": false,
+      "reason": "Matched service-interval statement (sender: Kabir)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The shuttle leaves every thirty minutes."
+  },
+  {
+    "message_id": "MSG_0052",
+    "timestamp": "2026-09-02 15:27:00",
+    "sender": "Tara",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.76,
+      "uncertain": false,
+      "reason": "Matched operating-hours statement (sender: Tara)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The cafeteria closes at 8 PM."
+  },
+  {
+    "message_id": "MSG_0061",
+    "timestamp": "2026-09-02 21:00:00",
+    "sender": "Promotions",
+    "category": {
+      "category": "promotional",
+      "confidence": 0.92,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account + promo code 'SAVE..' + percentage discount (sender: Promotions)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Get 25% off selected headphones this weekend. Use code SAVE30."
+  },
+  {
+    "message_id": "MSG_0071",
+    "timestamp": "2026-09-03 03:10:00",
+    "sender": "Promotions",
+    "category": {
+      "category": "promotional",
+      "confidence": 0.93,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account + promo code 'SAVE..' + plan upsell wording (sender: Promotions)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Upgrade your subscription and save 30%. Use code SAVE34."
+  },
+  {
+    "message_id": "MSG_0085",
+    "timestamp": "2026-09-03 11:48:00",
+    "sender": "Promotions",
+    "category": {
+      "category": "promotional",
+      "confidence": 0.93,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account + promo code 'SAVE..' + plan upsell wording (sender: Promotions)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Join our premium plan for exclusive benefits. Use code SAVE39."
+  },
+  {
+    "message_id": "MSG_0092",
+    "timestamp": "2026-09-03 16:07:00",
+    "sender": "Promotions",
+    "category": {
+      "category": "promotional",
+      "confidence": 0.94,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account + promo code 'SAVE..' + sale or offer wording + buy-one-get-one (sender: Promotions)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Limited-time offer: buy one course and get one free. Use code SAVE31."
+  },
+  {
+    "message_id": "MSG_0096",
+    "timestamp": "2026-09-03 18:35:00",
+    "sender": "Ishaan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.76,
+      "uncertain": false,
+      "reason": "Matched operating-hours statement (sender: Ishaan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The event registration desk opens at 9 AM."
+  },
+  {
+    "message_id": "MSG_0098",
+    "timestamp": "2026-09-03 19:49:00",
+    "sender": "Meera",
+    "category": {
+      "category": "meeting_or_event",
+      "confidence": 0.53,
+      "uncertain": true,
+      "reason": "Matched tentative review slot (sender: Meera). Low-confidence match."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The review could be Friday afternoon."
+  },
+  {
+    "message_id": "MSG_0106",
+    "timestamp": "2026-09-04 00:45:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: My recent test result says ******."
+  },
+  {
+    "message_id": "MSG_0108",
+    "timestamp": "2026-09-04 01:59:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "personal_information",
+      "confidence": 0.8,
+      "uncertain": false,
+      "reason": "Matched food preference (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Just so you know, i drink coffee without sugar."
+  },
+  {
+    "message_id": "MSG_0116",
+    "timestamp": "2026-09-04 06:55:00",
+    "sender": "HR Team",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.76,
+      "uncertain": false,
+      "reason": "Matched holiday notice (sender: HR Team)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Tomorrow is a public holiday."
+  },
+  {
+    "message_id": "MSG_0125",
+    "timestamp": "2026-09-04 12:28:00",
+    "sender": "Aarav",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.74,
+      "uncertain": false,
+      "reason": "Matched relocation notice (sender: Aarav)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "For today: The building entrance has moved temporarily."
+  },
+  {
+    "message_id": "MSG_0152",
+    "timestamp": "2026-09-05 05:07:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.68,
+      "uncertain": false,
+      "reason": "Matched possibility statement (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Hi, The report may be needed tomorrow."
+  },
+  {
+    "message_id": "MSG_0161",
+    "timestamp": "2026-09-05 10:40:00",
+    "sender": "Ishaan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.74,
+      "uncertain": false,
+      "reason": "Matched relocation notice (sender: Ishaan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Just checking-The building entrance has moved temporarily."
+  },
+  {
+    "message_id": "MSG_0191",
+    "timestamp": "2026-09-06 05:10:00",
+    "sender": "Maya",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Maya)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: You can contact me on **************."
+  },
+  {
+    "message_id": "MSG_0199",
+    "timestamp": "2026-09-06 10:06:00",
+    "sender": "Aarav",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Aarav)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: My home address is ******."
+  },
+  {
+    "message_id": "MSG_0227",
+    "timestamp": "2026-09-07 03:22:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.68,
+      "uncertain": false,
+      "reason": "Matched possibility statement (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Important: The report may be needed tomorrow."
+  },
+  {
+    "message_id": "MSG_0235",
+    "timestamp": "2026-09-07 08:18:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.68,
+      "uncertain": false,
+      "reason": "Matched possibility statement (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Can you help? The report may be needed tomorrow."
+  },
+  {
+    "message_id": "MSG_0236",
+    "timestamp": "2026-09-07 08:55:00",
+    "sender": "Ishaan",
+    "category": {
+      "category": "promotional",
+      "confidence": 0.75,
+      "uncertain": false,
+      "reason": "Matched plan upsell wording (sender: Ishaan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: You may like our new student plan."
+  },
+  {
+    "message_id": "MSG_0238",
+    "timestamp": "2026-09-07 10:09:00",
+    "sender": "Neha",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.74,
+      "uncertain": false,
+      "reason": "Matched relocation notice (sender: Neha)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "The building entrance has moved temporarily."
+  },
+  {
+    "message_id": "MSG_0240",
+    "timestamp": "2026-09-07 11:23:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.68,
+      "uncertain": false,
+      "reason": "Matched possibility statement (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Just checking-The report may be needed tomorrow."
+  },
+  {
+    "message_id": "MSG_0248",
+    "timestamp": "2026-09-07 16:19:00",
+    "sender": "Meera",
+    "category": {
+      "category": "personal_information",
+      "confidence": 0.9,
+      "uncertain": false,
+      "reason": "Matched profile statement + emergency-contact statement (sender: Meera)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: For my profile, my emergency contact is my brother."
+  },
+  {
+    "message_id": "MSG_0273",
+    "timestamp": "2026-09-08 07:44:00",
+    "sender": "Ananya",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Ananya)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Your OTP is *********. It expires in 10 minutes."
+  },
+  {
+    "message_id": "MSG_0276",
+    "timestamp": "2026-09-08 09:35:00",
+    "sender": "Promotions",
+    "category": {
+      "category": "promotional",
+      "confidence": 0.92,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account + promo code 'SAVE..' + free delivery (sender: Promotions)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Free delivery on orders above 499 rupees. Use code SAVE38."
+  },
+  {
+    "message_id": "MSG_0277",
+    "timestamp": "2026-09-08 10:12:00",
+    "sender": "Tara",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.52,
+      "uncertain": true,
+      "reason": "No specific classification signal matched; the message reads as an informational statement."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Maya asked whether the demo was ready."
+  },
+  {
+    "message_id": "MSG_0313",
+    "timestamp": "2026-09-09 08:24:00",
+    "sender": "Meera",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.73,
+      "uncertain": false,
+      "reason": "Matched status statement (sender: Meera)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The laptop battery is fully charged."
+  },
+  {
+    "message_id": "MSG_0319",
+    "timestamp": "2026-09-09 12:06:00",
+    "sender": "Aarav",
+    "category": {
+      "category": "personal_information",
+      "confidence": 0.85,
+      "uncertain": false,
+      "reason": "Matched meeting-time preference + communication preference (sender: Aarav)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Remember that i prefer morning meetings."
+  },
+  {
+    "message_id": "MSG_0320",
+    "timestamp": "2026-09-09 12:43:00",
+    "sender": "Neha",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.74,
+      "uncertain": false,
+      "reason": "Matched relocation notice (sender: Neha)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Hi, The building entrance has moved temporarily."
+  },
+  {
+    "message_id": "MSG_0326",
+    "timestamp": "2026-09-09 16:25:00",
+    "sender": "Kabir",
+    "category": {
+      "category": "personal_information",
+      "confidence": 0.8,
+      "uncertain": false,
+      "reason": "Matched clothing size (sender: Kabir)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Remember that my T-shirt size is medium."
+  },
+  {
+    "message_id": "MSG_0346",
+    "timestamp": "2026-09-10 04:45:00",
+    "sender": "Ishaan",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.94,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Ishaan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Use password ****** to sign in to the test account."
+  },
+  {
+    "message_id": "MSG_0351",
+    "timestamp": "2026-09-10 07:50:00",
+    "sender": "Vikram",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Vikram)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The temporary access token is ******."
+  },
+  {
+    "message_id": "MSG_0353",
+    "timestamp": "2026-09-10 09:04:00",
+    "sender": "Ananya",
+    "category": {
+      "category": "personal_information",
+      "confidence": 0.9,
+      "uncertain": false,
+      "reason": "Matched personal note + living-near statement (sender: Ananya)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Personal note: i live near the central library."
+  },
+  {
+    "message_id": "MSG_0370",
+    "timestamp": "2026-09-10 19:33:00",
+    "sender": "Ananya",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.74,
+      "uncertain": false,
+      "reason": "Matched reorganisation notice (sender: Ananya)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The project folder was reorganized."
+  },
+  {
+    "message_id": "MSG_0403",
+    "timestamp": "2026-09-11 15:54:00",
+    "sender": "Kabir",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Kabir)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: My account recovery code is ******."
+  },
+  {
+    "message_id": "MSG_0409",
+    "timestamp": "2026-09-11 19:36:00",
+    "sender": "Promotions",
+    "category": {
+      "category": "promotional",
+      "confidence": 0.92,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account + promo code 'SAVE..' + cashback (sender: Promotions)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Book movie tickets today and receive cashback. Use code SAVE36."
+  },
+  {
+    "message_id": "MSG_0419",
+    "timestamp": "2026-09-12 01:46:00",
+    "sender": "Meera",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Meera)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: My card number is **********************."
+  },
+  {
+    "message_id": "MSG_0444",
+    "timestamp": "2026-09-12 17:11:00",
+    "sender": "Maya",
+    "category": {
+      "category": "meeting_or_event",
+      "confidence": 0.75,
+      "uncertain": true,
+      "reason": "Matched tentative meeting proposal (sender: Maya). Low-confidence match."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Let us meet sometime next week."
+  },
+  {
+    "message_id": "MSG_0453",
+    "timestamp": "2026-09-12 22:44:00",
+    "sender": "Tara",
+    "category": {
+      "category": "personal_information",
+      "confidence": 0.9,
+      "uncertain": false,
+      "reason": "Matched personal note + diet preference (sender: Tara)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Personal note: i am vegetarian."
+  },
+  {
+    "message_id": "MSG_0454",
+    "timestamp": "2026-09-12 23:21:00",
+    "sender": "Promotions",
+    "category": {
+      "category": "promotional",
+      "confidence": 0.92,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account + promo code 'SAVE..' + coupon expiry (sender: Promotions)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Your food-delivery coupon expires tonight. Use code SAVE32."
+  },
+  {
+    "message_id": "MSG_0460",
+    "timestamp": "2026-09-13 03:03:00",
+    "sender": "Neha",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.52,
+      "uncertain": true,
+      "reason": "No specific classification signal matched; the message reads as an informational statement."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: I will send the login details separately."
+  },
+  {
+    "message_id": "MSG_0490",
+    "timestamp": "2026-09-13 21:33:00",
+    "sender": "Aarav",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.82,
+      "uncertain": false,
+      "reason": "Matched availability statement + version statement (sender: Aarav)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The new Python version is available."
+  },
+  {
+    "message_id": "MSG_0491",
+    "timestamp": "2026-09-13 22:10:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.76,
+      "uncertain": false,
+      "reason": "Matched weather statement (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The weather forecast says light rain."
+  },
+  {
+    "message_id": "MSG_0496",
+    "timestamp": "2026-09-14 01:15:00",
+    "sender": "Tara",
+    "category": {
+      "category": "sensitive_information",
+      "confidence": 0.95,
+      "uncertain": false,
+      "reason": "Matched sensitive value present (sender: Tara)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: My identification number is ******."
+  },
+  {
+    "message_id": "MSG_0523",
+    "timestamp": "2026-09-14 17:54:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.68,
+      "uncertain": false,
+      "reason": "Matched possibility statement (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "FYI: The report may be needed tomorrow."
+  },
+  {
+    "message_id": "MSG_0525",
+    "timestamp": "2026-09-14 19:08:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.68,
+      "uncertain": false,
+      "reason": "Matched possibility statement (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Please note: The report may be needed tomorrow."
+  },
+  {
+    "message_id": "MSG_0564",
+    "timestamp": "2026-09-15 19:11:00",
+    "sender": "HR Team",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.74,
+      "uncertain": false,
+      "reason": "Matched hours-change statement 2 (sender: HR Team)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The support team changed its working hours."
+  },
+  {
+    "message_id": "MSG_0597",
+    "timestamp": "2026-09-16 15:32:00",
+    "sender": "Tara",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.74,
+      "uncertain": false,
+      "reason": "Matched relocation notice (sender: Tara)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The building entrance has moved temporarily."
+  },
+  {
+    "message_id": "MSG_0632",
+    "timestamp": "2026-09-17 13:07:00",
+    "sender": "Neha",
+    "category": {
+      "category": "personal_information",
+      "confidence": 0.9,
+      "uncertain": false,
+      "reason": "Matched profile statement + habit statement (sender: Neha)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: For my profile, i usually study after dinner."
+  },
+  {
+    "message_id": "MSG_0669",
+    "timestamp": "2026-09-18 11:56:00",
+    "sender": "Project Lead",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.76,
+      "uncertain": false,
+      "reason": "Matched availability statement (sender: Project Lead)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The webinar recording is now available."
+  },
+  {
+    "message_id": "MSG_0671",
+    "timestamp": "2026-09-18 13:10:00",
+    "sender": "Tara",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.74,
+      "uncertain": false,
+      "reason": "Matched relocation notice (sender: Tara)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Important: The building entrance has moved temporarily."
+  },
+  {
+    "message_id": "MSG_0682",
+    "timestamp": "2026-09-18 19:57:00",
+    "sender": "Ishaan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.74,
+      "uncertain": false,
+      "reason": "Matched relocation notice (sender: Ishaan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "One more thing: The building entrance has moved temporarily."
+  },
+  {
+    "message_id": "MSG_0696",
+    "timestamp": "2026-09-19 04:35:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.68,
+      "uncertain": false,
+      "reason": "Matched possibility statement (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "One more thing: The report may be needed tomorrow."
+  },
+  {
+    "message_id": "MSG_0698",
+    "timestamp": "2026-09-19 05:49:00",
+    "sender": "Aarav",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.74,
+      "uncertain": false,
+      "reason": "Matched relocation notice (sender: Aarav)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "FYI: The building entrance has moved temporarily."
+  },
+  {
+    "message_id": "MSG_0703",
+    "timestamp": "2026-09-19 08:54:00",
+    "sender": "Ishaan",
+    "category": {
+      "category": "personal_information",
+      "confidence": 0.72,
+      "uncertain": false,
+      "reason": "Matched communication preference (sender: Ishaan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Just so you know, i prefer receiving updates by email."
+  },
+  {
+    "message_id": "MSG_0713",
+    "timestamp": "2026-09-19 15:04:00",
+    "sender": "Ananya",
+    "category": {
+      "category": "personal_information",
+      "confidence": 0.77,
+      "uncertain": false,
+      "reason": "Matched meeting-time preference (sender: Ananya)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: I might prefer evening meetings now."
+  },
+  {
+    "message_id": "MSG_0724",
+    "timestamp": "2026-09-19 21:51:00",
+    "sender": "Neha",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.8,
+      "uncertain": false,
+      "reason": "Matched portal statement + supply statement (sender: Neha)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The training material is on the portal."
+  },
+  {
+    "message_id": "MSG_0748",
+    "timestamp": "2026-09-20 12:39:00",
+    "sender": "Promotions",
+    "category": {
+      "category": "promotional",
+      "confidence": 0.92,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account + promo code 'SAVE..' + sale or offer wording (sender: Promotions)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Flash sale on laptops starts at 6 PM. Use code SAVE33."
+  },
+  {
+    "message_id": "MSG_0755",
+    "timestamp": "2026-09-20 16:58:00",
+    "sender": "Project Lead",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.76,
+      "uncertain": false,
+      "reason": "Matched maintenance notice (sender: Project Lead)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The office Wi-Fi will be under maintenance tonight."
+  },
+  {
+    "message_id": "MSG_0768",
+    "timestamp": "2026-09-21 00:59:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.68,
+      "uncertain": false,
+      "reason": "Matched possibility statement (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "For today: The report may be needed tomorrow."
+  },
+  {
+    "message_id": "MSG_0790",
+    "timestamp": "2026-09-21 14:33:00",
+    "sender": "Maya",
+    "category": {
+      "category": "personal_information",
+      "confidence": 0.9,
+      "uncertain": false,
+      "reason": "Matched personal note + favourite preference (sender: Maya)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Personal note: my favourite language is Python."
+  },
+  {
+    "message_id": "MSG_0808",
+    "timestamp": "2026-09-22 01:39:00",
+    "sender": "Promotions",
+    "category": {
+      "category": "promotional",
+      "confidence": 0.92,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account + promo code 'SAVE..' + reward points (sender: Promotions)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Earn reward points on your next purchase. Use code SAVE35."
+  },
+  {
+    "message_id": "MSG_0816",
+    "timestamp": "2026-09-22 06:35:00",
+    "sender": "Vikram",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'review' + conditional 'if possible' (sender: Vikram). Low-confidence match."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: If possible, review the file before the meeting."
+  },
+  {
+    "message_id": "MSG_0825",
+    "timestamp": "2026-09-22 12:08:00",
+    "sender": "Vikram",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.71,
+      "uncertain": false,
+      "reason": "Matched update statement (sender: Vikram)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The report template has been updated."
+  },
+  {
+    "message_id": "MSG_0830",
+    "timestamp": "2026-09-22 15:13:00",
+    "sender": "Ishaan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.74,
+      "uncertain": false,
+      "reason": "Matched relocation notice (sender: Ishaan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Please note: The building entrance has moved temporarily."
+  },
+  {
+    "message_id": "MSG_0836",
+    "timestamp": "2026-09-22 18:55:00",
+    "sender": "Vikram",
+    "category": {
+      "category": "personal_information",
+      "confidence": 0.8,
+      "uncertain": false,
+      "reason": "Matched appearance preference (sender: Vikram)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Remember that i use dark mode."
+  },
+  {
+    "message_id": "MSG_0844",
+    "timestamp": "2026-09-22 23:51:00",
+    "sender": "Promotions",
+    "category": {
+      "category": "promotional",
+      "confidence": 0.93,
+      "uncertain": false,
+      "reason": "Matched sender is the promotions account + promo code 'SAVE..' + sale or offer wording + festival wording (sender: Promotions)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: Special festival discount on clothing. Use code SAVE37."
+  },
+  {
+    "message_id": "MSG_0846",
+    "timestamp": "2026-09-23 01:05:00",
+    "sender": "Maya",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.76,
+      "uncertain": false,
+      "reason": "Matched hours-change statement (sender: Maya)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The library has extended weekend hours."
+  },
+  {
+    "message_id": "MSG_0875",
+    "timestamp": "2026-09-23 18:58:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.68,
+      "uncertain": false,
+      "reason": "Matched possibility statement (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "The report may be needed tomorrow."
+  },
+  {
+    "message_id": "MSG_0888",
+    "timestamp": "2026-09-24 02:59:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.68,
+      "uncertain": false,
+      "reason": "Matched possibility statement (sender: Rohan)."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Quick update: The report may be needed tomorrow."
+  },
+  {
+    "message_id": "MSG_0931",
+    "timestamp": "2026-09-27 11:30:00",
+    "sender": "Ishaan",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'finish' + task noun 'test cases' (sender: Ishaan). Low-confidence match."
+    },
+    "kind": "completed",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Update: finish the test cases has been completed successfully."
+  },
+  {
+    "message_id": "MSG_0933",
+    "timestamp": "2026-09-27 13:16:00",
+    "sender": "Kabir",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'email' + task noun 'signed document' (sender: Kabir). Low-confidence match."
+    },
+    "kind": "completed",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Update: email the signed document has been completed successfully."
+  },
+  {
+    "message_id": "MSG_0935",
+    "timestamp": "2026-09-27 15:02:00",
+    "sender": "Neha",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'review' + task noun 'model results' (sender: Neha). Low-confidence match."
+    },
+    "kind": "completed",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Update: review the model results has been completed successfully."
+  },
+  {
+    "message_id": "MSG_0937",
+    "timestamp": "2026-09-27 16:48:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'prepare' + task noun 'demo video' (sender: Rohan). Low-confidence match."
+    },
+    "kind": "completed",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Update: prepare the demo video has been completed successfully."
+  },
+  {
+    "message_id": "MSG_0939",
+    "timestamp": "2026-09-27 18:34:00",
+    "sender": "Tara",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.68,
+      "uncertain": true,
+      "reason": "Matched request verb 'call' (sender: Tara). Low-confidence match."
+    },
+    "kind": "completed",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Update: call the service centre has been completed successfully."
+  },
+  {
+    "message_id": "MSG_0941",
+    "timestamp": "2026-09-27 20:20:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'prepare' + task noun 'demo video' (sender: Rohan). Low-confidence match."
+    },
+    "kind": "completed",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Follow-up: update: prepare the demo video has been completed successfully."
+  },
+  {
+    "message_id": "MSG_0943",
+    "timestamp": "2026-09-27 22:06:00",
+    "sender": "Tara",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.68,
+      "uncertain": true,
+      "reason": "Matched request verb 'call' (sender: Tara). Low-confidence match."
+    },
+    "kind": "completed",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Follow-up: update: call the service centre has been completed successfully."
+  },
+  {
+    "message_id": "MSG_0945",
+    "timestamp": "2026-09-27 23:52:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'prepare' + task noun 'demo video' (sender: Rohan). Low-confidence match."
+    },
+    "kind": "completed",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Additional update: update: prepare the demo video has been completed successfully."
+  },
+  {
+    "message_id": "MSG_0947",
+    "timestamp": "2026-09-28 01:38:00",
+    "sender": "Ishaan",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'finish' + task noun 'test cases' (sender: Ishaan). Low-confidence match."
+    },
+    "kind": "completed",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Follow-up: update: finish the test cases has been completed successfully."
+  },
+  {
+    "message_id": "MSG_0949",
+    "timestamp": "2026-09-28 03:24:00",
+    "sender": "Aarav",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.71,
+      "uncertain": true,
+      "reason": "Matched request verb 'submit' + task noun 'weekly report' (sender: Aarav). Low-confidence match."
+    },
+    "kind": "completed",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Update: submit the weekly report has been completed successfully."
+  },
+  {
+    "message_id": "MSG_1056",
+    "timestamp": "2026-10-02 01:55:00",
+    "sender": "Neha",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.65,
+      "uncertain": true,
+      "reason": "Matched task noun 'report' (sender: Neha). Low-confidence match."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "The report might already be done, but I am not completely sure."
+  },
+  {
+    "message_id": "MSG_1057",
+    "timestamp": "2026-10-02 02:48:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.68,
+      "uncertain": true,
+      "reason": "Matched request verb 'confirm' (sender: Rohan). Low-confidence match."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "We may move the meeting, I will confirm later."
+  },
+  {
+    "message_id": "MSG_1059",
+    "timestamp": "2026-10-02 04:34:00",
+    "sender": "Ananya",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.52,
+      "uncertain": true,
+      "reason": "No specific classification signal matched; the message reads as an informational statement."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Maya said someone probably handled the task."
+  },
+  {
+    "message_id": "MSG_1060",
+    "timestamp": "2026-10-02 05:27:00",
+    "sender": "Kabir",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.52,
+      "uncertain": true,
+      "reason": "No specific classification signal matched; the message reads as an informational statement."
+    },
+    "kind": "not_urgent",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "This may no longer be urgent."
+  },
+  {
+    "message_id": "MSG_1061",
+    "timestamp": "2026-10-02 06:20:00",
+    "sender": "Aarav",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.65,
+      "uncertain": true,
+      "reason": "Matched task noun 'report' (sender: Aarav). Low-confidence match."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Follow-up: the report might already be done, but I am not completely sure."
+  },
+  {
+    "message_id": "MSG_1062",
+    "timestamp": "2026-10-02 07:13:00",
+    "sender": "Aarav",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.68,
+      "uncertain": true,
+      "reason": "Matched request verb 'confirm' (sender: Aarav). Low-confidence match."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Follow-up: we may move the meeting, I will confirm later."
+  },
+  {
+    "message_id": "MSG_1064",
+    "timestamp": "2026-10-02 08:59:00",
+    "sender": "Ananya",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.52,
+      "uncertain": true,
+      "reason": "No specific classification signal matched; the message reads as an informational statement."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Follow-up: maya said someone probably handled the task."
+  },
+  {
+    "message_id": "MSG_1065",
+    "timestamp": "2026-10-02 09:52:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.52,
+      "uncertain": true,
+      "reason": "No specific classification signal matched; the message reads as an informational statement."
+    },
+    "kind": "not_urgent",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Follow-up: this may no longer be urgent."
+  },
+  {
+    "message_id": "MSG_1066",
+    "timestamp": "2026-10-02 10:45:00",
+    "sender": "Neha",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.65,
+      "uncertain": true,
+      "reason": "Matched task noun 'report' (sender: Neha). Low-confidence match."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Additional update: the report might already be done, but I am not completely sure."
+  },
+  {
+    "message_id": "MSG_1067",
+    "timestamp": "2026-10-02 11:38:00",
+    "sender": "Rohan",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.68,
+      "uncertain": true,
+      "reason": "Matched request verb 'confirm' (sender: Rohan). Low-confidence match."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Additional update: we may move the meeting, I will confirm later."
+  },
+  {
+    "message_id": "MSG_1069",
+    "timestamp": "2026-10-02 13:24:00",
+    "sender": "Ananya",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.52,
+      "uncertain": true,
+      "reason": "No specific classification signal matched; the message reads as an informational statement."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Additional update: maya said someone probably handled the task."
+  },
+  {
+    "message_id": "MSG_1070",
+    "timestamp": "2026-10-02 14:17:00",
+    "sender": "Kabir",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.52,
+      "uncertain": true,
+      "reason": "No specific classification signal matched; the message reads as an informational statement."
+    },
+    "kind": "not_urgent",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Additional update: this may no longer be urgent."
+  },
+  {
+    "message_id": "MSG_1078",
+    "timestamp": "2026-10-02 21:21:00",
+    "sender": "General Updates",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.52,
+      "uncertain": true,
+      "reason": "No specific classification signal matched; the message reads as an informational statement."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "The office plants were moved upstairs."
+  }
+]

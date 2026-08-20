@@ -1,0 +1,1912 @@
+[
+  {
+    "final_answer": "3 item(s) were newly raised to critical or high priority.\n- Review the model results (TASK_008) became high via DEMO_005 (2026-10-04)\n- Confirm the interview slot (TASK_010) became critical via DEMO_001 (2026-10-04)\n- Latency-review (TASK_052) became high via DEMO_011 (2026-10-04)",
+    "supporting_message_ids": [
+      "DEMO_005",
+      "DEMO_001",
+      "DEMO_011"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_008",
+      "TASK_010",
+      "TASK_052"
+    ],
+    "group_ids": [
+      "GROUP_008",
+      "GROUP_010",
+      "GROUP_052"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "DEMO_005",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_001",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_011",
+        "score": 0.9,
+        "type": "structured"
+      }
+    ],
+    "reason": "Priority-history transitions into critical/high in the queried scope were selected.",
+    "insufficient_evidence": false,
+    "query_id": "DQ01",
+    "query": "Which existing task became critical in the demo data?",
+    "intent": "became_critical"
+  },
+  {
+    "final_answer": "3 item(s) were completed or cancelled in the demo batch.\n- Team stand-up (TASK_009) — cancelled (last update 2026-10-04)\n- Email the signed document (TASK_011) — completed (last update 2026-10-04)\n- Update the project tracker (TASK_012) — cancelled (last update 2026-10-04)",
+    "supporting_message_ids": [
+      "DEMO_008",
+      "DEMO_002",
+      "DEMO_003",
+      "DEMO_006"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_009",
+      "TASK_011",
+      "TASK_012"
+    ],
+    "group_ids": [
+      "GROUP_009",
+      "GROUP_011",
+      "GROUP_012"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "DEMO_008",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_002",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_003",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_006",
+        "score": 0.9,
+        "type": "structured"
+      }
+    ],
+    "reason": "Items whose live status is completed/cancelled were selected; in demo scope only items touched by a demo message.",
+    "insufficient_evidence": false,
+    "query_id": "DQ02",
+    "query": "Which tasks or meetings were completed or cancelled?",
+    "intent": "completed_or_cancelled"
+  },
+  {
+    "final_answer": "1 rescheduled item(s).\n- Internship orientation → latest schedule 2026-10-07 17:30 (rescheduled via DEMO_007, DEMO_009)",
+    "supporting_message_ids": [
+      "DEMO_007",
+      "DEMO_009"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_040"
+    ],
+    "group_ids": [
+      "GROUP_040"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "DEMO_007",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_009",
+        "score": 0.9,
+        "type": "structured"
+      }
+    ],
+    "reason": "Status-history entries recording a 'rescheduled' transition were selected; the latest deadline/time is the newest recorded one.",
+    "insufficient_evidence": false,
+    "query_id": "DQ03",
+    "query": "Which meeting was rescheduled and what is its latest schedule?",
+    "intent": "rescheduled"
+  },
+  {
+    "final_answer": "3 item(s) carry conflicting instructions.\n- Review the model results: conflicting messages MSG_0974\n- Confirm the interview slot: conflicting messages MSG_0972, MSG_0976, MSG_0982\n- Update the project tracker: conflicting messages DEMO_006\n- (ambiguous notice) DEMO_022: Could not be tied to a known task/event; treated as an ambiguous or informational notice.\n- (ambiguous notice) DEMO_023: Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "supporting_message_ids": [
+      "MSG_0974",
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "DEMO_006",
+      "DEMO_022",
+      "DEMO_023"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_008",
+      "TASK_010",
+      "TASK_012"
+    ],
+    "group_ids": [
+      "GROUP_008",
+      "GROUP_010",
+      "GROUP_012"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0974",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0972",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0976",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0982",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_006",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_022",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_023",
+        "score": 0.85,
+        "type": "structured"
+      }
+    ],
+    "reason": "Conflict flags recorded on items plus ambiguous notice entries were selected.",
+    "insufficient_evidence": false,
+    "query_id": "DQ04",
+    "query": "Which messages contain conflicting or uncertain deadlines?",
+    "intent": "conflicting"
+  },
+  {
+    "final_answer": "3 request(s) blocked from external processing.\n- DEMO_012: Contains a high-risk secret value; it must not be sent to any external service or stored.\n- DEMO_013: Contains a high-risk secret value; it must not be sent to any external service or stored.\n- DEMO_024: Contains a high-risk secret value; it must not be sent to any external service or stored.",
+    "supporting_message_ids": [
+      "DEMO_012",
+      "DEMO_013",
+      "DEMO_024"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [],
+    "group_ids": [],
+    "retrieval_scores": [
+      {
+        "evidence": "DEMO_012",
+        "score": 0.92,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_013",
+        "score": 0.92,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_024",
+        "score": 0.92,
+        "type": "structured"
+      }
+    ],
+    "reason": "All routing decisions with route 'blocked' (high-risk secrets) in the queried scope.",
+    "insufficient_evidence": false,
+    "query_id": "DQ05",
+    "query": "Which demo messages must be blocked from external processing?",
+    "intent": "blocked"
+  },
+  {
+    "final_answer": "4 request(s) require confirmation before processing.\n- DEMO_015: Contains sensitive data whose policy requires explicit confirmation before processing.\n- DEMO_016: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- DEMO_017: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- DEMO_023: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "supporting_message_ids": [
+      "DEMO_015",
+      "DEMO_016",
+      "DEMO_017",
+      "DEMO_023"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_010",
+      "TASK_040"
+    ],
+    "group_ids": [],
+    "retrieval_scores": [
+      {
+        "evidence": "DEMO_015",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_016",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "DEMO_017",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "DEMO_023",
+        "score": 0.7,
+        "type": "index"
+      }
+    ],
+    "reason": "Routing decisions marked ask_for_confirmation were selected (sensitive-medium or ambiguous status).",
+    "insufficient_evidence": false,
+    "query_id": "DQ06",
+    "query": "Which message requires confirmation before processing?",
+    "intent": "confirmation"
+  },
+  {
+    "final_answer": "Confirm the interview slot (TASK_010) — status 'unclear'. Priority: critical. Latest deadline: unresolved. Latest status event: DEMO_016 (unclear).",
+    "supporting_message_ids": [
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "MSG_1002",
+      "DEMO_001",
+      "DEMO_016"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_010"
+    ],
+    "group_ids": [
+      "GROUP_010"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0972",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0976",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0982",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1002",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_001",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_016",
+        "score": 0.97,
+        "type": "structured"
+      }
+    ],
+    "reason": "The item's live status, priority and newest status-history entry were read from the state machine.",
+    "insufficient_evidence": false,
+    "query_id": "DQ07",
+    "query": "What is the latest status of the task referenced by DEMO_016?",
+    "intent": "referenced_task"
+  },
+  {
+    "final_answer": "No approved status is recorded: the closest item 'Complete the onboarding form' has status 'in_progress' and none of its messages states an approval.",
+    "supporting_message_ids": [
+      "MSG_0035",
+      "MSG_0045",
+      "MSG_0060"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_014"
+    ],
+    "group_ids": [
+      "GROUP_014"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0035",
+        "score": 0.8,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0045",
+        "score": 0.8,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0060",
+        "score": 0.8,
+        "type": "structured"
+      }
+    ],
+    "reason": "The subject thread was searched for explicit approval wording (approved by / verified by / signed off); question-shaped messages were excluded; without a statement the answer says so instead of guessing.",
+    "insufficient_evidence": false,
+    "query_id": "DQ08",
+    "query": "Was the compliance form approved by the finance director?",
+    "intent": "approval_status"
+  },
+  {
+    "final_answer": "Tasks to focus on today:\n- Mentor catch-up (TASK_003) priority low (due)\n- Confirm the interview slot (TASK_010) priority critical (critical)",
+    "supporting_message_ids": [
+      "MSG_0003",
+      "MSG_0122",
+      "MSG_0124",
+      "MSG_0135",
+      "MSG_0249",
+      "MSG_0294",
+      "MSG_0488",
+      "MSG_0719",
+      "MSG_0861",
+      "MSG_0866",
+      "MSG_0952",
+      "MSG_0969"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_003",
+      "TASK_010"
+    ],
+    "group_ids": [
+      "GROUP_003",
+      "GROUP_010"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0003",
+        "score": 0.84,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0122",
+        "score": 0.84,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0124",
+        "score": 0.84,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0135",
+        "score": 0.84,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0249",
+        "score": 0.84,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0294",
+        "score": 0.84,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0488",
+        "score": 0.84,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0719",
+        "score": 0.84,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0861",
+        "score": 0.84,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0866",
+        "score": 0.84,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0952",
+        "score": 0.84,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0969",
+        "score": 0.84,
+        "type": "structured"
+      }
+    ],
+    "reason": "Items with a today deadline or a critical priority and an open status.",
+    "insufficient_evidence": false,
+    "query_id": "SQ01",
+    "query": "What tasks should I complete today?",
+    "intent": "today_tasks"
+  },
+  {
+    "final_answer": "9 pending item(s) are critical/high priority.\n- Confirm the interview slot (TASK_010) — status 'unclear', priority 'critical', deadline unresolved\n- Complete the onboarding form (TASK_014) — status 'in_progress', priority 'critical', deadline 2026-09-06\n- Share the notes (TASK_033) — status 'in_progress', priority 'critical', deadline 2026-09-02\n- Prepare the demo video (TASK_029) — status 'pending', priority 'critical', deadline 2026-09-07\n- Review the model results (TASK_008) — status 'in_progress', priority 'high', deadline 2026-10-04\n- Prepare the offline inference demo (TASK_041) — status 'pending', priority 'high', deadline 2026-09-30",
+    "supporting_message_ids": [
+      "MSG_0027",
+      "MSG_0171",
+      "MSG_0195",
+      "MSG_0220",
+      "MSG_0314",
+      "MSG_0335",
+      "MSG_0480",
+      "MSG_0527",
+      "MSG_0557",
+      "MSG_0617",
+      "MSG_0906",
+      "MSG_0926"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_010",
+      "TASK_014",
+      "TASK_033",
+      "TASK_029",
+      "TASK_008",
+      "TASK_041",
+      "TASK_043",
+      "TASK_050",
+      "TASK_052"
+    ],
+    "group_ids": [
+      "GROUP_010",
+      "GROUP_014",
+      "GROUP_033",
+      "GROUP_029",
+      "GROUP_008",
+      "GROUP_041",
+      "GROUP_043",
+      "GROUP_050",
+      "GROUP_052"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0027",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0171",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0195",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0220",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0314",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0335",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0480",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0527",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0557",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0617",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0906",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0926",
+        "score": 0.9,
+        "type": "structured"
+      }
+    ],
+    "reason": "Relevant items were selected by their live priority and status (not by a single keyword).",
+    "insufficient_evidence": false,
+    "query_id": "SQ02",
+    "query": "Which critical or high-priority tasks are still pending?",
+    "intent": "critical_pending"
+  },
+  {
+    "final_answer": "Group 'Submit the weekly report' (GROUP_032): 11 messages, status 'pending', latest deadline unknown.",
+    "supporting_message_ids": [
+      "MSG_0160",
+      "MSG_0208",
+      "MSG_0369",
+      "MSG_0379",
+      "MSG_0530",
+      "MSG_0547",
+      "MSG_0552",
+      "MSG_0639",
+      "MSG_0730",
+      "MSG_0824",
+      "MSG_0978"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_032"
+    ],
+    "group_ids": [
+      "GROUP_032"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0160",
+        "score": 0.333,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_0208",
+        "score": 0.333,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_0369",
+        "score": 0.333,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_0379",
+        "score": 0.333,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_0530",
+        "score": 0.333,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_0547",
+        "score": 0.333,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_0552",
+        "score": 0.333,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_0639",
+        "score": 0.333,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_0730",
+        "score": 0.333,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_0824",
+        "score": 0.333,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_0978",
+        "score": 0.333,
+        "type": "index"
+      }
+    ],
+    "reason": "Subject resolved via index_groups_loose to the group thread; all thread messages are the evidence.",
+    "insufficient_evidence": false,
+    "query_id": "SQ03",
+    "query": "Show all messages related to the project report.",
+    "intent": "related"
+  },
+  {
+    "final_answer": "13 rescheduled item(s).\n- Join the study-group on , at google meet → latest schedule 2026-10-04 15:00 (rescheduled via MSG_0956)\n- Family dinner → latest schedule 2026-10-06 10:00 (rescheduled via MSG_0951, MSG_0958)\n- Doctor appointment → latest schedule 2026-10-08 12:00 (rescheduled via MSG_0960)\n- The client discussion → latest schedule 2026-10-09 13:00 (rescheduled via MSG_0957, MSG_0961)\n- The project review → latest schedule 2026-09-29 15:00 (rescheduled via MSG_0963)\n- Join the ai workshop on , at google meet → latest schedule 2026-09-30 16:00 (rescheduled via MSG_0962, MSG_0964)\n- The product demo → latest schedule 2026-10-01 10:00 (rescheduled via MSG_0959, MSG_0965)\n- Sprint planning → latest schedule 2026-10-03 12:00 (rescheduled via MSG_0967)",
+    "supporting_message_ids": [
+      "MSG_0956",
+      "MSG_0951",
+      "MSG_0958",
+      "MSG_0960",
+      "MSG_0957",
+      "MSG_0961",
+      "MSG_0963",
+      "MSG_0962",
+      "MSG_0964",
+      "MSG_0959",
+      "MSG_0965",
+      "MSG_0967"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_015",
+      "TASK_001",
+      "TASK_020",
+      "TASK_016",
+      "TASK_022",
+      "TASK_023",
+      "TASK_019",
+      "TASK_026",
+      "TASK_028",
+      "TASK_003",
+      "TASK_025",
+      "TASK_009",
+      "TASK_040"
+    ],
+    "group_ids": [
+      "GROUP_015",
+      "GROUP_001",
+      "GROUP_020",
+      "GROUP_016",
+      "GROUP_022",
+      "GROUP_023",
+      "GROUP_019",
+      "GROUP_026",
+      "GROUP_028",
+      "GROUP_003",
+      "GROUP_025",
+      "GROUP_009",
+      "GROUP_040"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0956",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0951",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0958",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0960",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0957",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0961",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0963",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0962",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0964",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0959",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0965",
+        "score": 0.9,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0967",
+        "score": 0.9,
+        "type": "structured"
+      }
+    ],
+    "reason": "Status-history entries recording a 'rescheduled' transition were selected; the latest deadline/time is the newest recorded one.",
+    "insufficient_evidence": false,
+    "query_id": "SQ04",
+    "query": "What meetings were rescheduled?",
+    "intent": "rescheduled"
+  },
+  {
+    "final_answer": "1 completed item(s).\n- Email the signed document (TASK_011)",
+    "supporting_message_ids": [
+      "MSG_0028"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_011"
+    ],
+    "group_ids": [
+      "GROUP_011"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0028",
+        "score": 0.9,
+        "type": "structured"
+      }
+    ],
+    "reason": "All items whose live status is 'completed'.",
+    "insufficient_evidence": false,
+    "query_id": "SQ05",
+    "query": "Which tasks have been completed?",
+    "intent": "completed"
+  },
+  {
+    "final_answer": "Confirm the interview slot (TASK_010) — status 'unclear'. Priority: critical. Latest deadline: unresolved. Latest status event: DEMO_016 (unclear).",
+    "supporting_message_ids": [
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "MSG_1002",
+      "DEMO_001",
+      "DEMO_016"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_010"
+    ],
+    "group_ids": [
+      "GROUP_010"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0972",
+        "score": 0.72,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0976",
+        "score": 0.72,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0982",
+        "score": 0.72,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1002",
+        "score": 0.72,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_001",
+        "score": 0.72,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_016",
+        "score": 0.72,
+        "type": "structured"
+      }
+    ],
+    "reason": "The item's live status, priority and newest status-history entry were read from the state machine.",
+    "insufficient_evidence": false,
+    "query_id": "SQ06",
+    "query": "What is the latest status of the interview slot?",
+    "intent": "latest_status"
+  },
+  {
+    "final_answer": "35 request(s) require confirmation before processing.\n- MSG_0018: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0053: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0078: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0106: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0118: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0187: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0229: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0264: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0347: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0349: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0416: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0494: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0496: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0507: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0576: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0581: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0726: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0739: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0763: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_0772: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_1041: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_1051: Contains sensitive data whose policy requires explicit confirmation before processing.\n- MSG_1056: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1057: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1059: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1061: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1062: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1064: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1066: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1067: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- MSG_1069: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- DEMO_015: Contains sensitive data whose policy requires explicit confirmation before processing.\n- DEMO_016: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- DEMO_017: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.\n- DEMO_023: The message is ambiguous about its status; processing it silently could be wrong, so confirmation is asked.",
+    "supporting_message_ids": [
+      "MSG_0018",
+      "MSG_0053",
+      "MSG_0078",
+      "MSG_0106",
+      "MSG_0118",
+      "MSG_0187",
+      "MSG_0229",
+      "MSG_0264",
+      "MSG_0347",
+      "MSG_0349",
+      "MSG_0416",
+      "MSG_0494",
+      "MSG_0496",
+      "MSG_0507",
+      "MSG_0576",
+      "MSG_0581",
+      "MSG_0726",
+      "MSG_0739",
+      "MSG_0763",
+      "MSG_0772",
+      "MSG_1041",
+      "MSG_1051",
+      "MSG_1056",
+      "MSG_1057",
+      "MSG_1059",
+      "MSG_1061",
+      "MSG_1062",
+      "MSG_1064",
+      "MSG_1066",
+      "MSG_1067",
+      "MSG_1069",
+      "DEMO_015",
+      "DEMO_016",
+      "DEMO_017",
+      "DEMO_023"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_010",
+      "TASK_040"
+    ],
+    "group_ids": [],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0018",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0053",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0078",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0106",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0118",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0187",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0229",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0264",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0347",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0349",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0416",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0494",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0496",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0507",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0576",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0581",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0726",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0739",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0763",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0772",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1041",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1051",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1056",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_1057",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_1059",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_1061",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_1062",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_1064",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_1066",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_1067",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_1069",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "DEMO_015",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_016",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "DEMO_017",
+        "score": 0.7,
+        "type": "index"
+      },
+      {
+        "evidence": "DEMO_023",
+        "score": 0.7,
+        "type": "index"
+      }
+    ],
+    "reason": "Routing decisions marked ask_for_confirmation were selected (sensitive-medium or ambiguous status).",
+    "insufficient_evidence": false,
+    "query_id": "SQ07",
+    "query": "Which messages require confirmation?",
+    "intent": "confirmation"
+  },
+  {
+    "final_answer": "Item 'Confirm the interview slot' (TASK_010) was marked priority 'critical' by DEMO_001 because: Priority critical: deadline is near ('tomorrow', relative to the message time); message marks the item as urgent; item has received 3 follow-up messages; a later message may update it.",
+    "supporting_message_ids": [
+      "DEMO_001"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_010"
+    ],
+    "group_ids": [
+      "GROUP_010"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0027",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0171",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0195",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0220",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0314",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0335",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0480",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0527",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0557",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0617",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0906",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0926",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0972",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0976",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0982",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1002",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_001",
+        "score": 0.97,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_016",
+        "score": 0.97,
+        "type": "structured"
+      }
+    ],
+    "reason": "The priority history records the latest priority decision and its signals for this item.",
+    "insufficient_evidence": false,
+    "query_id": "SQ08",
+    "query": "Why was the confirm the interview slot marked critical?",
+    "intent": "why_priority"
+  },
+  {
+    "final_answer": "23 item(s) had their deadline changed.\n- Family dinner: None->2026-09-29 (MSG_0951); None->10:00 (MSG_0951); 2026-09-29->2026-10-06 (MSG_0958)\n- Mentor catch-up: None->11:00 (MSG_0952); 2026-09-30->2026-10-05 (MSG_0969); None->14:00 (MSG_0969)\n- Review the model results: None->2026-10-04 (MSG_1020); None->14:00 (MSG_1020)\n- Team stand-up: None->2026-10-02 (MSG_0954); None->13:00 (MSG_0954)\n- Complete the onboarding form: 2026-09-03->2026-09-05 (MSG_0551); 2026-09-05->2026-09-04 (MSG_0585); 2026-09-04->2026-09-06 (MSG_0624)\n- Join the study-group on , at google meet: None->2026-10-04 (MSG_0956); None->15:00 (MSG_0956)\n- The client discussion: None->16:00 (MSG_0957); 2026-10-05->2026-10-09 (MSG_0961); None->13:00 (MSG_0961)\n- The product demo: 2026-09-12->2026-10-07 (MSG_0959); 2026-10-07->2026-10-01 (MSG_0965); None->10:00 (MSG_0965)\n- Doctor appointment: None->2026-10-08 (MSG_0960); None->12:00 (MSG_0960)\n- The project review: None->09:00 (MSG_0792); 2026-09-02->2026-09-29 (MSG_0963); None->15:00 (MSG_0963)\n- Join the ai workshop on , at google meet: None->14:00 (MSG_0962); 2026-10-10->2026-09-30 (MSG_0964); None->16:00 (MSG_0964)\n- Placement briefing: None->11:00 (MSG_0966); 2026-10-02->2026-10-06 (MSG_0970); None->15:00 (MSG_0970)",
+    "supporting_message_ids": [
+      "DEMO_007",
+      "DEMO_007",
+      "DEMO_011",
+      "DEMO_011"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_001",
+      "TASK_003",
+      "TASK_008",
+      "TASK_009",
+      "TASK_014",
+      "TASK_015",
+      "TASK_016",
+      "TASK_019",
+      "TASK_020",
+      "TASK_022",
+      "TASK_023",
+      "TASK_025",
+      "TASK_026",
+      "TASK_028",
+      "TASK_029",
+      "TASK_030",
+      "TASK_033",
+      "TASK_040",
+      "TASK_041",
+      "TASK_043",
+      "TASK_046",
+      "TASK_048",
+      "TASK_052"
+    ],
+    "group_ids": [
+      "GROUP_001",
+      "GROUP_003",
+      "GROUP_008",
+      "GROUP_009",
+      "GROUP_014",
+      "GROUP_015",
+      "GROUP_016",
+      "GROUP_019",
+      "GROUP_020",
+      "GROUP_022",
+      "GROUP_023",
+      "GROUP_025",
+      "GROUP_026",
+      "GROUP_028",
+      "GROUP_029",
+      "GROUP_030",
+      "GROUP_033",
+      "GROUP_040",
+      "GROUP_041",
+      "GROUP_043",
+      "GROUP_046",
+      "GROUP_048",
+      "GROUP_052"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0951",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0958",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0952",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0969",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1020",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0954",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0035",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0045",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0060",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0331",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0398",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0420",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0546",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0551",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0585",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0624",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0956",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0042",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0055",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0258",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0302",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0356",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0456",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0588",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0788",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0868",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0878",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0957",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0961",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0049",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0077",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0138",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0338",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0342",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0423",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0606",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0619",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0707",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0759",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0959",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0965",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0960",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0066",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0131",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0151",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0216",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0357",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0382",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0427",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0674",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0693",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0792",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0963",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0962",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0964",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0966",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0970",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0967",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0968",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0113",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0136",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0147",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0203",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0361",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0513",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0561",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0690",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0850",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0851",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0119",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0219",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0358",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0473",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0485",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0531",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0722",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0776",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0815",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0870",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0170",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0280",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0556",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0566",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0652",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0716",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0720",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0787",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0795",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0819",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0953",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0955",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_007",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1016",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1028",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1032",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1024",
+        "score": 0.88,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_011",
+        "score": 0.88,
+        "type": "structured"
+      }
+    ],
+    "reason": "Items whose recorded deadline history contains a from->to difference were selected.",
+    "insufficient_evidence": false,
+    "query_id": "SQ09",
+    "query": "What deadlines have changed?",
+    "intent": "deadlines_changed"
+  },
+  {
+    "final_answer": "10 item(s) carry conflicting instructions.\n- Review the privacy checklist: conflicting messages MSG_0980\n- Pay the electricity bill: conflicting messages MSG_0990\n- Renew the library book: conflicting messages MSG_0986\n- Review the model results: conflicting messages MSG_0974\n- Confirm the interview slot: conflicting messages MSG_0972, MSG_0976, MSG_0982\n- Update the project tracker: conflicting messages DEMO_006\n- Call the service centre: conflicting messages MSG_0988\n- Verify the dataset labels: conflicting messages MSG_0984\n- Submit the weekly report: conflicting messages MSG_0978\n- Wait for confirmation: conflicting messages MSG_1058, MSG_1063, MSG_1068\n- (ambiguous notice) MSG_0008: Could not be tied to a known task/event; treated as an ambiguous or informational notice.\n- (ambiguous notice) MSG_0026: Could not be tied to a known task/event; treated as an ambiguous or informational notice.\n- (ambiguous notice) MSG_0052: Could not be tied to a known task/event; treated as an ambiguous or informational notice.\n- (ambiguous notice) MSG_0061: Could not be tied to a known task/event; treated as an ambiguous or informational notice.\n- (ambiguous notice) MSG_0071: Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "supporting_message_ids": [
+      "MSG_0980",
+      "MSG_0990",
+      "MSG_0986",
+      "MSG_0974",
+      "MSG_0972",
+      "MSG_0976",
+      "MSG_0982",
+      "DEMO_006",
+      "MSG_0988",
+      "MSG_0984",
+      "MSG_0978",
+      "MSG_1058",
+      "MSG_1063",
+      "MSG_1068",
+      "MSG_0008",
+      "MSG_0026",
+      "MSG_0052",
+      "MSG_0061",
+      "MSG_0071"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [
+      "TASK_002",
+      "TASK_005",
+      "TASK_007",
+      "TASK_008",
+      "TASK_010",
+      "TASK_012",
+      "TASK_018",
+      "TASK_031",
+      "TASK_032",
+      "TASK_050"
+    ],
+    "group_ids": [
+      "GROUP_002",
+      "GROUP_005",
+      "GROUP_007",
+      "GROUP_008",
+      "GROUP_010",
+      "GROUP_012",
+      "GROUP_018",
+      "GROUP_031",
+      "GROUP_032",
+      "GROUP_050"
+    ],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_0980",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0990",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0986",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0974",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0972",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0976",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0982",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "DEMO_006",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0988",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0984",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0978",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1058",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1063",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_1068",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0008",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0026",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0052",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0061",
+        "score": 0.85,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0071",
+        "score": 0.85,
+        "type": "structured"
+      }
+    ],
+    "reason": "Conflict flags recorded on items plus ambiguous notice entries were selected.",
+    "insufficient_evidence": false,
+    "query_id": "SQ10",
+    "query": "Are there any conflicting messages about the same event?",
+    "intent": "conflicting"
+  },
+  {
+    "final_answer": "Best matching artifacts: MSG_1042, MSG_0086, MSG_1052, MSG_0376. No structured intent matched, so this is retrieved evidence rather than a definitive answer.",
+    "supporting_message_ids": [
+      "MSG_1042",
+      "MSG_0086",
+      "MSG_1052",
+      "MSG_0376"
+    ],
+    "other_evidence_ids": [],
+    "item_ids": [],
+    "group_ids": [],
+    "retrieval_scores": [
+      {
+        "evidence": "MSG_1042",
+        "score": 0.7071,
+        "type": "structured"
+      },
+      {
+        "evidence": "MSG_0086",
+        "score": 0.6084,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_1052",
+        "score": 0.594,
+        "type": "index"
+      },
+      {
+        "evidence": "MSG_0376",
+        "score": 0.5868,
+        "type": "index"
+      }
+    ],
+    "reason": "Generic semantic retrieval over the processed index.",
+    "insufficient_evidence": false,
+    "query_id": "SQ11",
+    "query": "Show me the password from the messages."
+  }
+]

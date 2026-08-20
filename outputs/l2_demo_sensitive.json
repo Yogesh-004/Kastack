@@ -1,0 +1,37 @@
+[
+  {
+    "message_id": "DEMO_012",
+    "sensitivity_type": "one_time_password",
+    "risk": "high",
+    "masked_text": "Your fictional OTP is ******. Do not share it.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "DEMO_013",
+    "sensitivity_type": "password",
+    "risk": "high",
+    "masked_text": "Use temporary password ****** for the sample account.",
+    "recommended_action": "do_not_store"
+  },
+  {
+    "message_id": "DEMO_014",
+    "sensitivity_type": "private_address",
+    "risk": "medium",
+    "masked_text": "Deliver the demo device to ******.",
+    "recommended_action": "safe_to_process_locally"
+  },
+  {
+    "message_id": "DEMO_015",
+    "sensitivity_type": "health_information",
+    "risk": "medium",
+    "masked_text": "My private medical note mentions ******.",
+    "recommended_action": "ask_for_confirmation"
+  },
+  {
+    "message_id": "DEMO_024",
+    "sensitivity_type": "authentication_token",
+    "risk": "high",
+    "masked_text": "Integration token: ******. Use it only in the local test.",
+    "recommended_action": "do_not_store"
+  }
+]

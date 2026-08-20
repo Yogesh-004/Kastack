@@ -1,0 +1,56 @@
+{
+  "corpus": {
+    "messages": 1080,
+    "items": 50,
+    "groups": 50,
+    "priority_decisions": 508,
+    "routing_entries": 127,
+    "noticeboard": 93
+  },
+  "demo": {
+    "messages": 24,
+    "items": 52,
+    "groups": 52,
+    "priority_decisions": 15,
+    "routing_entries": 8,
+    "noticeboard": 2
+  },
+  "items": 52,
+  "groups": 52,
+  "priority_decisions": 523,
+  "priority": {
+    "high": 29,
+    "low": 310,
+    "medium": 124,
+    "critical": 60
+  },
+  "routing_entries": 135,
+  "routes": {
+    "process_locally": 25,
+    "blocked": 75,
+    "ask_for_confirmation": 35
+  },
+  "noticeboard": 95,
+  "mandatory_ids_found": 15,
+  "mandatory_missing": [],
+  "index": {
+    "docs": 1156,
+    "terms": 738,
+    "build_seconds": null
+  },
+  "benchmark": {
+    "speedup_x": 246.38,
+    "mean_latency_ms_optimized": 0.0366,
+    "size_bytes": 396072,
+    "quality_top1": "21/21"
+  },
+  "answers_written": 19,
+  "statuses": {
+    "rescheduled": 11,
+    "in_progress": 8,
+    "pending": 23,
+    "cancelled": 7,
+    "unclear": 2,
+    "completed": 1
+  }
+}

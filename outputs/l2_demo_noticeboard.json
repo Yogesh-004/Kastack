@@ -1,0 +1,30 @@
+[
+  {
+    "message_id": "DEMO_022",
+    "timestamp": "2026-10-05 00:02:00",
+    "sender": "Unknown Sender",
+    "category": {
+      "category": "general_information",
+      "confidence": 0.52,
+      "uncertain": true,
+      "reason": "No specific classification signal matched; the message reads as an informational statement."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "Was the compliance form approved by the finance director?"
+  },
+  {
+    "message_id": "DEMO_023",
+    "timestamp": "2026-10-05 00:43:00",
+    "sender": "Project Lead",
+    "category": {
+      "category": "action_required",
+      "confidence": 0.75,
+      "uncertain": true,
+      "reason": "Matched explicit 'deadline' (sender: Project Lead). Low-confidence match."
+    },
+    "kind": "unclear",
+    "note": "Could not be tied to a known task/event; treated as an ambiguous or informational notice.",
+    "message_masked": "The deadline may be Monday, or it may be Wednesday. Wait for the official update."
+  }
+]
