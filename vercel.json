@@ -1,17 +1,17 @@
 {
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/api",
-      "transforms": [
-        { "type": "request.path", "op": "set", "args": "/$1" }
-      ]
+  "services": {
+    "web": {
+      "root": ".",
+      "entrypoint": "web.app:app",
+      "functions": {
+        "web/app.py": {
+          "includeFiles": "{outputs/**,web/**,src/**,data/README.md}",
+          "maxDuration": 10
+        }
+      }
     }
-  ],
-  "functions": {
-    "api/index.py": {
-      "includeFiles": "{outputs/**,web/**,data/README.md}",
-      "maxDuration": 10
-    }
-  }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": { "service": "web" } }
+  ]
 }
