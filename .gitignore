@@ -1,6 +1,11 @@
-# The assignment dataset must NOT be published in a public repository.
+# The assignment datasets must NOT be published in a public repository.
 data/messages.csv
 data/mandatory_demo_ids.csv
+/l2_messages.csv
+/l2_demo_messages.csv
+/l2_demo_queries.csv
+/l2_demo_queries (1).csv
+/README (2).txt
 
 # Python
 __pycache__/
@@ -19,3 +24,4 @@ work/
 
 # Vercel
 .vercel/
+.vercel
