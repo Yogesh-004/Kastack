@@ -31,13 +31,6 @@
 </nav>
 
 <div class="container-fluid py-3">
-  <h5 class="mb-1">L2 extension: priority, grouping, retrieval, assistant &amp; privacy routing</h5>
-  <p class="small text-secondary mb-3">
-    All evidence and outputs are deterministic and masked; sensitive values appear as asterisks only.
-    The assistant is <strong>live</strong>: it runs the same rule engine that produced the deliverables,
-    over the masked corpus state (no raw data, no external AI).
-  </p>
-
   {% if not l2_available %}
   <div class="alert alert-warning">L2 outputs are not present in <code>outputs/</code> yet.
     Run <code>python -m kastack.run_l2</code> to generate them.</div>
