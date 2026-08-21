@@ -203,14 +203,25 @@ function initBenchmark() {
          <div class="h4 mb-1">${value}</div>
          <div class="small text-secondary">${note || ""}</div>
        </div></div></div>`;
+    // Benchmark JSON stores nested objects; read them safely.
+    const lat = b.mean_latency_ms || {};
+    const qual = b.quality || {};
+    const sz = b.size_bytes || {};
+    const optMs = (lat.optimized != null) ? lat.optimized : b.mean_latency_ms_optimized;
+    const naiveMs = (lat.naive != null) ? lat.naive : b.mean_latency_ms_naive;
+    const top1 = qual.top1_agreement != null ? qual.top1_agreement : b.quality_top1;
+    const idxBytes = (typeof sz.index_json === "number") ? sz.index_json
+                     : (typeof b.size_bytes === "number" ? b.size_bytes : null);
     out.innerHTML =
       card("Latency per query (index)",
-           (b.mean_latency_ms_optimized || b.mean_latency_ms || "-") + " ms",
-           "vs naive-search baseline") +
-      card("Speedup vs naive", (b.speedup_x || "-") + "x", "same TF-IDF formula") +
-      card("Top-1 quality", b.quality_top1 || b.quality || "-",
+           (optMs != null ? optMs : "-") + " ms",
+           "vs naive-search " + (naiveMs != null ? naiveMs + " ms" : "baseline")) +
+      card("Speedup vs naive", (b.speedup_x != null ? b.speedup_x : "-") + "x",
+           "same TF-IDF formula") +
+      card("Top-1 quality", top1 != null ? top1 : "-",
            "non-empty naive hits that the index agrees on") +
-      card("Index size", (b.size_bytes || 0).toLocaleString() + " B", "on disk") +
+      card("Index size", idxBytes != null ? idxBytes.toLocaleString() + " B" : "-",
+           "on disk") +
       `<div class="col-12"><div class="card"><div class="card-body pb-1">
          <h6 class="mb-2">Fair comparison</h6>
          <p class="small text-secondary mb-2">
