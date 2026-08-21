@@ -16,11 +16,20 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 from pathlib import Path
 
 from flask import Flask, jsonify, render_template, request
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+# The kastack package lives under ./src and is bundled (not pip-installed) on
+# the serverless runtime, so make it importable regardless of how the app is
+# launched. Without this, /api/l2/ask raises ModuleNotFoundError on Vercel.
+for _p in (BASE_DIR / "src", BASE_DIR / "web"):
+    _s = str(_p)
+    if _s not in sys.path:
+        sys.path.insert(0, _s)
 
 # Robust output lookup: works from a normal checkout and from a bundled
 # serverless runtime where the working directory may differ.
@@ -150,6 +159,20 @@ def l2():
 def healthz():
     return jsonify({"status": "ok", "messages": DATA["summary"]
                     .get("total_messages")})
+
+
+@app.route("/health")
+def health():
+    """Human-readable status page (the nav 'Health' link lands here)."""
+    l2 = bool(DATA.get("l2_summary"))
+    live = bool(DATA.get("l2_web_state"))
+    return render_template(
+        "health.html",
+        status="ok",
+        messages=DATA["summary"].get("total_messages"),
+        l2_available=l2,
+        live_assistant=live,
+    )
 
 
 @app.route("/api/summary")
