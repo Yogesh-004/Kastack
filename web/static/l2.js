@@ -34,6 +34,10 @@ function initStats() {
   getJSON("/api/l2/benchmark").then(d => {
     const s = d.summary || {};
     const b = d.benchmark || {};
+    const lat = b.mean_latency_ms || {};
+    const qual = b.quality || {};
+    const optMs = (lat.optimized != null) ? lat.optimized : b.mean_latency_ms_optimized;
+    const top1 = qual.top1_agreement != null ? qual.top1_agreement : b.quality_top1;
     const card = (title, value, cls) =>
       `<div class="col"><div class="card"><div class="card-body py-2">
          <div class="small text-secondary">${title}</div>
@@ -43,11 +47,11 @@ function initStats() {
       card("Messages processed", (s.corpus || {}).messages || "-"),
       card("Canonical items / groups", (s.items || 0) + " / " + (s.groups || 0)),
       card("Priority decisions", s.priority_decisions || "-"),
-      card("Search speedup vs naive", (b.speedup_x || "-") + "x"),
-      card("Top-1 retrieval agreement", (b.quality_top1 || b.quality || "-") +
+      card("Search speedup vs naive", (b.speedup_x != null ? b.speedup_x : "-") + "x"),
+      card("Top-1 retrieval agreement", (top1 != null ? top1 : "-") +
            " naive == index"),
       card("Mean latency (index)",
-           (b.mean_latency_ms_optimized || b.mean_latency_ms || "-") + " ms"),
+           (optMs != null ? optMs : "-") + " ms"),
     ].join("");
     document.getElementById("l2Stats").innerHTML = html;
   });
